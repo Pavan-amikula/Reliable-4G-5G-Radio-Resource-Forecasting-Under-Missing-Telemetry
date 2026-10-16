@@ -1,6 +1,6 @@
 # Development and evaluation rules
 
-NetworkPRB forecasts real 4G/5G radio-resource utilization 15, 30 and 60 minutes ahead. Read [the project overview](docs/START_HERE.md), [research notes](docs/Network_PRB_Research.md) and [reproduction guide](docs/Reproduce.md) before modifying the pipeline.
+Reliable 4G/5G Radio Resource Forecasting Under Missing Telemetry forecasts real 4G/5G radio-resource utilization 15, 30 and 60 minutes ahead. Read [the project overview](docs/START_HERE.md), [research notes](docs/Network_PRB_Research.md) and [reproduction guide](docs/Reproduce.md) before modifying the pipeline.
 
 ## Environment
 

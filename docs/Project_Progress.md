@@ -1,6 +1,6 @@
 # Implementation and evaluation status
 
-NetworkPRB is a local historical forecasting prototype. It extracts observed 4G/5G radio-resource utilization, compares CPU forecasting models, evaluates prediction ranges and missing inputs, and serves recorded-data replay through a local API and dashboard.
+Reliable 4G/5G Radio Resource Forecasting Under Missing Telemetry is a local historical forecasting prototype. It extracts observed 4G/5G radio-resource utilization, compares CPU forecasting models, evaluates prediction ranges and missing inputs, and serves recorded-data replay through a local API and dashboard.
 
 ## Completed components
 

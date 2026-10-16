@@ -1,6 +1,4 @@
-# NetworkPRB
-
-### Reliable 4G/5G radio-resource forecasting under missing telemetry
+# Reliable 4G/5G Radio Resource Forecasting Under Missing Telemetry
 
 Predict sector-level resource utilization **15, 30 and 60 minutes ahead** from real operational measurements. Compare lightweight CPU models, calibrate forecast ranges, test missing inputs, and inspect predictions through a local historical-replay dashboard.
 
@@ -85,8 +83,8 @@ This bounded experiment extracts **114,460 observed readings across 20 technolog
 Verified environment: **Windows x64, Python 3.13.4, CPU only**. No NVIDIA GPU is required. From a PowerShell terminal:
 
 ```powershell
-git clone https://github.com/Pavan-amikula/NetworkPRB.git
-cd NetworkPRB
+git clone https://github.com/Pavan-amikula/Reliable-4G-5G-Radio-Resource-Forecasting-Under-Missing-Telemetry.git
+cd Reliable-4G-5G-Radio-Resource-Forecasting-Under-Missing-Telemetry
 py -3.13 -m venv --without-pip .venv
 .\.venv\Scripts\python.exe -m ensurepip --upgrade
 .\.venv\Scripts\python.exe -m pip install --only-binary=:all: -r requirements-ml-lock.txt
