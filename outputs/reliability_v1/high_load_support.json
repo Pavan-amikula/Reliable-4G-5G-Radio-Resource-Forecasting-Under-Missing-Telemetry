@@ -1,0 +1,166 @@
+[
+  {
+    "role": "development",
+    "technology": "LTE",
+    "split": "calibration",
+    "observed_rows": 10271,
+    "high_rows": 0,
+    "runs": 0,
+    "series": [],
+    "stations": []
+  },
+  {
+    "role": "development",
+    "technology": "LTE",
+    "split": "test",
+    "observed_rows": 6910,
+    "high_rows": 0,
+    "runs": 0,
+    "series": [],
+    "stations": []
+  },
+  {
+    "role": "development",
+    "technology": "LTE",
+    "split": "train",
+    "observed_rows": 15387,
+    "high_rows": 0,
+    "runs": 0,
+    "series": [],
+    "stations": []
+  },
+  {
+    "role": "development",
+    "technology": "LTE",
+    "split": "tuning",
+    "observed_rows": 12444,
+    "high_rows": 0,
+    "runs": 0,
+    "series": [],
+    "stations": []
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "split": "calibration",
+    "observed_rows": 10684,
+    "high_rows": 1,
+    "runs": 1,
+    "series": [
+      "Site 5|2"
+    ],
+    "stations": [
+      "Site 5"
+    ]
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "split": "test",
+    "observed_rows": 7146,
+    "high_rows": 0,
+    "runs": 0,
+    "series": [],
+    "stations": []
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "split": "train",
+    "observed_rows": 16256,
+    "high_rows": 0,
+    "runs": 0,
+    "series": [],
+    "stations": []
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "split": "tuning",
+    "observed_rows": 13056,
+    "high_rows": 0,
+    "runs": 0,
+    "series": [],
+    "stations": []
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "split": "calibration",
+    "observed_rows": 2453,
+    "high_rows": 0,
+    "runs": 0,
+    "series": [],
+    "stations": []
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "split": "test",
+    "observed_rows": 1659,
+    "high_rows": 0,
+    "runs": 0,
+    "series": [],
+    "stations": []
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "split": "train",
+    "observed_rows": 3464,
+    "high_rows": 0,
+    "runs": 0,
+    "series": [],
+    "stations": []
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "split": "tuning",
+    "observed_rows": 2936,
+    "high_rows": 0,
+    "runs": 0,
+    "series": [],
+    "stations": []
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "split": "calibration",
+    "observed_rows": 2674,
+    "high_rows": 0,
+    "runs": 0,
+    "series": [],
+    "stations": []
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "split": "test",
+    "observed_rows": 1788,
+    "high_rows": 0,
+    "runs": 0,
+    "series": [],
+    "stations": []
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "split": "train",
+    "observed_rows": 4066,
+    "high_rows": 0,
+    "runs": 0,
+    "series": [],
+    "stations": []
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "split": "tuning",
+    "observed_rows": 3266,
+    "high_rows": 0,
+    "runs": 0,
+    "series": [],
+    "stations": []
+  }
+]

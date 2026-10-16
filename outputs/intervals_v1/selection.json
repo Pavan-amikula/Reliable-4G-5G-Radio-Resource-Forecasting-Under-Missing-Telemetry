@@ -1,0 +1,108 @@
+{
+  "status": "models_frozen_before_calibration",
+  "quantiles": [
+    0.05,
+    0.5,
+    0.95
+  ],
+  "nominal_coverage": 0.9,
+  "selected": {
+    "LTE_15m": {
+      "leaves": 15,
+      "mean_tuning_pinball": 0.9403380709121659
+    },
+    "LTE_30m": {
+      "leaves": 31,
+      "mean_tuning_pinball": 1.1146286094511397
+    },
+    "LTE_60m": {
+      "leaves": 31,
+      "mean_tuning_pinball": 1.219829081144779
+    },
+    "NR_15m": {
+      "leaves": 31,
+      "mean_tuning_pinball": 0.36409301202172867
+    },
+    "NR_30m": {
+      "leaves": 15,
+      "mean_tuning_pinball": 0.4279575154216448
+    },
+    "NR_60m": {
+      "leaves": 15,
+      "mean_tuning_pinball": 0.4744133176614804
+    }
+  },
+  "point_choices_from_tuning": {
+    "LTE_15m": "hgb",
+    "LTE_30m": "hgb",
+    "LTE_60m": "hgb",
+    "NR_15m": "hgb",
+    "NR_30m": "hgb",
+    "NR_60m": "lightgbm"
+  },
+  "features": [
+    "current_pct",
+    "lag_15_pct",
+    "lag_30_pct",
+    "lag_60_pct",
+    "lag_1440_pct",
+    "lag_10080_pct",
+    "observed_last_hour",
+    "mean_observed_last_hour",
+    "age_minutes",
+    "current_pct_missing",
+    "lag_15_pct_missing",
+    "lag_30_pct_missing",
+    "lag_60_pct_missing",
+    "lag_1440_pct_missing",
+    "lag_10080_pct_missing",
+    "observed_last_hour_missing",
+    "mean_observed_last_hour_missing",
+    "age_minutes_missing",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos"
+  ],
+  "training": "Training rows only, 36 sequential fits: 2 leaf budgets x3 quantiles x6 tech/horizon groups, 300 rounds, two threads. Select leaf budget by mean raw clipped quantile pinball loss on tuning only. No calibration refit or model selection.",
+  "crossing_policy": "Sort all three predicted quantiles per row, then clip to 0..100, before calibration and scoring.",
+  "calibration_policy": "Separate correction per technology/horizon pooled across development stations. Score=max(lower-y,y-upper); correction=max(0,kth score), k=ceil((n+1)*.9). Widen bounds, clip to 0..100. No online updates or holdout calibration.",
+  "limits": "Non-shrinking split-CQR-style adjustment. Temporal dependence and population shift violate usual exchangeability assumptions; no automatic 90% coverage guarantee per station/time/holdout. Calibration coverage is in-sample diagnostic only.",
+  "splits": [
+    {
+      "name": "train",
+      "start_inclusive": "2025-02-07T19:45:00+00:00",
+      "end_exclusive": "2025-03-01T00:00:00+00:00"
+    },
+    {
+      "name": "tuning",
+      "start_inclusive": "2025-03-01T00:00:00+00:00",
+      "end_exclusive": "2025-04-12T00:00:00+00:00"
+    },
+    {
+      "name": "calibration",
+      "start_inclusive": "2025-04-12T00:00:00+00:00",
+      "end_exclusive": "2025-04-26T00:00:00+00:00"
+    },
+    {
+      "name": "test",
+      "start_inclusive": "2025-04-26T00:00:00+00:00",
+      "end_exclusive": "2025-05-05T07:30:00+00:00"
+    }
+  ],
+  "station_holdout": "Site 53",
+  "time_policy": "UTC publisher timestamps; assume each counter is available at its timestamp. Interval start/end and export delay are not confirmed. This is an idealized replay availability assumption.",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "lightgbm": "4.7.0"
+  },
+  "script_sha256": "2620a2b62378e1a888c7c99ce24f5249bfb1b9d2080d1eff8c9fbef0d493cde5",
+  "table_summary_sha256": "58c5b288b8182ddec05770c87a63cd3ef9412f60aac1baf3135576e61411eafa",
+  "sources": [
+    "https://papers.nips.cc/paper_files/paper/2019/hash/5103c3584b063c431bd1268e9b5e76fb-Abstract.html",
+    "https://lightgbm.readthedocs.io/en/stable/Parameters.html"
+  ]
+}

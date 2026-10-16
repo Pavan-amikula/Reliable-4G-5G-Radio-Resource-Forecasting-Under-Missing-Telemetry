@@ -1,0 +1,141 @@
+{
+  "status": "complete",
+  "selected": {
+    "LTE_15m": {
+      "max_leaf_nodes": 31,
+      "tuning_mae_pp": 3.600591300864119
+    },
+    "LTE_30m": {
+      "max_leaf_nodes": 31,
+      "tuning_mae_pp": 4.219839141914089
+    },
+    "LTE_60m": {
+      "max_leaf_nodes": 31,
+      "tuning_mae_pp": 4.582272874789318
+    },
+    "NR_15m": {
+      "max_leaf_nodes": 15,
+      "tuning_mae_pp": 1.394838227725326
+    },
+    "NR_30m": {
+      "max_leaf_nodes": 31,
+      "tuning_mae_pp": 1.6440890293145172
+    },
+    "NR_60m": {
+      "max_leaf_nodes": 15,
+      "tuning_mae_pp": 1.8054454855799573
+    }
+  },
+  "fit_counts": {
+    "LTE_15m": 15268,
+    "LTE_30m": 15169,
+    "LTE_60m": 15042,
+    "NR_15m": 16248,
+    "NR_30m": 16240,
+    "NR_60m": 16224
+  },
+  "model_parameters": {
+    "categorical_features": "from_dtype",
+    "early_stopping": false,
+    "interaction_cst": null,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.05,
+    "loss": "squared_error",
+    "max_bins": 255,
+    "max_depth": null,
+    "max_features": 1.0,
+    "max_iter": 200,
+    "max_leaf_nodes": 15,
+    "min_samples_leaf": 30,
+    "monotonic_cst": null,
+    "n_iter_no_change": 10,
+    "quantile": null,
+    "random_state": 42,
+    "scoring": "loss",
+    "tol": 1e-07,
+    "validation_fraction": 0.1,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "leaf_candidates": [
+    15,
+    31
+  ],
+  "selection": "Lowest pooled tuning MAE per technology/horizon; tie smaller leaf budget",
+  "features": [
+    "current_pct",
+    "lag_15_pct",
+    "lag_30_pct",
+    "lag_60_pct",
+    "lag_1440_pct",
+    "lag_10080_pct",
+    "observed_last_hour",
+    "mean_observed_last_hour",
+    "age_minutes",
+    "current_pct_missing",
+    "lag_15_pct_missing",
+    "lag_30_pct_missing",
+    "lag_60_pct_missing",
+    "lag_1440_pct_missing",
+    "lag_10080_pct_missing",
+    "observed_last_hour_missing",
+    "mean_observed_last_hour_missing",
+    "age_minutes_missing",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos"
+  ],
+  "threads": 2,
+  "preprocessing": "Native NaN handling; no imputation or scaling. Missing flags retained. Training-only fit/binning.",
+  "validation": "early_stopping=False; no internal shuffled split. Fixed 200 iterations, two leaf budgets. No refit on tuning.",
+  "calibration": "Not accessed; reserved for uncertainty calibration",
+  "test_policy": "Models frozen before test tables opened. Predictions clipped to 0..100, same as Ridge. Same forecast origins/labels/masks; separate station holdout.",
+  "splits": [
+    {
+      "name": "train",
+      "start_inclusive": "2025-02-07T19:45:00+00:00",
+      "end_exclusive": "2025-03-01T00:00:00+00:00"
+    },
+    {
+      "name": "tuning",
+      "start_inclusive": "2025-03-01T00:00:00+00:00",
+      "end_exclusive": "2025-04-12T00:00:00+00:00"
+    },
+    {
+      "name": "calibration",
+      "start_inclusive": "2025-04-12T00:00:00+00:00",
+      "end_exclusive": "2025-04-26T00:00:00+00:00"
+    },
+    {
+      "name": "test",
+      "start_inclusive": "2025-04-26T00:00:00+00:00",
+      "end_exclusive": "2025-05-05T07:30:00+00:00"
+    }
+  ],
+  "station_holdout": "Site 53",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "script_sha256": "e1e6be868571ff1e6a632d2f4afe5a4aa160d469687b47c47eb02014aaef689e",
+  "ridge_forecasts_sha256": "20f2e72d1e2bc9363ec4d0e47d6a6483e5f9fe0996819ebb8d66fb7a7c12fc7a",
+  "table_summary_sha256": "58c5b288b8182ddec05770c87a63cd3ef9412f60aac1baf3135576e61411eafa",
+  "elapsed_seconds": 17.641778100005467,
+  "artifacts_sha256": {
+    "coverage.json": "3568883509434682949f90f5b884bc7f493cf0aee810ba966c260081491575b2",
+    "forecasts.csv.gz": "129b1294ebe25235b6d601856544ee206e5cf74bb051ba6324539a0bfb16386e",
+    "LTE_15m.joblib": "75eaa5d7f77f73e18ff74a56976581c83d2bc7932e120b1b180419040239fb00",
+    "LTE_30m.joblib": "c700f291a7ef29c43777fcb63bdc80ea80a1b9fd38c4f1e8b0635c9b44a7d6df",
+    "LTE_60m.joblib": "dae33aa90fe10a489d6154b730d9297476049faf47959cf5288fa6117a5fdfd9",
+    "metrics.json": "d0b65433f7cc2cdd4b8b3b359b61b38da4c5ead509e59c99201aede35877abe6",
+    "NR_15m.joblib": "e52c090c06ac3b562b21852c92319e32eadf5d45746968e77f93a4c072aea782",
+    "NR_30m.joblib": "ddb7c4455a40777220ec94e38db74af15e430f1444e627199c678431d314fa3c",
+    "NR_60m.joblib": "5d5aea0fb41b1195446234a7ebe513f1f64a1e68cf074fb6bffb902c4c37f440",
+    "Results.md": "f4a2447d27a6df025ca9a273a922db00da4291fbc4f4eb505aec0c233a2ff58b",
+    "selection.json": "03a5f8104ecb883b390f23c1004a4a78fd2fb6ab78e6290e19c78c8250f1567a",
+    "tuning_trials.json": "5ac43e7f29f99898a3214b3b4392b50b30917a9332c9aa79c792ab2c7ee635b0"
+  }
+}

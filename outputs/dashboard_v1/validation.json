@@ -1,0 +1,19 @@
+{
+  "mode": "historical_replay",
+  "series_checked": 20,
+  "automated_test_count": 41,
+  "checks": [
+    "past-only prediction history",
+    "saved LTE60 forecast parity",
+    "later actual 13.78 percent",
+    "fresh/stale/no-estimate HTTP responses",
+    "all 20 sector series"
+  ],
+  "source_sha256": {
+    "networkprb/api.py": "20243c9c5ad6a17b71dd7ad4f7757b395b719496fa5251ea10bd3d952db9add5",
+    "networkprb/replay.py": "036aac6533b2d1bd2896065a0e535c73dc7acae6acd463233b7c7977b7c56c9e",
+    "networkprb/static/index.html": "2396b55c4491329bb5ee007d44465168a59192bc42c5f7972872c23d240c400f",
+    "networkprb/static/app.js": "211ba3981b99d793f5feb0a23abb2440cb5d6ca8d8e054ae3980ccea5627219f",
+    "networkprb/static/style.css": "dbce14042a46341f33ca35a260a656f38439111b786169b7f903a9f944f676ba"
+  }
+}

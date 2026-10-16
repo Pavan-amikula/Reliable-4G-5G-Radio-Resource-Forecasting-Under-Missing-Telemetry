@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "seed": 20261017,
+  "draws": 500,
+  "resampling": "Sample whole stations with replacement, and shared moving blocks of two adjacent UTC target dates with replacement until original number of dates is reached. Cross the station and date weights, preserving both sectors and contemporaneous errors within sampled blocks. Noncircular date blocks; small endpoint-weight effects and partial days retained. Equal calendar-date clusters but pooled row-weighted metrics within a draw.",
+  "limits": "Exploratory 2.5/97.5 percentile resampling ranges, not robust proof of significance. Only four familiar stations, one excluded station and ten target dates; two-day block choice does not establish independence or eliminate long-range dependence. The excluded station has no between-station replication. No feature, model, calibration or policy selection from these results.",
+  "benchmark": "Fresh child process, two threads, all24 saved models cached; single/batch128 timing for three horizons plus features. Windows peak working set/commit from process counters.",
+  "high_load": "Fixed exploratory utilization >=80%; contiguous15min runs within split/series, not independent congestion incidents.",
+  "script_sha256": "5d92b7d2e25c1211bf29290b9773fe98cb40c490e1d6bc0271f0d8c4f15496a6",
+  "source_database_sha256": "0b7b90e91381e41efc506ab9c6c29ae15deddbab1c0141c76dbc519f2cffeaf6",
+  "interval_manifest_sha256": "1b77b5ac5592386cf04fc5f2c1135e8415fc75e277221704baff4ea6ed6c3ee3",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "lightgbm": "4.7.0"
+  },
+  "elapsed_seconds": 5.193550000010873,
+  "artifacts_sha256": {
+    "benchmark.json": "b702884f65dd64335f87f6634232b7f738f6e3535a569a99811d5e3047f2390d",
+    "high_load_support.json": "5bfbd65c1ca69d6bc6021b77d241b54b92f02946e8f84975f0c2a98bd458c17f",
+    "protocol.json": "524af6e11399284d9f1a59c74c2689ce162fc1ee42fc90962afb1ab0f9a6dd3e",
+    "resampling.json": "f9408ec5bd5f5c5499edcc8de30fd78b230aac1a53983a82a193886258062887",
+    "Results.md": "e2c5ec54f7b647e397819afb1718bdff30112f04f7fb4a4d0e6c93761324c674",
+    "station_days.json": "1e3638e096128ebcee1b3f3d9a0d97fbc2885f69f736d67bbafc6e3e0a267028"
+  }
+}

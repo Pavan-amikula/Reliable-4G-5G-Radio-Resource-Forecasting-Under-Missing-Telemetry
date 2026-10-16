@@ -1,0 +1,182 @@
+[
+  {
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "alpha": 0.1,
+    "training_rows": 15268,
+    "fit_predict_seconds": 0.04726789999403991,
+    "n": 12308,
+    "mae_pp": 3.763601038637192,
+    "rmse_pp": 5.390314467509954
+  },
+  {
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "alpha": 1.0,
+    "training_rows": 15268,
+    "fit_predict_seconds": 0.04670399999304209,
+    "n": 12308,
+    "mae_pp": 3.7636702868064797,
+    "rmse_pp": 5.390330252883903
+  },
+  {
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "alpha": 10.0,
+    "training_rows": 15268,
+    "fit_predict_seconds": 0.04254330000549089,
+    "n": 12308,
+    "mae_pp": 3.764391082022815,
+    "rmse_pp": 5.390535253982469
+  },
+  {
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "alpha": 0.1,
+    "training_rows": 15169,
+    "fit_predict_seconds": 0.045462900001439266,
+    "n": 12220,
+    "mae_pp": 4.608711540756573,
+    "rmse_pp": 6.555090419905569
+  },
+  {
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "alpha": 1.0,
+    "training_rows": 15169,
+    "fit_predict_seconds": 0.04457830000319518,
+    "n": 12220,
+    "mae_pp": 4.608738450658851,
+    "rmse_pp": 6.555098885909873
+  },
+  {
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "alpha": 10.0,
+    "training_rows": 15169,
+    "fit_predict_seconds": 0.04443919999175705,
+    "n": 12220,
+    "mae_pp": 4.609009940431183,
+    "rmse_pp": 6.555195300362351
+  },
+  {
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "alpha": 0.1,
+    "training_rows": 15042,
+    "fit_predict_seconds": 0.049651299996185116,
+    "n": 12119,
+    "mae_pp": 5.370175168898807,
+    "rmse_pp": 7.648363968986153
+  },
+  {
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "alpha": 1.0,
+    "training_rows": 15042,
+    "fit_predict_seconds": 0.04746590000286233,
+    "n": 12119,
+    "mae_pp": 5.370180195945905,
+    "rmse_pp": 7.648379982374958
+  },
+  {
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "alpha": 10.0,
+    "training_rows": 15042,
+    "fit_predict_seconds": 0.044825800010585226,
+    "n": 12119,
+    "mae_pp": 5.370254804587666,
+    "rmse_pp": 7.648554088308609
+  },
+  {
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "alpha": 0.1,
+    "training_rows": 16248,
+    "fit_predict_seconds": 0.0466281999979401,
+    "n": 13032,
+    "mae_pp": 1.433812885848533,
+    "rmse_pp": 2.455376400090611
+  },
+  {
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "alpha": 1.0,
+    "training_rows": 16248,
+    "fit_predict_seconds": 0.04933169999276288,
+    "n": 13032,
+    "mae_pp": 1.4338298358676456,
+    "rmse_pp": 2.455364977061561
+  },
+  {
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "alpha": 10.0,
+    "training_rows": 16248,
+    "fit_predict_seconds": 0.05067439998674672,
+    "n": 13032,
+    "mae_pp": 1.4340104271862157,
+    "rmse_pp": 2.4552829599507606
+  },
+  {
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "alpha": 0.1,
+    "training_rows": 16240,
+    "fit_predict_seconds": 0.04693889999180101,
+    "n": 13016,
+    "mae_pp": 1.7403922223265116,
+    "rmse_pp": 2.9462942985182488
+  },
+  {
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "alpha": 1.0,
+    "training_rows": 16240,
+    "fit_predict_seconds": 0.0480150999937905,
+    "n": 13016,
+    "mae_pp": 1.7403948884134393,
+    "rmse_pp": 2.9462789926705106
+  },
+  {
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "alpha": 10.0,
+    "training_rows": 16240,
+    "fit_predict_seconds": 0.046813699998892844,
+    "n": 13016,
+    "mae_pp": 1.7404374356641577,
+    "rmse_pp": 2.9461537398889663
+  },
+  {
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "alpha": 0.1,
+    "training_rows": 16224,
+    "fit_predict_seconds": 0.049255399993853644,
+    "n": 12984,
+    "mae_pp": 2.0292344438016134,
+    "rmse_pp": 3.3888583192256063
+  },
+  {
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "alpha": 1.0,
+    "training_rows": 16224,
+    "fit_predict_seconds": 0.04829190000600647,
+    "n": 12984,
+    "mae_pp": 2.029229996885889,
+    "rmse_pp": 3.388834942307358
+  },
+  {
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "alpha": 10.0,
+    "training_rows": 16224,
+    "fit_predict_seconds": 0.0486730999982683,
+    "n": 12984,
+    "mae_pp": 2.0292036188247446,
+    "rmse_pp": 3.3886330959117577
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "forecast_rows_verified": 127756,
+  "metric_groups_recomputed": 1080,
+  "saved_model_predictions_reproduced": true,
+  "earlier_forecasts_unchanged": true,
+  "tuning_only_selection_verified": true,
+  "recorded_hashes_verified": true,
+  "protocol_tests_passed": 19
+}

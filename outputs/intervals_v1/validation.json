@@ -1,0 +1,9 @@
+{
+  "forecast_rows": 114330,
+  "metric_groups": 348,
+  "saved_models_reproduced": true,
+  "calibration_rank_recomputed": true,
+  "point_forecasts_reproduced": true,
+  "source_roles_and_clocks_verified": true,
+  "output_hashes_verified": true
+}

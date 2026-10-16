@@ -1,0 +1,164 @@
+[
+  {
+    "role": "development",
+    "split": "tuning",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "eligible_rows": 12308,
+    "lightgbm_scored": 12308,
+    "paired_scored": 11320
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "eligible_rows": 6859,
+    "lightgbm_scored": 6859,
+    "paired_scored": 6750
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "eligible_rows": 1643,
+    "lightgbm_scored": 1643,
+    "paired_scored": 1575
+  },
+  {
+    "role": "development",
+    "split": "tuning",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "eligible_rows": 12220,
+    "lightgbm_scored": 12220,
+    "paired_scored": 11265
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "eligible_rows": 6823,
+    "lightgbm_scored": 6823,
+    "paired_scored": 6724
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "eligible_rows": 1629,
+    "lightgbm_scored": 1629,
+    "paired_scored": 1565
+  },
+  {
+    "role": "development",
+    "split": "tuning",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "eligible_rows": 12119,
+    "lightgbm_scored": 12119,
+    "paired_scored": 11186
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "eligible_rows": 6782,
+    "lightgbm_scored": 6782,
+    "paired_scored": 6688
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "eligible_rows": 1609,
+    "lightgbm_scored": 1609,
+    "paired_scored": 1544
+  },
+  {
+    "role": "development",
+    "split": "tuning",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "eligible_rows": 13032,
+    "lightgbm_scored": 13032,
+    "paired_scored": 12272
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "eligible_rows": 7138,
+    "lightgbm_scored": 7138,
+    "paired_scored": 7138
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "eligible_rows": 1786,
+    "lightgbm_scored": 1786,
+    "paired_scored": 1786
+  },
+  {
+    "role": "development",
+    "split": "tuning",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "eligible_rows": 13016,
+    "lightgbm_scored": 13016,
+    "paired_scored": 12264
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "eligible_rows": 7130,
+    "lightgbm_scored": 7130,
+    "paired_scored": 7130
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "eligible_rows": 1784,
+    "lightgbm_scored": 1784,
+    "paired_scored": 1784
+  },
+  {
+    "role": "development",
+    "split": "tuning",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "eligible_rows": 12984,
+    "lightgbm_scored": 12984,
+    "paired_scored": 12248
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "eligible_rows": 7114,
+    "lightgbm_scored": 7114,
+    "paired_scored": 7114
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "eligible_rows": 1780,
+    "lightgbm_scored": 1780,
+    "paired_scored": 1780
+  }
+]

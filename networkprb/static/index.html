@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>NetworkPRB · Historical replay</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body><main>
+<header><div class="brand">NETWORK<span>PRB</span></div><span class="badge">RECORDED DATA · APR–MAY 2025</span></header>
+<section class="intro"><p class="eyebrow">RADIO RESOURCE FORECASTING</p><h1>Look ahead. Then check.</h1><p>Choose a recorded moment. See how busy a network sector was predicted to be, then compare with what actually happened.</p></section>
+<section class="controls" aria-label="Replay controls">
+<label>1 · Choose a network sector<select id="series" aria-label="Network sector"></select></label>
+<label>2 · Choose a time (UTC)<input id="origin" aria-label="Forecast time UTC" type="datetime-local" step="900"></label>
+<label>3 · Try missing readings<select id="scenario"><option value="0">Original recorded history</option><option value="30">Hide latest 30 minutes</option><option value="90">Hide latest 90 minutes</option></select></label>
+<div class="navigation"><button id="previous" aria-label="Previous 15 minutes">← 15 min</button><button id="next" aria-label="Next 15 minutes">15 min →</button><button id="update" class="primary">Show forecast</button></div>
+</section>
+<p id="request-status" role="status" aria-live="polite">Loading the opening forecast…</p>
+<div id="error" role="alert" hidden></div>
+<section class="statusbar"><div><span id="status" class="badge">Loading models…</span><p id="explanation" role="status" aria-live="polite"></p></div><span id="role"></span></section>
+<section id="cards" class="cards" aria-label="Forecasts"></section>
+<section class="chartpanel"><div class="chartheading"><div><h2>Past → prediction → actual</h2><p>Vertical bars show the forecast ranges. Gaps mean no recorded reading.</p></div><label class="checkbox"><input type="checkbox" id="actuals" checked> Show later actual readings</label></div>
+<div class="legend"><span class="past">● Past readings</span><span class="predicted">● Predictions & ranges</span><span class="actual">● Later actual readings</span></div>
+<svg id="chart" viewBox="0 0 1000 310" role="img" aria-label="Recorded utilization and future forecasts"></svg></section>
+<section class="notes"><div><h3>What is the percentage?</h3><p>It tells us how much of the available radio resource is being used. A reading of 20% means about one fifth is in use.</p></div><div><h3>What is the range?</h3><p>A lower and upper estimate of future usage. Ranges were adjusted using a separate set of past examples. They are not a guarantee.</p></div><div><h3>What is this screen doing?</h3><p>It replays saved measurements using already trained models. Later actual readings are only used for comparison. This is not a live network connection.</p></div></section>
+<footer>Dataset_02 · 20 evaluated sector series · 15 / 30 / 60 minute forecasts · CPU models<br>Data: <a href="https://zenodo.org/records/17815388" target="_blank" rel="noreferrer">commercial RAN dataset, CC BY 4.0</a>. <a href="https://doi.org/10.1038/s41597-026-07723-0" target="_blank" rel="noreferrer">Data descriptor</a>. No congestion or energy-saving claim.</footer>
+</main></body></html>

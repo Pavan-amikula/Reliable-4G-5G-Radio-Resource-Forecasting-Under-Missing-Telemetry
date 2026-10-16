@@ -1,0 +1,12 @@
+{
+  "resampling_groups": 12,
+  "station_day_groups": 300,
+  "support_groups": 16,
+  "saved_resampling_reproduced": true,
+  "coverage_matches_interval_experiment": true,
+  "timing_summaries_recomputed": true,
+  "memory_counters_consistent": true,
+  "unique_high_load_counts_and_runs_recomputed": true,
+  "hashes_match": true,
+  "protocol_tests_passed": 32
+}

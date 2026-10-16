@@ -1,0 +1,131 @@
+{
+  "status": "frozen_before_test_read",
+  "selected": {
+    "LTE_15m": {
+      "num_leaves": 15,
+      "tuning_mae_pp": 3.604337153622221
+    },
+    "LTE_30m": {
+      "num_leaves": 31,
+      "tuning_mae_pp": 4.225707360393651
+    },
+    "LTE_60m": {
+      "num_leaves": 31,
+      "tuning_mae_pp": 4.584180338568735
+    },
+    "NR_15m": {
+      "num_leaves": 15,
+      "tuning_mae_pp": 1.4011988539457374
+    },
+    "NR_30m": {
+      "num_leaves": 15,
+      "tuning_mae_pp": 1.6540709037805192
+    },
+    "NR_60m": {
+      "num_leaves": 15,
+      "tuning_mae_pp": 1.8049525860957525
+    }
+  },
+  "fit_counts": {
+    "LTE_15m": 15268,
+    "LTE_30m": 15169,
+    "LTE_60m": 15042,
+    "NR_15m": 16248,
+    "NR_30m": 16240,
+    "NR_60m": 16224
+  },
+  "model_parameters": {
+    "boosting_type": "gbdt",
+    "class_weight": null,
+    "colsample_bytree": 1.0,
+    "importance_type": "split",
+    "learning_rate": 0.05,
+    "max_depth": -1,
+    "min_child_samples": 30,
+    "min_child_weight": 0.001,
+    "min_split_gain": 0.0,
+    "n_estimators": 300,
+    "n_jobs": 2,
+    "num_leaves": 15,
+    "objective": "regression",
+    "random_state": 42,
+    "reg_alpha": 0.0,
+    "reg_lambda": 1.0,
+    "subsample": 1.0,
+    "subsample_for_bin": 200000,
+    "subsample_freq": 0,
+    "device_type": "cpu",
+    "deterministic": true,
+    "force_col_wise": true,
+    "use_missing": true,
+    "zero_as_missing": false,
+    "verbosity": -1
+  },
+  "leaf_candidates": [
+    15,
+    31
+  ],
+  "selection": "Lowest pooled tuning MAE per technology/horizon; tie smaller leaf budget",
+  "features": [
+    "current_pct",
+    "lag_15_pct",
+    "lag_30_pct",
+    "lag_60_pct",
+    "lag_1440_pct",
+    "lag_10080_pct",
+    "observed_last_hour",
+    "mean_observed_last_hour",
+    "age_minutes",
+    "current_pct_missing",
+    "lag_15_pct_missing",
+    "lag_30_pct_missing",
+    "lag_60_pct_missing",
+    "lag_1440_pct_missing",
+    "lag_10080_pct_missing",
+    "observed_last_hour_missing",
+    "mean_observed_last_hour_missing",
+    "age_minutes_missing",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos"
+  ],
+  "threads": 2,
+  "preprocessing": "Native NaN handling; no imputation or scaling. Missing flags retained. Training-only fit/binning.",
+  "validation": "Fixed 300 iterations, two leaf budgets; fit receives training only. No internal validation or refit on tuning.",
+  "calibration": "Not accessed; reserved for uncertainty calibration",
+  "test_policy": "Models frozen before test tables opened. Predictions clipped to 0..100, same as Ridge. Same forecast origins/labels/masks; separate station holdout.",
+  "splits": [
+    {
+      "name": "train",
+      "start_inclusive": "2025-02-07T19:45:00+00:00",
+      "end_exclusive": "2025-03-01T00:00:00+00:00"
+    },
+    {
+      "name": "tuning",
+      "start_inclusive": "2025-03-01T00:00:00+00:00",
+      "end_exclusive": "2025-04-12T00:00:00+00:00"
+    },
+    {
+      "name": "calibration",
+      "start_inclusive": "2025-04-12T00:00:00+00:00",
+      "end_exclusive": "2025-04-26T00:00:00+00:00"
+    },
+    {
+      "name": "test",
+      "start_inclusive": "2025-04-26T00:00:00+00:00",
+      "end_exclusive": "2025-05-05T07:30:00+00:00"
+    }
+  ],
+  "station_holdout": "Site 53",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "lightgbm": "4.7.0"
+  },
+  "script_sha256": "69a3f735918b8cc2dc3cb9a50f8d636758551586f0c112c37a0a13ab0e95447c",
+  "previous_forecasts_sha256": "129b1294ebe25235b6d601856544ee206e5cf74bb051ba6324539a0bfb16386e",
+  "table_summary_sha256": "58c5b288b8182ddec05770c87a63cd3ef9412f60aac1baf3135576e61411eafa"
+}

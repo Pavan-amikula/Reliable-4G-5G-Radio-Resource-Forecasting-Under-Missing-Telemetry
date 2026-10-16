@@ -1,0 +1,494 @@
+[
+  {
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "scenario": "clean_observed_origins",
+    "grid_origins": 7144,
+    "boundary_purged": 2,
+    "scorable_future_labels": 6859,
+    "missing_future_label": 242,
+    "outside_origin_population": 43
+  },
+  {
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "scenario": "natural_missing_origins",
+    "grid_origins": 7144,
+    "outside_origin_population": 6859,
+    "boundary_purged": 2,
+    "missing_future_label": 242,
+    "scorable_future_labels": 43
+  },
+  {
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "scenario": "synthetic_drop10",
+    "grid_origins": 7144,
+    "boundary_purged": 2,
+    "scorable_future_labels": 6859,
+    "missing_future_label": 242,
+    "outside_origin_population": 43
+  },
+  {
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "scenario": "synthetic_hour",
+    "grid_origins": 7144,
+    "boundary_purged": 2,
+    "scorable_future_labels": 6859,
+    "missing_future_label": 242,
+    "outside_origin_population": 43
+  },
+  {
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "scenario": "clean_observed_origins",
+    "grid_origins": 7136,
+    "boundary_purged": 10,
+    "scorable_future_labels": 6823,
+    "missing_future_label": 242,
+    "outside_origin_population": 71
+  },
+  {
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "scenario": "natural_missing_origins",
+    "grid_origins": 7136,
+    "outside_origin_population": 6823,
+    "boundary_purged": 10,
+    "missing_future_label": 242,
+    "scorable_future_labels": 71
+  },
+  {
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "scenario": "synthetic_drop10",
+    "grid_origins": 7136,
+    "boundary_purged": 10,
+    "scorable_future_labels": 6823,
+    "missing_future_label": 242,
+    "outside_origin_population": 71
+  },
+  {
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "scenario": "synthetic_hour",
+    "grid_origins": 7136,
+    "boundary_purged": 10,
+    "scorable_future_labels": 6823,
+    "missing_future_label": 242,
+    "outside_origin_population": 71
+  },
+  {
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "scenario": "clean_observed_origins",
+    "grid_origins": 7120,
+    "boundary_purged": 26,
+    "scorable_future_labels": 6782,
+    "missing_future_label": 241,
+    "outside_origin_population": 97
+  },
+  {
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "scenario": "natural_missing_origins",
+    "grid_origins": 7120,
+    "outside_origin_population": 6782,
+    "boundary_purged": 26,
+    "missing_future_label": 241,
+    "scorable_future_labels": 97
+  },
+  {
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "scenario": "synthetic_drop10",
+    "grid_origins": 7120,
+    "boundary_purged": 26,
+    "scorable_future_labels": 6782,
+    "missing_future_label": 241,
+    "outside_origin_population": 97
+  },
+  {
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "scenario": "synthetic_hour",
+    "grid_origins": 7120,
+    "boundary_purged": 26,
+    "scorable_future_labels": 6782,
+    "missing_future_label": 241,
+    "outside_origin_population": 97
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "scenario": "clean_observed_origins",
+    "grid_origins": 7144,
+    "boundary_purged": 2,
+    "scorable_future_labels": 7138,
+    "missing_future_label": 6
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "scenario": "natural_missing_origins",
+    "grid_origins": 7144,
+    "outside_origin_population": 7138,
+    "boundary_purged": 2,
+    "missing_future_label": 6
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "scenario": "synthetic_drop10",
+    "grid_origins": 7144,
+    "boundary_purged": 2,
+    "scorable_future_labels": 7138,
+    "missing_future_label": 6
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "scenario": "synthetic_hour",
+    "grid_origins": 7144,
+    "boundary_purged": 2,
+    "scorable_future_labels": 7138,
+    "missing_future_label": 6
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "scenario": "clean_observed_origins",
+    "grid_origins": 7136,
+    "boundary_purged": 10,
+    "scorable_future_labels": 7130,
+    "missing_future_label": 6
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "scenario": "natural_missing_origins",
+    "grid_origins": 7136,
+    "outside_origin_population": 7130,
+    "boundary_purged": 10,
+    "missing_future_label": 6
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "scenario": "synthetic_drop10",
+    "grid_origins": 7136,
+    "boundary_purged": 10,
+    "scorable_future_labels": 7130,
+    "missing_future_label": 6
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "scenario": "synthetic_hour",
+    "grid_origins": 7136,
+    "boundary_purged": 10,
+    "scorable_future_labels": 7130,
+    "missing_future_label": 6
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "scenario": "clean_observed_origins",
+    "grid_origins": 7120,
+    "boundary_purged": 26,
+    "scorable_future_labels": 7114,
+    "missing_future_label": 6
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "scenario": "natural_missing_origins",
+    "grid_origins": 7120,
+    "outside_origin_population": 7114,
+    "boundary_purged": 26,
+    "missing_future_label": 6
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "scenario": "synthetic_drop10",
+    "grid_origins": 7120,
+    "boundary_purged": 26,
+    "scorable_future_labels": 7114,
+    "missing_future_label": 6
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "scenario": "synthetic_hour",
+    "grid_origins": 7120,
+    "boundary_purged": 26,
+    "scorable_future_labels": 7114,
+    "missing_future_label": 6
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "scenario": "clean_observed_origins",
+    "grid_origins": 1786,
+    "missing_future_label": 129,
+    "outside_origin_population": 14,
+    "boundary_purged": 2,
+    "scorable_future_labels": 1643
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "scenario": "natural_missing_origins",
+    "grid_origins": 1786,
+    "outside_origin_population": 1643,
+    "missing_future_label": 129,
+    "boundary_purged": 2,
+    "scorable_future_labels": 14
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "scenario": "synthetic_drop10",
+    "grid_origins": 1786,
+    "missing_future_label": 129,
+    "outside_origin_population": 14,
+    "boundary_purged": 2,
+    "scorable_future_labels": 1643
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "scenario": "synthetic_hour",
+    "grid_origins": 1786,
+    "missing_future_label": 129,
+    "outside_origin_population": 14,
+    "boundary_purged": 2,
+    "scorable_future_labels": 1643
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "scenario": "clean_observed_origins",
+    "grid_origins": 1784,
+    "missing_future_label": 129,
+    "outside_origin_population": 26,
+    "boundary_purged": 4,
+    "scorable_future_labels": 1629
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "scenario": "natural_missing_origins",
+    "grid_origins": 1784,
+    "outside_origin_population": 1629,
+    "missing_future_label": 129,
+    "boundary_purged": 4,
+    "scorable_future_labels": 26
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "scenario": "synthetic_drop10",
+    "grid_origins": 1784,
+    "missing_future_label": 129,
+    "outside_origin_population": 26,
+    "boundary_purged": 4,
+    "scorable_future_labels": 1629
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "scenario": "synthetic_hour",
+    "grid_origins": 1784,
+    "missing_future_label": 129,
+    "outside_origin_population": 26,
+    "boundary_purged": 4,
+    "scorable_future_labels": 1629
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "scenario": "clean_observed_origins",
+    "grid_origins": 1780,
+    "missing_future_label": 129,
+    "outside_origin_population": 42,
+    "boundary_purged": 8,
+    "scorable_future_labels": 1609
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "scenario": "natural_missing_origins",
+    "grid_origins": 1780,
+    "outside_origin_population": 1609,
+    "missing_future_label": 129,
+    "boundary_purged": 8,
+    "scorable_future_labels": 42
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "scenario": "synthetic_drop10",
+    "grid_origins": 1780,
+    "missing_future_label": 129,
+    "outside_origin_population": 42,
+    "boundary_purged": 8,
+    "scorable_future_labels": 1609
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "scenario": "synthetic_hour",
+    "grid_origins": 1780,
+    "missing_future_label": 129,
+    "outside_origin_population": 42,
+    "boundary_purged": 8,
+    "scorable_future_labels": 1609
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "scenario": "clean_observed_origins",
+    "grid_origins": 1786,
+    "boundary_purged": 2,
+    "scorable_future_labels": 1786
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "scenario": "natural_missing_origins",
+    "grid_origins": 1786,
+    "outside_origin_population": 1786,
+    "boundary_purged": 2
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "scenario": "synthetic_drop10",
+    "grid_origins": 1786,
+    "boundary_purged": 2,
+    "scorable_future_labels": 1786
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "scenario": "synthetic_hour",
+    "grid_origins": 1786,
+    "boundary_purged": 2,
+    "scorable_future_labels": 1786
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "scenario": "clean_observed_origins",
+    "grid_origins": 1784,
+    "boundary_purged": 4,
+    "scorable_future_labels": 1784
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "scenario": "natural_missing_origins",
+    "grid_origins": 1784,
+    "outside_origin_population": 1784,
+    "boundary_purged": 4
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "scenario": "synthetic_drop10",
+    "grid_origins": 1784,
+    "boundary_purged": 4,
+    "scorable_future_labels": 1784
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "scenario": "synthetic_hour",
+    "grid_origins": 1784,
+    "boundary_purged": 4,
+    "scorable_future_labels": 1784
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "scenario": "clean_observed_origins",
+    "grid_origins": 1780,
+    "boundary_purged": 8,
+    "scorable_future_labels": 1780
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "scenario": "natural_missing_origins",
+    "grid_origins": 1780,
+    "outside_origin_population": 1780,
+    "boundary_purged": 8
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "scenario": "synthetic_drop10",
+    "grid_origins": 1780,
+    "boundary_purged": 8,
+    "scorable_future_labels": 1780
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "scenario": "synthetic_hour",
+    "grid_origins": 1780,
+    "boundary_purged": 8,
+    "scorable_future_labels": 1780
+  }
+]

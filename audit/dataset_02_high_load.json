@@ -1,0 +1,24 @@
+{
+  "threshold": 80,
+  "station_sectors": 15,
+  "stations": 13,
+  "rows": 143,
+  "contiguous_15min_episodes": 62,
+  "counts_by_station_sector": {
+    "Site 119|2": 10,
+    "Site 265|3": 18,
+    "Site 4|1": 2,
+    "Site 279|1": 36,
+    "Site 10|2": 4,
+    "Site 10|1": 2,
+    "Site 111|1": 34,
+    "Site 141|1": 17,
+    "Site 141|3": 1,
+    "Site 144|3": 1,
+    "Site 5|2": 1,
+    "Site 178|1": 14,
+    "Site 69|1": 1,
+    "Site 225|2": 1,
+    "Site 56|1": 1
+  }
+}

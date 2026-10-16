@@ -1,0 +1,146 @@
+[
+  {
+    "role": "development",
+    "split": "calibration",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "n": 10181,
+    "crossed_rows": 4
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "n": 6859,
+    "crossed_rows": 0
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "n": 1643,
+    "crossed_rows": 0
+  },
+  {
+    "role": "development",
+    "split": "calibration",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "n": 10112,
+    "crossed_rows": 12
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "n": 6823,
+    "crossed_rows": 2
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "n": 1629,
+    "crossed_rows": 1
+  },
+  {
+    "role": "development",
+    "split": "calibration",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "n": 10022,
+    "crossed_rows": 12
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "n": 6782,
+    "crossed_rows": 18
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "n": 1609,
+    "crossed_rows": 2
+  },
+  {
+    "role": "development",
+    "split": "calibration",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "n": 10666,
+    "crossed_rows": 173
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "n": 7138,
+    "crossed_rows": 112
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "n": 1786,
+    "crossed_rows": 44
+  },
+  {
+    "role": "development",
+    "split": "calibration",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "n": 10652,
+    "crossed_rows": 172
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "n": 7130,
+    "crossed_rows": 109
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "n": 1784,
+    "crossed_rows": 47
+  },
+  {
+    "role": "development",
+    "split": "calibration",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "n": 10620,
+    "crossed_rows": 204
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "n": 7114,
+    "crossed_rows": 116
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "n": 1780,
+    "crossed_rows": 49
+  }
+]

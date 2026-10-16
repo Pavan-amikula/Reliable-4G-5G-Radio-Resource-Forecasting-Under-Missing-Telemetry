@@ -1,0 +1,10 @@
+{
+  "forecast_rows_reproduced": 156524,
+  "metric_groups_checked": 474,
+  "synthetic_rows_paired": true,
+  "clean_forecasts_equal_previous": true,
+  "future_labels_original": true,
+  "frozen_policy_verified": true,
+  "prior_artifacts_unchanged": true,
+  "tests_passed": 29
+}

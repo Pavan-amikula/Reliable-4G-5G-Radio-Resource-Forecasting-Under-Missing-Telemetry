@@ -1,0 +1,802 @@
+[
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "LTE",
+    "station": "Site 16",
+    "sector": "1",
+    "history_observed": 5885,
+    "history_hidden": 0,
+    "test_observed": 894,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "LTE",
+    "station": "Site 16",
+    "sector": "1",
+    "history_observed": 5885,
+    "history_hidden": 566,
+    "test_observed": 894,
+    "test_hidden": 86
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "LTE",
+    "station": "Site 16",
+    "sector": "1",
+    "history_observed": 5885,
+    "history_hidden": 246,
+    "test_observed": 894,
+    "test_hidden": 38
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "LTE",
+    "station": "Site 16",
+    "sector": "1",
+    "history_observed": 5885,
+    "history_hidden": 0,
+    "test_observed": 894,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "LTE",
+    "station": "Site 16",
+    "sector": "2",
+    "history_observed": 5885,
+    "history_hidden": 0,
+    "test_observed": 894,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "LTE",
+    "station": "Site 16",
+    "sector": "2",
+    "history_observed": 5885,
+    "history_hidden": 593,
+    "test_observed": 894,
+    "test_hidden": 91
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "LTE",
+    "station": "Site 16",
+    "sector": "2",
+    "history_observed": 5885,
+    "history_hidden": 244,
+    "test_observed": 894,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "LTE",
+    "station": "Site 16",
+    "sector": "2",
+    "history_observed": 5885,
+    "history_hidden": 0,
+    "test_observed": 894,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "LTE",
+    "station": "Site 22",
+    "sector": "1",
+    "history_observed": 5119,
+    "history_hidden": 0,
+    "test_observed": 796,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "LTE",
+    "station": "Site 22",
+    "sector": "1",
+    "history_observed": 5119,
+    "history_hidden": 469,
+    "test_observed": 796,
+    "test_hidden": 73
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "LTE",
+    "station": "Site 22",
+    "sector": "1",
+    "history_observed": 5119,
+    "history_hidden": 240,
+    "test_observed": 796,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "LTE",
+    "station": "Site 22",
+    "sector": "1",
+    "history_observed": 5119,
+    "history_hidden": 0,
+    "test_observed": 796,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "LTE",
+    "station": "Site 22",
+    "sector": "2",
+    "history_observed": 5777,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "LTE",
+    "station": "Site 22",
+    "sector": "2",
+    "history_observed": 5777,
+    "history_hidden": 578,
+    "test_observed": 893,
+    "test_hidden": 95
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "LTE",
+    "station": "Site 22",
+    "sector": "2",
+    "history_observed": 5777,
+    "history_hidden": 244,
+    "test_observed": 893,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "LTE",
+    "station": "Site 22",
+    "sector": "2",
+    "history_observed": 5777,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "LTE",
+    "station": "Site 5",
+    "sector": "1",
+    "history_observed": 5361,
+    "history_hidden": 0,
+    "test_observed": 839,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "LTE",
+    "station": "Site 5",
+    "sector": "1",
+    "history_observed": 5361,
+    "history_hidden": 579,
+    "test_observed": 839,
+    "test_hidden": 106
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "LTE",
+    "station": "Site 5",
+    "sector": "1",
+    "history_observed": 5361,
+    "history_hidden": 244,
+    "test_observed": 839,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "LTE",
+    "station": "Site 5",
+    "sector": "1",
+    "history_observed": 5361,
+    "history_hidden": 0,
+    "test_observed": 839,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "LTE",
+    "station": "Site 5",
+    "sector": "2",
+    "history_observed": 5893,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "LTE",
+    "station": "Site 5",
+    "sector": "2",
+    "history_observed": 5893,
+    "history_hidden": 616,
+    "test_observed": 893,
+    "test_hidden": 88
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "LTE",
+    "station": "Site 5",
+    "sector": "2",
+    "history_observed": 5893,
+    "history_hidden": 237,
+    "test_observed": 893,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "LTE",
+    "station": "Site 5",
+    "sector": "2",
+    "history_observed": 5893,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "LTE",
+    "station": "Site 53",
+    "sector": "1",
+    "history_observed": 5506,
+    "history_hidden": 0,
+    "test_observed": 844,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "LTE",
+    "station": "Site 53",
+    "sector": "1",
+    "history_observed": 5506,
+    "history_hidden": 547,
+    "test_observed": 844,
+    "test_hidden": 89
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "LTE",
+    "station": "Site 53",
+    "sector": "1",
+    "history_observed": 5506,
+    "history_hidden": 244,
+    "test_observed": 844,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "LTE",
+    "station": "Site 53",
+    "sector": "1",
+    "history_observed": 5506,
+    "history_hidden": 0,
+    "test_observed": 844,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "LTE",
+    "station": "Site 53",
+    "sector": "2",
+    "history_observed": 5006,
+    "history_hidden": 0,
+    "test_observed": 815,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "LTE",
+    "station": "Site 53",
+    "sector": "2",
+    "history_observed": 5006,
+    "history_hidden": 466,
+    "test_observed": 815,
+    "test_hidden": 69
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "LTE",
+    "station": "Site 53",
+    "sector": "2",
+    "history_observed": 5006,
+    "history_hidden": 248,
+    "test_observed": 815,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "LTE",
+    "station": "Site 53",
+    "sector": "2",
+    "history_observed": 5006,
+    "history_hidden": 0,
+    "test_observed": 815,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "LTE",
+    "station": "Site 7",
+    "sector": "1",
+    "history_observed": 5722,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "LTE",
+    "station": "Site 7",
+    "sector": "1",
+    "history_observed": 5722,
+    "history_hidden": 573,
+    "test_observed": 893,
+    "test_hidden": 96
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "LTE",
+    "station": "Site 7",
+    "sector": "1",
+    "history_observed": 5722,
+    "history_hidden": 244,
+    "test_observed": 893,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "LTE",
+    "station": "Site 7",
+    "sector": "1",
+    "history_observed": 5722,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "LTE",
+    "station": "Site 7",
+    "sector": "2",
+    "history_observed": 5370,
+    "history_hidden": 0,
+    "test_observed": 808,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "LTE",
+    "station": "Site 7",
+    "sector": "2",
+    "history_observed": 5370,
+    "history_hidden": 548,
+    "test_observed": 808,
+    "test_hidden": 68
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "LTE",
+    "station": "Site 7",
+    "sector": "2",
+    "history_observed": 5370,
+    "history_hidden": 240,
+    "test_observed": 808,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "LTE",
+    "station": "Site 7",
+    "sector": "2",
+    "history_observed": 5370,
+    "history_hidden": 0,
+    "test_observed": 808,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "NR",
+    "station": "Site 16",
+    "sector": "1",
+    "history_observed": 5886,
+    "history_hidden": 0,
+    "test_observed": 894,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "NR",
+    "station": "Site 16",
+    "sector": "1",
+    "history_observed": 5886,
+    "history_hidden": 566,
+    "test_observed": 894,
+    "test_hidden": 86
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "NR",
+    "station": "Site 16",
+    "sector": "1",
+    "history_observed": 5886,
+    "history_hidden": 246,
+    "test_observed": 894,
+    "test_hidden": 38
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "NR",
+    "station": "Site 16",
+    "sector": "1",
+    "history_observed": 5886,
+    "history_hidden": 0,
+    "test_observed": 894,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "NR",
+    "station": "Site 16",
+    "sector": "2",
+    "history_observed": 5886,
+    "history_hidden": 0,
+    "test_observed": 894,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "NR",
+    "station": "Site 16",
+    "sector": "2",
+    "history_observed": 5886,
+    "history_hidden": 593,
+    "test_observed": 894,
+    "test_hidden": 91
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "NR",
+    "station": "Site 16",
+    "sector": "2",
+    "history_observed": 5886,
+    "history_hidden": 244,
+    "test_observed": 894,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "NR",
+    "station": "Site 16",
+    "sector": "2",
+    "history_observed": 5886,
+    "history_hidden": 0,
+    "test_observed": 894,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "NR",
+    "station": "Site 22",
+    "sector": "1",
+    "history_observed": 5895,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "NR",
+    "station": "Site 22",
+    "sector": "1",
+    "history_observed": 5895,
+    "history_hidden": 557,
+    "test_observed": 893,
+    "test_hidden": 83
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "NR",
+    "station": "Site 22",
+    "sector": "1",
+    "history_observed": 5895,
+    "history_hidden": 240,
+    "test_observed": 893,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "NR",
+    "station": "Site 22",
+    "sector": "1",
+    "history_observed": 5895,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "NR",
+    "station": "Site 22",
+    "sector": "2",
+    "history_observed": 5895,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "NR",
+    "station": "Site 22",
+    "sector": "2",
+    "history_observed": 5895,
+    "history_hidden": 602,
+    "test_observed": 893,
+    "test_hidden": 95
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "NR",
+    "station": "Site 22",
+    "sector": "2",
+    "history_observed": 5895,
+    "history_hidden": 244,
+    "test_observed": 893,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "NR",
+    "station": "Site 22",
+    "sector": "2",
+    "history_observed": 5895,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "NR",
+    "station": "Site 5",
+    "sector": "1",
+    "history_observed": 5895,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "NR",
+    "station": "Site 5",
+    "sector": "1",
+    "history_observed": 5895,
+    "history_hidden": 640,
+    "test_observed": 893,
+    "test_hidden": 111
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "NR",
+    "station": "Site 5",
+    "sector": "1",
+    "history_observed": 5895,
+    "history_hidden": 244,
+    "test_observed": 893,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "NR",
+    "station": "Site 5",
+    "sector": "1",
+    "history_observed": 5895,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "NR",
+    "station": "Site 5",
+    "sector": "2",
+    "history_observed": 5895,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "NR",
+    "station": "Site 5",
+    "sector": "2",
+    "history_observed": 5895,
+    "history_hidden": 616,
+    "test_observed": 893,
+    "test_hidden": 88
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "NR",
+    "station": "Site 5",
+    "sector": "2",
+    "history_observed": 5895,
+    "history_hidden": 238,
+    "test_observed": 893,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "NR",
+    "station": "Site 5",
+    "sector": "2",
+    "history_observed": 5895,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "NR",
+    "station": "Site 53",
+    "sector": "1",
+    "history_observed": 5897,
+    "history_hidden": 0,
+    "test_observed": 894,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "NR",
+    "station": "Site 53",
+    "sector": "1",
+    "history_observed": 5897,
+    "history_hidden": 590,
+    "test_observed": 894,
+    "test_hidden": 92
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "NR",
+    "station": "Site 53",
+    "sector": "1",
+    "history_observed": 5897,
+    "history_hidden": 244,
+    "test_observed": 894,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "NR",
+    "station": "Site 53",
+    "sector": "1",
+    "history_observed": 5897,
+    "history_hidden": 0,
+    "test_observed": 894,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "NR",
+    "station": "Site 53",
+    "sector": "2",
+    "history_observed": 5897,
+    "history_hidden": 0,
+    "test_observed": 894,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "NR",
+    "station": "Site 53",
+    "sector": "2",
+    "history_observed": 5897,
+    "history_hidden": 558,
+    "test_observed": 894,
+    "test_hidden": 77
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "NR",
+    "station": "Site 53",
+    "sector": "2",
+    "history_observed": 5897,
+    "history_hidden": 248,
+    "test_observed": 894,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "NR",
+    "station": "Site 53",
+    "sector": "2",
+    "history_observed": 5897,
+    "history_hidden": 0,
+    "test_observed": 894,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "NR",
+    "station": "Site 7",
+    "sector": "1",
+    "history_observed": 5895,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "NR",
+    "station": "Site 7",
+    "sector": "1",
+    "history_observed": 5895,
+    "history_hidden": 589,
+    "test_observed": 893,
+    "test_hidden": 96
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "NR",
+    "station": "Site 7",
+    "sector": "1",
+    "history_observed": 5895,
+    "history_hidden": 244,
+    "test_observed": 893,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "NR",
+    "station": "Site 7",
+    "sector": "1",
+    "history_observed": 5895,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "technology": "NR",
+    "station": "Site 7",
+    "sector": "2",
+    "history_observed": 5895,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "technology": "NR",
+    "station": "Site 7",
+    "sector": "2",
+    "history_observed": 5895,
+    "history_hidden": 591,
+    "test_observed": 893,
+    "test_hidden": 73
+  },
+  {
+    "scenario": "synthetic_hour",
+    "technology": "NR",
+    "station": "Site 7",
+    "sector": "2",
+    "history_observed": 5895,
+    "history_hidden": 240,
+    "test_observed": 893,
+    "test_hidden": 36
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "technology": "NR",
+    "station": "Site 7",
+    "sector": "2",
+    "history_observed": 5895,
+    "history_hidden": 0,
+    "test_observed": 893,
+    "test_hidden": 0
+  }
+]

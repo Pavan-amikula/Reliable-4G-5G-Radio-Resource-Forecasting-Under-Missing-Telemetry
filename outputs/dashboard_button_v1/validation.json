@@ -1,0 +1,13 @@
+{
+  "change": "Explicit forecast submission and visible loading/completion status",
+  "browser_checks": [
+    "Selection change preserves previous result and prompts submission",
+    "Show forecast loads selected 5G Site 53 sector 1",
+    "Show forecast applies hidden-latest-30-minutes fallback"
+  ],
+  "automated_tests_passed": 41,
+  "source_sha256": {
+    "networkprb/static/app.js": "57795a3a974568bbb345c88d9df74373abf687a9ca5fed705227de79a3c6c944",
+    "networkprb/static/index.html": "94e679f57872dfef7731e9e237117396a367aacbb1c8cf50f123bcde8901b9f0"
+  }
+}

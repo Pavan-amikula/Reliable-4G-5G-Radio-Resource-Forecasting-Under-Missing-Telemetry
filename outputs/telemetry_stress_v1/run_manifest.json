@@ -1,0 +1,85 @@
+{
+  "status": "complete",
+  "seed": 20261017,
+  "scenarios": [
+    "clean_observed_origins",
+    "synthetic_drop10",
+    "synthetic_hour",
+    "natural_missing_origins"
+  ],
+  "masking": "Synthetic masks applied to history copies only, on all original observed timestamps. Recompute exact lags, trailing mean/count, missing flags and age from surviving history. Stable SHA256 schedule independent of values and shared across technologies for each station/sector.",
+  "synthetic_drop10": "Independently scheduled approximately 10% of observed time slots hidden; coincident consecutive drops possible.",
+  "synthetic_hour": "One deterministic UTC hour (four clock slots) hidden per station/sector/date, scheduled between 06:00 and 20:00 inclusive.",
+  "natural_missing_origins": "Original missing-current origins with observed future answer; no injected mask. Separate population, not paired with synthetic/clean rows.",
+  "population": "Final-time test only, shared existing boundaries; purge labels reaching end. Synthetic and clean scenarios have identical originally observed-current origins and measured future labels. Natural analysis includes missing-current origins on first-to-last grid with measured future labels. Exclude missing future labels, never fabricate ground truth.",
+  "model_policy": "Frozen tuning-selected point model and existing calibrated quantiles, no training, tuning, recalibration or parameter search. Stress coverage is diagnostic under changed inputs, not a guaranteed interval.",
+  "fallback": "Fresh current: model point/range. Missing current: last observed utilization only if age <= 60 min, labeled stale; no interval. Older or absent history: no point or interval. Fixed illustrative operational threshold, not optimized or operationally validated.",
+  "max_stale_minutes": 60,
+  "features": [
+    "current_pct",
+    "lag_15_pct",
+    "lag_30_pct",
+    "lag_60_pct",
+    "lag_1440_pct",
+    "lag_10080_pct",
+    "observed_last_hour",
+    "mean_observed_last_hour",
+    "age_minutes",
+    "current_pct_missing",
+    "lag_15_pct_missing",
+    "lag_30_pct_missing",
+    "lag_60_pct_missing",
+    "lag_1440_pct_missing",
+    "lag_10080_pct_missing",
+    "observed_last_hour_missing",
+    "mean_observed_last_hour_missing",
+    "age_minutes_missing",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos"
+  ],
+  "splits": [
+    {
+      "name": "train",
+      "start_inclusive": "2025-02-07T19:45:00+00:00",
+      "end_exclusive": "2025-03-01T00:00:00+00:00"
+    },
+    {
+      "name": "tuning",
+      "start_inclusive": "2025-03-01T00:00:00+00:00",
+      "end_exclusive": "2025-04-12T00:00:00+00:00"
+    },
+    {
+      "name": "calibration",
+      "start_inclusive": "2025-04-12T00:00:00+00:00",
+      "end_exclusive": "2025-04-26T00:00:00+00:00"
+    },
+    {
+      "name": "test",
+      "start_inclusive": "2025-04-26T00:00:00+00:00",
+      "end_exclusive": "2025-05-05T07:30:00+00:00"
+    }
+  ],
+  "station_holdout": "Site 53",
+  "script_sha256": "ed624224ff808e3116744c574a7bac453e77dcfc60b19f702f4dafd7f909b4ad",
+  "interval_manifest_sha256": "1b77b5ac5592386cf04fc5f2c1135e8415fc75e277221704baff4ea6ed6c3ee3",
+  "source_database_sha256": "0b7b90e91381e41efc506ab9c6c29ae15deddbab1c0141c76dbc519f2cffeaf6",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "lightgbm": "4.7.0"
+  },
+  "threads": 2,
+  "elapsed_seconds": 17.19188659999054,
+  "artifacts_sha256": {
+    "forecasts.csv.gz": "fac280f2a34ba59dc26fc8edc3a2e25c467a5094e94443c39b050ca7cc592701",
+    "masks.json": "895c737bcd41e0e088af4f3690d13e0e6171cc4c08e040b9a8c841f677a06236",
+    "metrics.json": "b0492e4b43776f23908c106ad00be111773884c8226255ba5d7a36f5b4de1b91",
+    "policy.json": "c0a2740a9762fb1ae4dd44496fc3f69796a8b6df7818740c91afe0c3a251f9d4",
+    "populations.json": "111d94498461cdc2d227ba4844230052c7a655f14fbaa2d210df3d3dc0e49053",
+    "Results.md": "cae5ffb2fe0d3dcf306b2b0f4622f2d9747f0d74ad577d737a9d28ebae74c32d"
+  }
+}

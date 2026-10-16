@@ -1,0 +1,335 @@
+{
+  "source_manifest_sha256": "50e649010ada6a5a321a01e7a1600211f748f105378cc72f3c10afab1114e548",
+  "source_database_sha256": "0b7b90e91381e41efc506ab9c6c29ae15deddbab1c0141c76dbc519f2cffeaf6",
+  "source_features_sha256": "cf96e23b1822955a092ef4228de7ed5e2031938b6445d77e9c2ad1ac193324c4",
+  "builder_sha256": "25d7e773ec1d2451b3938ec85c7ee95b275c252b44c8748c53cd0ec6574ee734",
+  "grid_rows_read": 166032,
+  "counts_by_horizon": {
+    "15": {
+      "development/train_15m": 31516,
+      "boundary_or_outside": 68,
+      "development/tuning_15m": 25340,
+      "missing_future_target": 416,
+      "missing_current": 40795,
+      "development/calibration_15m": 20847,
+      "development/test_15m": 13997,
+      "holdout_non_test": 29624,
+      "station_holdout/test_15m": 3429
+    },
+    "30": {
+      "development/train_30m": 31409,
+      "boundary_or_outside": 148,
+      "development/tuning_30m": 25236,
+      "missing_future_target": 702,
+      "missing_current": 40795,
+      "development/calibration_30m": 20764,
+      "development/test_30m": 13953,
+      "holdout_non_test": 29612,
+      "station_holdout/test_30m": 3413
+    },
+    "60": {
+      "development/train_60m": 31266,
+      "boundary_or_outside": 308,
+      "development/tuning_60m": 25103,
+      "missing_future_target": 1045,
+      "missing_current": 40795,
+      "development/calibration_60m": 20642,
+      "development/test_60m": 13896,
+      "holdout_non_test": 29588,
+      "station_holdout/test_60m": 3389
+    }
+  },
+  "missing_inputs_by_file": {
+    "development/train_15m": {
+      "lag_15_pct": 127,
+      "lag_30_pct": 213,
+      "lag_60_pct": 351,
+      "lag_1440_pct": 1755,
+      "lag_10080_pct": 10604
+    },
+    "development/train_30m": {
+      "lag_15_pct": 106,
+      "lag_30_pct": 193,
+      "lag_60_pct": 332,
+      "lag_1440_pct": 1721,
+      "lag_10080_pct": 10545
+    },
+    "development/train_60m": {
+      "lag_15_pct": 102,
+      "lag_30_pct": 189,
+      "lag_60_pct": 330,
+      "lag_1440_pct": 1701,
+      "lag_10080_pct": 10493
+    },
+    "development/tuning_15m": {
+      "lag_15_pct": 142,
+      "lag_30_pct": 214,
+      "lag_60_pct": 306,
+      "lag_1440_pct": 1760,
+      "lag_10080_pct": 10254
+    },
+    "development/tuning_30m": {
+      "lag_15_pct": 124,
+      "lag_30_pct": 190,
+      "lag_60_pct": 294,
+      "lag_1440_pct": 1733,
+      "lag_10080_pct": 10202
+    },
+    "development/tuning_60m": {
+      "lag_15_pct": 121,
+      "lag_30_pct": 200,
+      "lag_60_pct": 308,
+      "lag_1440_pct": 1720,
+      "lag_10080_pct": 10142
+    },
+    "development/calibration_15m": {
+      "lag_10080_pct": 763,
+      "lag_15_pct": 88,
+      "lag_60_pct": 231,
+      "lag_30_pct": 144,
+      "lag_1440_pct": 319
+    },
+    "development/calibration_30m": {
+      "lag_10080_pct": 746,
+      "lag_15_pct": 81,
+      "lag_30_pct": 140,
+      "lag_60_pct": 223,
+      "lag_1440_pct": 303
+    },
+    "development/calibration_60m": {
+      "lag_10080_pct": 735,
+      "lag_15_pct": 79,
+      "lag_30_pct": 134,
+      "lag_60_pct": 224,
+      "lag_1440_pct": 288
+    },
+    "development/test_15m": {
+      "lag_15_pct": 43,
+      "lag_30_pct": 59,
+      "lag_1440_pct": 110,
+      "lag_60_pct": 88,
+      "lag_10080_pct": 179
+    },
+    "development/test_30m": {
+      "lag_15_pct": 31,
+      "lag_30_pct": 54,
+      "lag_1440_pct": 98,
+      "lag_60_pct": 80,
+      "lag_10080_pct": 165
+    },
+    "development/test_60m": {
+      "lag_15_pct": 33,
+      "lag_30_pct": 53,
+      "lag_60_pct": 81,
+      "lag_1440_pct": 97,
+      "lag_10080_pct": 157
+    },
+    "station_holdout/test_15m": {
+      "lag_1440_pct": 69,
+      "lag_10080_pct": 82,
+      "lag_15_pct": 14,
+      "lag_30_pct": 24,
+      "lag_60_pct": 40
+    },
+    "station_holdout/test_30m": {
+      "lag_1440_pct": 67,
+      "lag_10080_pct": 78,
+      "lag_15_pct": 12,
+      "lag_30_pct": 23,
+      "lag_60_pct": 38
+    },
+    "station_holdout/test_60m": {
+      "lag_1440_pct": 69,
+      "lag_10080_pct": 76,
+      "lag_15_pct": 12,
+      "lag_30_pct": 24,
+      "lag_60_pct": 41
+    }
+  },
+  "examples": {
+    "15": {
+      "technology": "LTE",
+      "band_mhz": "1800",
+      "station": "Site 16",
+      "sector": "1",
+      "role": "development",
+      "current_pct": "27.1",
+      "lag_15_pct": "29.9",
+      "lag_30_pct": "28.33",
+      "lag_60_pct": "42.24",
+      "lag_1440_pct": "",
+      "lag_10080_pct": "",
+      "observed_last_hour": "4",
+      "mean_observed_last_hour": "27.8675",
+      "age_minutes": "0",
+      "current_pct_missing": 0,
+      "lag_15_pct_missing": 0,
+      "lag_30_pct_missing": 0,
+      "lag_60_pct_missing": 0,
+      "lag_1440_pct_missing": 1,
+      "lag_10080_pct_missing": 1,
+      "observed_last_hour_missing": 0,
+      "mean_observed_last_hour_missing": 0,
+      "age_minutes_missing": 0,
+      "hour_sin": -0.555570233019603,
+      "hour_cos": 0.8314696123025447,
+      "weekday_sin": -0.433883739117558,
+      "weekday_cos": -0.9009688679024191,
+      "split": "train",
+      "origin_utc": "2025-02-07T21:45:00+00:00",
+      "target_utc": "2025-02-07T22:00:00+00:00",
+      "horizon_minutes": 15,
+      "target_utilization_pct": 25.86,
+      "target_provenance": "observed"
+    },
+    "30": {
+      "technology": "LTE",
+      "band_mhz": "1800",
+      "station": "Site 16",
+      "sector": "1",
+      "role": "development",
+      "current_pct": "27.1",
+      "lag_15_pct": "29.9",
+      "lag_30_pct": "28.33",
+      "lag_60_pct": "42.24",
+      "lag_1440_pct": "",
+      "lag_10080_pct": "",
+      "observed_last_hour": "4",
+      "mean_observed_last_hour": "27.8675",
+      "age_minutes": "0",
+      "current_pct_missing": 0,
+      "lag_15_pct_missing": 0,
+      "lag_30_pct_missing": 0,
+      "lag_60_pct_missing": 0,
+      "lag_1440_pct_missing": 1,
+      "lag_10080_pct_missing": 1,
+      "observed_last_hour_missing": 0,
+      "mean_observed_last_hour_missing": 0,
+      "age_minutes_missing": 0,
+      "hour_sin": -0.555570233019603,
+      "hour_cos": 0.8314696123025447,
+      "weekday_sin": -0.433883739117558,
+      "weekday_cos": -0.9009688679024191,
+      "split": "train",
+      "origin_utc": "2025-02-07T21:45:00+00:00",
+      "target_utc": "2025-02-07T22:15:00+00:00",
+      "horizon_minutes": 30,
+      "target_utilization_pct": 29.94,
+      "target_provenance": "observed"
+    },
+    "60": {
+      "technology": "LTE",
+      "band_mhz": "1800",
+      "station": "Site 16",
+      "sector": "1",
+      "role": "development",
+      "current_pct": "27.1",
+      "lag_15_pct": "29.9",
+      "lag_30_pct": "28.33",
+      "lag_60_pct": "42.24",
+      "lag_1440_pct": "",
+      "lag_10080_pct": "",
+      "observed_last_hour": "4",
+      "mean_observed_last_hour": "27.8675",
+      "age_minutes": "0",
+      "current_pct_missing": 0,
+      "lag_15_pct_missing": 0,
+      "lag_30_pct_missing": 0,
+      "lag_60_pct_missing": 0,
+      "lag_1440_pct_missing": 1,
+      "lag_10080_pct_missing": 1,
+      "observed_last_hour_missing": 0,
+      "mean_observed_last_hour_missing": 0,
+      "age_minutes_missing": 0,
+      "hour_sin": -0.555570233019603,
+      "hour_cos": 0.8314696123025447,
+      "weekday_sin": -0.433883739117558,
+      "weekday_cos": -0.9009688679024191,
+      "split": "train",
+      "origin_utc": "2025-02-07T21:45:00+00:00",
+      "target_utc": "2025-02-07T22:45:00+00:00",
+      "horizon_minutes": 60,
+      "target_utilization_pct": 20.36,
+      "target_provenance": "observed"
+    }
+  },
+  "input_columns": [
+    "current_pct",
+    "lag_15_pct",
+    "lag_30_pct",
+    "lag_60_pct",
+    "lag_1440_pct",
+    "lag_10080_pct",
+    "observed_last_hour",
+    "mean_observed_last_hour",
+    "age_minutes",
+    "current_pct_missing",
+    "lag_15_pct_missing",
+    "lag_30_pct_missing",
+    "lag_60_pct_missing",
+    "lag_1440_pct_missing",
+    "lag_10080_pct_missing",
+    "observed_last_hour_missing",
+    "mean_observed_last_hour_missing",
+    "age_minutes_missing",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos"
+  ],
+  "metadata_columns_not_model_inputs": [
+    "technology",
+    "band_mhz",
+    "station",
+    "sector",
+    "role",
+    "split",
+    "origin_utc",
+    "target_utc",
+    "horizon_minutes",
+    "target_provenance"
+  ],
+  "label_column": "target_utilization_pct",
+  "policy": "Observed current reading required (same availability as persistence). Exact future labels, same series only. Missing lags stay blank with flags. No filling, scaling or fitting. Shared original cutoffs, labels at/after split end purged. Holdout has final-test tables only. Prior history may cross a split start; future labels cannot cross its end. Metadata and label must never enter model inputs.",
+  "splits": [
+    {
+      "name": "train",
+      "start_inclusive": "2025-02-07T19:45:00+00:00",
+      "end_exclusive": "2025-03-01T00:00:00+00:00"
+    },
+    {
+      "name": "tuning",
+      "start_inclusive": "2025-03-01T00:00:00+00:00",
+      "end_exclusive": "2025-04-12T00:00:00+00:00"
+    },
+    {
+      "name": "calibration",
+      "start_inclusive": "2025-04-12T00:00:00+00:00",
+      "end_exclusive": "2025-04-26T00:00:00+00:00"
+    },
+    {
+      "name": "test",
+      "start_inclusive": "2025-04-26T00:00:00+00:00",
+      "end_exclusive": "2025-05-05T07:30:00+00:00"
+    }
+  ],
+  "station_holdout": "Site 53",
+  "time_policy": "UTC publisher timestamps; assume each counter is available at its timestamp. Interval start/end and export delay are not confirmed. This is an idealized replay availability assumption.",
+  "files": {
+    "development\\calibration_15m.csv.gz": "a7328fc7dc64b7cb3bedf99eb46c0332cd4be1ec7de06acf7a0e12ddeec6163b",
+    "development\\calibration_30m.csv.gz": "c2f3c15321922e9631841101a0be42ba5356369dce3fb9d351e979bade797a9b",
+    "development\\calibration_60m.csv.gz": "424ad3252d33c66bf2292da5351aea52cc1c4675fe7a4f3c4ada03098e4f5f42",
+    "development\\test_15m.csv.gz": "b840a1978503b9e5537b2b0575074455b458eb8fdc70b39ef1c60fb97a729e34",
+    "development\\test_30m.csv.gz": "4d4f4970140060ee64588b301891e53c3fa4e68eba0c57f9c606bc8928c11084",
+    "development\\test_60m.csv.gz": "bbf49d814e21530657e1cb1f1360b394f9c76c84734c0e271c87fd588d998cf6",
+    "development\\train_15m.csv.gz": "23f37adc7aac877f32ccdf4f807437a735bfcddd7f2c7dc734302a9f12a323c1",
+    "development\\train_30m.csv.gz": "ceed3acad6545f00d8190bef872387bd1c9442e9322b532750931ede9f592f3d",
+    "development\\train_60m.csv.gz": "89421825477a4dcaee93d1817a5879213988106e9e3fe3de9e3fee70e3585c5a",
+    "development\\tuning_15m.csv.gz": "4d95fce69ba865f80cbc1827854987a988e25a805479854b4a96f75956cc7775",
+    "development\\tuning_30m.csv.gz": "3d95db24905c1463d7dff6f7d990084a397616e44ef857cf6540fa5f37a66f03",
+    "development\\tuning_60m.csv.gz": "819a3319c2da25a8e94eac2deab01b4432c30b3279b6a28674c6d193a39f083b",
+    "station_holdout\\test_15m.csv.gz": "e1c8cb3237973a9d87127ce3cd02bcd944dc59fece3284a37abffccaa01829c5",
+    "station_holdout\\test_30m.csv.gz": "0173ca360fbad8c112aef6ab372ddfe52b00d9ff76c5495a7657a2331f614f94",
+    "station_holdout\\test_60m.csv.gz": "ebb4dc6ba818524ca7cac5fddcc4810444f784a5240129fd716395fd295516df"
+  }
+}

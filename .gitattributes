@@ -1,0 +1,3 @@
+# Preserve exact artifact and source bytes across clones.
+# Saved experiment fingerprints depend on the original line endings.
+* -text

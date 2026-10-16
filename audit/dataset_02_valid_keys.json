@@ -1,0 +1,22 @@
+{
+  "Dataset_02/Baseband_02/Dataset_02_NR_2100.csv": {
+    "target": "5G RB utilization",
+    "valid_rows": 690499,
+    "unique_valid_keys": 690499,
+    "keys_with_multiple_valid_rows": 0,
+    "valid_conflict_encounters": 0,
+    "max_valid_multiplicity": 1,
+    "sites_with_target": 59,
+    "station_sector_with_target": 174
+  },
+  "Dataset_02/Baseband_02/Dataset_02_LTE_1800.csv": {
+    "target": "4G RB utilization",
+    "valid_rows": 643732,
+    "unique_valid_keys": 643732,
+    "keys_with_multiple_valid_rows": 0,
+    "valid_conflict_encounters": 0,
+    "max_valid_multiplicity": 1,
+    "sites_with_target": 59,
+    "station_sector_with_target": 174
+  }
+}

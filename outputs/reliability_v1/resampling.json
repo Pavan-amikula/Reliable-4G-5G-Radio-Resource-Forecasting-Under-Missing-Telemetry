@@ -1,0 +1,632 @@
+[
+  {
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "n": 6859,
+    "stations": [
+      "Site 16",
+      "Site 22",
+      "Site 5",
+      "Site 7"
+    ],
+    "calendar_dates": [
+      "2025-04-26",
+      "2025-04-27",
+      "2025-04-28",
+      "2025-04-29",
+      "2025-04-30",
+      "2025-05-01",
+      "2025-05-02",
+      "2025-05-03",
+      "2025-05-04",
+      "2025-05-05"
+    ],
+    "station_count": 4,
+    "date_count": 10,
+    "valid_draws": 500,
+    "summaries": {
+      "error_difference_pp": {
+        "estimate": -0.22266084576515444,
+        "resampling_low": -0.3586635088947046,
+        "resampling_high": -0.07948776720116361
+      },
+      "model_mae_pp": {
+        "estimate": 3.393210272473655,
+        "resampling_low": 2.563538999997662,
+        "resampling_high": 4.737962046343603
+      },
+      "persistence_mae_pp": {
+        "estimate": 3.6158711182388097,
+        "resampling_low": 2.81260435272822,
+        "resampling_high": 4.863986976345726
+      },
+      "interval_coverage": {
+        "estimate": 0.9117947222627205,
+        "resampling_low": 0.8849007552634143,
+        "resampling_high": 0.9276608591564619
+      },
+      "mean_width_pp": {
+        "estimate": 14.136642267764264,
+        "resampling_low": 11.247638117386105,
+        "resampling_high": 18.81924437842295
+      }
+    }
+  },
+  {
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "n": 6823,
+    "stations": [
+      "Site 16",
+      "Site 22",
+      "Site 5",
+      "Site 7"
+    ],
+    "calendar_dates": [
+      "2025-04-26",
+      "2025-04-27",
+      "2025-04-28",
+      "2025-04-29",
+      "2025-04-30",
+      "2025-05-01",
+      "2025-05-02",
+      "2025-05-03",
+      "2025-05-04",
+      "2025-05-05"
+    ],
+    "station_count": 4,
+    "date_count": 10,
+    "valid_draws": 500,
+    "summaries": {
+      "error_difference_pp": {
+        "estimate": -0.46923583366242183,
+        "resampling_low": -0.6287858489789845,
+        "resampling_high": -0.33512481799280813
+      },
+      "model_mae_pp": {
+        "estimate": 3.9669681821663927,
+        "resampling_low": 2.9315193683149494,
+        "resampling_high": 5.6722551416816405
+      },
+      "persistence_mae_pp": {
+        "estimate": 4.436204015828815,
+        "resampling_low": 3.387163593332611,
+        "resampling_high": 6.198780850936368
+      },
+      "interval_coverage": {
+        "estimate": 0.908251502271728,
+        "resampling_low": 0.8736593788239816,
+        "resampling_high": 0.9288219109819971
+      },
+      "mean_width_pp": {
+        "estimate": 16.571592238310387,
+        "resampling_low": 13.045048787174062,
+        "resampling_high": 22.180475407041857
+      }
+    }
+  },
+  {
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "n": 6782,
+    "stations": [
+      "Site 16",
+      "Site 22",
+      "Site 5",
+      "Site 7"
+    ],
+    "calendar_dates": [
+      "2025-04-26",
+      "2025-04-27",
+      "2025-04-28",
+      "2025-04-29",
+      "2025-04-30",
+      "2025-05-01",
+      "2025-05-02",
+      "2025-05-03",
+      "2025-05-04",
+      "2025-05-05"
+    ],
+    "station_count": 4,
+    "date_count": 10,
+    "valid_draws": 500,
+    "summaries": {
+      "error_difference_pp": {
+        "estimate": -0.8910290315141597,
+        "resampling_low": -1.3187227936535213,
+        "resampling_high": -0.5885854295670604
+      },
+      "model_mae_pp": {
+        "estimate": 4.39570791923783,
+        "resampling_low": 3.1782400046760086,
+        "resampling_high": 6.369510116943699
+      },
+      "persistence_mae_pp": {
+        "estimate": 5.2867369507519895,
+        "resampling_low": 3.9060842276022765,
+        "resampling_high": 7.59978247609891
+      },
+      "interval_coverage": {
+        "estimate": 0.9065172515482158,
+        "resampling_low": 0.8654885531503199,
+        "resampling_high": 0.9314942797364673
+      },
+      "mean_width_pp": {
+        "estimate": 18.10576666680264,
+        "resampling_low": 14.139959413160588,
+        "resampling_high": 24.48483664346142
+      }
+    }
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "n": 7138,
+    "stations": [
+      "Site 16",
+      "Site 22",
+      "Site 5",
+      "Site 7"
+    ],
+    "calendar_dates": [
+      "2025-04-26",
+      "2025-04-27",
+      "2025-04-28",
+      "2025-04-29",
+      "2025-04-30",
+      "2025-05-01",
+      "2025-05-02",
+      "2025-05-03",
+      "2025-05-04",
+      "2025-05-05"
+    ],
+    "station_count": 4,
+    "date_count": 10,
+    "valid_draws": 500,
+    "summaries": {
+      "error_difference_pp": {
+        "estimate": -0.07598416728906036,
+        "resampling_low": -0.1659908735738418,
+        "resampling_high": -0.023610423835370275
+      },
+      "model_mae_pp": {
+        "estimate": 1.3345145718535567,
+        "resampling_low": 0.6758550974536209,
+        "resampling_high": 2.7389866342734015
+      },
+      "persistence_mae_pp": {
+        "estimate": 1.4104987391426171,
+        "resampling_low": 0.7011529488789864,
+        "resampling_high": 2.881489388020832
+      },
+      "interval_coverage": {
+        "estimate": 0.9117399831885682,
+        "resampling_low": 0.8694563802083333,
+        "resampling_high": 0.9365635794121481
+      },
+      "mean_width_pp": {
+        "estimate": 5.069081290715677,
+        "resampling_low": 2.557660948538609,
+        "resampling_high": 10.212977369693657
+      }
+    }
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "n": 7130,
+    "stations": [
+      "Site 16",
+      "Site 22",
+      "Site 5",
+      "Site 7"
+    ],
+    "calendar_dates": [
+      "2025-04-26",
+      "2025-04-27",
+      "2025-04-28",
+      "2025-04-29",
+      "2025-04-30",
+      "2025-05-01",
+      "2025-05-02",
+      "2025-05-03",
+      "2025-05-04",
+      "2025-05-05"
+    ],
+    "station_count": 4,
+    "date_count": 10,
+    "valid_draws": 500,
+    "summaries": {
+      "error_difference_pp": {
+        "estimate": -0.17686938941516003,
+        "resampling_low": -0.3737296836610247,
+        "resampling_high": -0.07730073599078811
+      },
+      "model_mae_pp": {
+        "estimate": 1.5632862908092442,
+        "resampling_low": 0.7700941467275891,
+        "resampling_high": 3.263566434458337
+      },
+      "persistence_mae_pp": {
+        "estimate": 1.740155680224404,
+        "resampling_low": 0.8520536260261349,
+        "resampling_high": 3.595993684895832
+      },
+      "interval_coverage": {
+        "estimate": 0.9172510518934082,
+        "resampling_low": 0.8832076868444055,
+        "resampling_high": 0.9400230963045912
+      },
+      "mean_width_pp": {
+        "estimate": 6.02407677572228,
+        "resampling_low": 2.937631891203005,
+        "resampling_high": 12.495138200675525
+      }
+    }
+  },
+  {
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "n": 7114,
+    "stations": [
+      "Site 16",
+      "Site 22",
+      "Site 5",
+      "Site 7"
+    ],
+    "calendar_dates": [
+      "2025-04-26",
+      "2025-04-27",
+      "2025-04-28",
+      "2025-04-29",
+      "2025-04-30",
+      "2025-05-01",
+      "2025-05-02",
+      "2025-05-03",
+      "2025-05-04",
+      "2025-05-05"
+    ],
+    "station_count": 4,
+    "date_count": 10,
+    "valid_draws": 500,
+    "summaries": {
+      "error_difference_pp": {
+        "estimate": -0.3001765854857135,
+        "resampling_low": -0.7555636938747785,
+        "resampling_high": -0.09160458167188633
+      },
+      "model_mae_pp": {
+        "estimate": 1.7066311176348938,
+        "resampling_low": 0.8241440830782679,
+        "resampling_high": 3.513367861246937
+      },
+      "persistence_mae_pp": {
+        "estimate": 2.0068077031206073,
+        "resampling_low": 0.9187791380572391,
+        "resampling_high": 4.2952685546875
+      },
+      "interval_coverage": {
+        "estimate": 0.9127073376440821,
+        "resampling_low": 0.8677701822916666,
+        "resampling_high": 0.938841808858551
+      },
+      "mean_width_pp": {
+        "estimate": 6.443954737917736,
+        "resampling_low": 3.227897764114316,
+        "resampling_high": 13.190248955010292
+      }
+    }
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "n": 1643,
+    "stations": [
+      "Site 53"
+    ],
+    "calendar_dates": [
+      "2025-04-26",
+      "2025-04-27",
+      "2025-04-28",
+      "2025-04-29",
+      "2025-04-30",
+      "2025-05-01",
+      "2025-05-02",
+      "2025-05-03",
+      "2025-05-04",
+      "2025-05-05"
+    ],
+    "station_count": 1,
+    "date_count": 10,
+    "valid_draws": 500,
+    "summaries": {
+      "error_difference_pp": {
+        "estimate": -0.05148884410941434,
+        "resampling_low": -0.16845447404396524,
+        "resampling_high": 0.05277526345371341
+      },
+      "model_mae_pp": {
+        "estimate": 2.326746091983099,
+        "resampling_low": 2.1410085517348167,
+        "resampling_high": 2.5691377133869837
+      },
+      "persistence_mae_pp": {
+        "estimate": 2.3782349360925132,
+        "resampling_low": 2.154417515515645,
+        "resampling_high": 2.6376668798130227
+      },
+      "interval_coverage": {
+        "estimate": 0.9269628727936701,
+        "resampling_low": 0.9172211050724638,
+        "resampling_high": 0.93646408839779
+      },
+      "mean_width_pp": {
+        "estimate": 10.555062825640142,
+        "resampling_low": 9.468256410088832,
+        "resampling_high": 11.93911644251235
+      }
+    }
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "n": 1629,
+    "stations": [
+      "Site 53"
+    ],
+    "calendar_dates": [
+      "2025-04-26",
+      "2025-04-27",
+      "2025-04-28",
+      "2025-04-29",
+      "2025-04-30",
+      "2025-05-01",
+      "2025-05-02",
+      "2025-05-03",
+      "2025-05-04",
+      "2025-05-05"
+    ],
+    "station_count": 1,
+    "date_count": 10,
+    "valid_draws": 500,
+    "summaries": {
+      "error_difference_pp": {
+        "estimate": -0.1221953707177352,
+        "resampling_low": -0.24814640423042217,
+        "resampling_high": 0.006345926503242418
+      },
+      "model_mae_pp": {
+        "estimate": 2.8404074531005583,
+        "resampling_low": 2.576971055009068,
+        "resampling_high": 3.1960979446155604
+      },
+      "persistence_mae_pp": {
+        "estimate": 2.9626028238182935,
+        "resampling_low": 2.5966027095277093,
+        "resampling_high": 3.424496432979185
+      },
+      "interval_coverage": {
+        "estimate": 0.9361571516267649,
+        "resampling_low": 0.926786415212587,
+        "resampling_high": 0.9431469112909641
+      },
+      "mean_width_pp": {
+        "estimate": 12.546473703832,
+        "resampling_low": 11.462485877708662,
+        "resampling_high": 13.938042090932916
+      }
+    }
+  },
+  {
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "n": 1609,
+    "stations": [
+      "Site 53"
+    ],
+    "calendar_dates": [
+      "2025-04-26",
+      "2025-04-27",
+      "2025-04-28",
+      "2025-04-29",
+      "2025-04-30",
+      "2025-05-01",
+      "2025-05-02",
+      "2025-05-03",
+      "2025-05-04",
+      "2025-05-05"
+    ],
+    "station_count": 1,
+    "date_count": 10,
+    "valid_draws": 500,
+    "summaries": {
+      "error_difference_pp": {
+        "estimate": -0.20064473112804734,
+        "resampling_low": -0.5291212935638898,
+        "resampling_high": 0.12917455088708346
+      },
+      "model_mae_pp": {
+        "estimate": 3.275452223502159,
+        "resampling_low": 2.9797756747221604,
+        "resampling_high": 3.6428830328095847
+      },
+      "persistence_mae_pp": {
+        "estimate": 3.476096954630206,
+        "resampling_low": 2.899247512437811,
+        "resampling_high": 4.120496858937751
+      },
+      "interval_coverage": {
+        "estimate": 0.927905531385954,
+        "resampling_low": 0.9174876847290641,
+        "resampling_high": 0.9388676079523869
+      },
+      "mean_width_pp": {
+        "estimate": 13.771561253463219,
+        "resampling_low": 12.516935319376385,
+        "resampling_high": 15.231151585357608
+      }
+    }
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "n": 1786,
+    "stations": [
+      "Site 53"
+    ],
+    "calendar_dates": [
+      "2025-04-26",
+      "2025-04-27",
+      "2025-04-28",
+      "2025-04-29",
+      "2025-04-30",
+      "2025-05-01",
+      "2025-05-02",
+      "2025-05-03",
+      "2025-05-04",
+      "2025-05-05"
+    ],
+    "station_count": 1,
+    "date_count": 10,
+    "valid_draws": 500,
+    "summaries": {
+      "error_difference_pp": {
+        "estimate": -0.03176131559874889,
+        "resampling_low": -0.06323369656975496,
+        "resampling_high": 8.530568556329333e-05
+      },
+      "model_mae_pp": {
+        "estimate": 0.7299016183318225,
+        "resampling_low": 0.6600844951033308,
+        "resampling_high": 0.828883940843928
+      },
+      "persistence_mae_pp": {
+        "estimate": 0.7616629339305715,
+        "resampling_low": 0.6637598425196853,
+        "resampling_high": 0.8932188404262257
+      },
+      "interval_coverage": {
+        "estimate": 0.9328107502799552,
+        "resampling_low": 0.9214222901570048,
+        "resampling_high": 0.9418767397355602
+      },
+      "mean_width_pp": {
+        "estimate": 2.6747350184297876,
+        "resampling_low": 2.500057044016399,
+        "resampling_high": 2.915391767257661
+      }
+    }
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "n": 1784,
+    "stations": [
+      "Site 53"
+    ],
+    "calendar_dates": [
+      "2025-04-26",
+      "2025-04-27",
+      "2025-04-28",
+      "2025-04-29",
+      "2025-04-30",
+      "2025-05-01",
+      "2025-05-02",
+      "2025-05-03",
+      "2025-05-04",
+      "2025-05-05"
+    ],
+    "station_count": 1,
+    "date_count": 10,
+    "valid_draws": 500,
+    "summaries": {
+      "error_difference_pp": {
+        "estimate": -0.07516703857927963,
+        "resampling_low": -0.11694496748531492,
+        "resampling_high": -0.015367382209746523
+      },
+      "model_mae_pp": {
+        "estimate": 0.7982690600754291,
+        "resampling_low": 0.716118208221006,
+        "resampling_high": 0.9210782399937137
+      },
+      "persistence_mae_pp": {
+        "estimate": 0.8734360986547086,
+        "resampling_low": 0.7509290853956938,
+        "resampling_high": 1.0267751585144926
+      },
+      "interval_coverage": {
+        "estimate": 0.9344170403587444,
+        "resampling_low": 0.9238845144356955,
+        "resampling_high": 0.9431106471816284
+      },
+      "mean_width_pp": {
+        "estimate": 3.0506582732963547,
+        "resampling_low": 2.884956511352704,
+        "resampling_high": 3.2953585180346936
+      }
+    }
+  },
+  {
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "n": 1780,
+    "stations": [
+      "Site 53"
+    ],
+    "calendar_dates": [
+      "2025-04-26",
+      "2025-04-27",
+      "2025-04-28",
+      "2025-04-29",
+      "2025-04-30",
+      "2025-05-01",
+      "2025-05-02",
+      "2025-05-03",
+      "2025-05-04",
+      "2025-05-05"
+    ],
+    "station_count": 1,
+    "date_count": 10,
+    "valid_draws": 500,
+    "summaries": {
+      "error_difference_pp": {
+        "estimate": -0.10125755118061927,
+        "resampling_low": -0.17549612648392945,
+        "resampling_high": -0.04331437037971622
+      },
+      "model_mae_pp": {
+        "estimate": 0.8467031229766842,
+        "resampling_low": 0.7598470118100105,
+        "resampling_high": 0.9738956061944527
+      },
+      "persistence_mae_pp": {
+        "estimate": 0.9479606741573035,
+        "resampling_low": 0.8029500495248435,
+        "resampling_high": 1.1423300873208653
+      },
+      "interval_coverage": {
+        "estimate": 0.948876404494382,
+        "resampling_low": 0.9358104699803149,
+        "resampling_high": 0.9617317708333334
+      },
+      "mean_width_pp": {
+        "estimate": 3.28498872331839,
+        "resampling_low": 3.1477932041577157,
+        "resampling_high": 3.485859534027868
+      }
+    }
+  }
+]

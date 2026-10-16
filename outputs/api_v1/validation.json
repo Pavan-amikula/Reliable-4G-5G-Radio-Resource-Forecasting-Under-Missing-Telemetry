@@ -1,0 +1,14 @@
+{
+  "status": "verified",
+  "mode": "historical_replay",
+  "base_url": "http://127.0.0.1:8765",
+  "protocol_tests_passed": 39,
+  "available_series": 20,
+  "model_retraining": false,
+  "source_sha256": {
+    "networkprb\\inference.py": "7dd88377a6f26e914e653fd42bda61a5a3beed72afd16960cfd1b2c3eb4f586c",
+    "networkprb\\api.py": "629470e0cf68e7c494b43fbce4160f635150c3dc608e85b281d98ed515578b8b",
+    "outputs\\intervals_v1\\run_manifest.json": "1b77b5ac5592386cf04fc5f2c1135e8415fc75e277221704baff4ea6ed6c3ee3"
+  },
+  "examples_sha256": "d73f15cb2534460b1d095fb5bd8e944d5b526a966f34387f3450996326fbf780"
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "role": "development",
+    "split": "calibration",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "eligible_rows": 10181,
+    "interval_rows": 10181
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "eligible_rows": 6859,
+    "interval_rows": 6859
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "eligible_rows": 1643,
+    "interval_rows": 1643
+  },
+  {
+    "role": "development",
+    "split": "calibration",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "eligible_rows": 10112,
+    "interval_rows": 10112
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "eligible_rows": 6823,
+    "interval_rows": 6823
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "eligible_rows": 1629,
+    "interval_rows": 1629
+  },
+  {
+    "role": "development",
+    "split": "calibration",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "eligible_rows": 10022,
+    "interval_rows": 10022
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "eligible_rows": 6782,
+    "interval_rows": 6782
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "eligible_rows": 1609,
+    "interval_rows": 1609
+  },
+  {
+    "role": "development",
+    "split": "calibration",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "eligible_rows": 10666,
+    "interval_rows": 10666
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "eligible_rows": 7138,
+    "interval_rows": 7138
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "eligible_rows": 1786,
+    "interval_rows": 1786
+  },
+  {
+    "role": "development",
+    "split": "calibration",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "eligible_rows": 10652,
+    "interval_rows": 10652
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "eligible_rows": 7130,
+    "interval_rows": 7130
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "eligible_rows": 1784,
+    "interval_rows": 1784
+  },
+  {
+    "role": "development",
+    "split": "calibration",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "eligible_rows": 10620,
+    "interval_rows": 10620
+  },
+  {
+    "role": "development",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "eligible_rows": 7114,
+    "interval_rows": 7114
+  },
+  {
+    "role": "station_holdout",
+    "split": "test",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "eligible_rows": 1780,
+    "interval_rows": 1780
+  }
+]

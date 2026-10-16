@@ -1,0 +1,380 @@
+[
+  {
+    "scenario": "clean_observed_origins",
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "common_point_rows": 6859,
+    "unrestricted_mae_pp_same_rows": 3.393210272473657,
+    "fallback_mae_pp_same_rows": 3.393210272473657
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "common_point_rows": 6823,
+    "unrestricted_mae_pp_same_rows": 3.9669681821663954,
+    "fallback_mae_pp_same_rows": 3.9669681821663954
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "common_point_rows": 6782,
+    "unrestricted_mae_pp_same_rows": 4.395707919237834,
+    "fallback_mae_pp_same_rows": 4.395707919237834
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "common_point_rows": 7138,
+    "unrestricted_mae_pp_same_rows": 1.3345145718535594,
+    "fallback_mae_pp_same_rows": 1.3345145718535594
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "common_point_rows": 7130,
+    "unrestricted_mae_pp_same_rows": 1.5632862908092415,
+    "fallback_mae_pp_same_rows": 1.5632862908092415
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "common_point_rows": 7114,
+    "unrestricted_mae_pp_same_rows": 1.7066311176348987,
+    "fallback_mae_pp_same_rows": 1.7066311176348987
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "common_point_rows": 1643,
+    "unrestricted_mae_pp_same_rows": 2.326746091983101,
+    "fallback_mae_pp_same_rows": 2.326746091983101
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "common_point_rows": 1629,
+    "unrestricted_mae_pp_same_rows": 2.8404074531005605,
+    "fallback_mae_pp_same_rows": 2.8404074531005605
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "common_point_rows": 1609,
+    "unrestricted_mae_pp_same_rows": 3.2754522235021573,
+    "fallback_mae_pp_same_rows": 3.2754522235021573
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "common_point_rows": 1786,
+    "unrestricted_mae_pp_same_rows": 0.7299016183318222,
+    "fallback_mae_pp_same_rows": 0.7299016183318222
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "common_point_rows": 1784,
+    "unrestricted_mae_pp_same_rows": 0.798269060075429,
+    "fallback_mae_pp_same_rows": 0.798269060075429
+  },
+  {
+    "scenario": "clean_observed_origins",
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "common_point_rows": 1780,
+    "unrestricted_mae_pp_same_rows": 0.8467031229766832,
+    "fallback_mae_pp_same_rows": 0.8467031229766832
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "common_point_rows": 27,
+    "unrestricted_mae_pp_same_rows": 3.864574435604039,
+    "fallback_mae_pp_same_rows": 2.2481481481481476
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "common_point_rows": 40,
+    "unrestricted_mae_pp_same_rows": 3.4849255773069343,
+    "fallback_mae_pp_same_rows": 2.44575
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "common_point_rows": 45,
+    "unrestricted_mae_pp_same_rows": 3.4671265118037935,
+    "fallback_mae_pp_same_rows": 2.9304444444444453
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "common_point_rows": 5,
+    "unrestricted_mae_pp_same_rows": 6.145405287162611,
+    "fallback_mae_pp_same_rows": 0.5519999999999999
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "common_point_rows": 8,
+    "unrestricted_mae_pp_same_rows": 4.97213513101211,
+    "fallback_mae_pp_same_rows": 0.55375
+  },
+  {
+    "scenario": "natural_missing_origins",
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "common_point_rows": 10,
+    "unrestricted_mae_pp_same_rows": 5.6395224087910325,
+    "fallback_mae_pp_same_rows": 0.9019999999999999
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "common_point_rows": 6858,
+    "unrestricted_mae_pp_same_rows": 3.896850704638589,
+    "fallback_mae_pp_same_rows": 3.539342768054969
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "common_point_rows": 6822,
+    "unrestricted_mae_pp_same_rows": 4.194679982391653,
+    "fallback_mae_pp_same_rows": 4.098759388593899
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "common_point_rows": 6781,
+    "unrestricted_mae_pp_same_rows": 4.54350582988463,
+    "fallback_mae_pp_same_rows": 4.564242988995322
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "common_point_rows": 7138,
+    "unrestricted_mae_pp_same_rows": 1.461625442388846,
+    "fallback_mae_pp_same_rows": 1.4302808469028792
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "common_point_rows": 7130,
+    "unrestricted_mae_pp_same_rows": 1.6092579721336204,
+    "fallback_mae_pp_same_rows": 1.6117519783081915
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "common_point_rows": 7114,
+    "unrestricted_mae_pp_same_rows": 1.7758113868719303,
+    "fallback_mae_pp_same_rows": 1.7997805253719659
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "common_point_rows": 1641,
+    "unrestricted_mae_pp_same_rows": 2.511346855917123,
+    "fallback_mae_pp_same_rows": 2.422383401550535
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "common_point_rows": 1627,
+    "unrestricted_mae_pp_same_rows": 2.959103862194776,
+    "fallback_mae_pp_same_rows": 2.89036817776841
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "common_point_rows": 1607,
+    "unrestricted_mae_pp_same_rows": 3.3180544621044943,
+    "fallback_mae_pp_same_rows": 3.3071279871742423
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "common_point_rows": 1786,
+    "unrestricted_mae_pp_same_rows": 0.8039746285781448,
+    "fallback_mae_pp_same_rows": 0.8074236536897015
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "common_point_rows": 1784,
+    "unrestricted_mae_pp_same_rows": 0.8177923363888346,
+    "fallback_mae_pp_same_rows": 0.8276746717619503
+  },
+  {
+    "scenario": "synthetic_drop10",
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "common_point_rows": 1780,
+    "unrestricted_mae_pp_same_rows": 0.9023079370934363,
+    "fallback_mae_pp_same_rows": 0.9207299519838348
+  },
+  {
+    "scenario": "synthetic_hour",
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "common_point_rows": 6855,
+    "unrestricted_mae_pp_same_rows": 3.6565573649910013,
+    "fallback_mae_pp_same_rows": 3.455779456744041
+  },
+  {
+    "scenario": "synthetic_hour",
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "common_point_rows": 6819,
+    "unrestricted_mae_pp_same_rows": 4.109597740349218,
+    "fallback_mae_pp_same_rows": 4.023961899359322
+  },
+  {
+    "scenario": "synthetic_hour",
+    "role": "development",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "common_point_rows": 6778,
+    "unrestricted_mae_pp_same_rows": 4.507973913502237,
+    "fallback_mae_pp_same_rows": 4.459174877351454
+  },
+  {
+    "scenario": "synthetic_hour",
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "common_point_rows": 7138,
+    "unrestricted_mae_pp_same_rows": 1.3965817903110644,
+    "fallback_mae_pp_same_rows": 1.3612337495980757
+  },
+  {
+    "scenario": "synthetic_hour",
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "common_point_rows": 7130,
+    "unrestricted_mae_pp_same_rows": 1.6009663172633053,
+    "fallback_mae_pp_same_rows": 1.5771411883180133
+  },
+  {
+    "scenario": "synthetic_hour",
+    "role": "development",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "common_point_rows": 7114,
+    "unrestricted_mae_pp_same_rows": 1.7233063602522576,
+    "fallback_mae_pp_same_rows": 1.7155578517199892
+  },
+  {
+    "scenario": "synthetic_hour",
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 15,
+    "common_point_rows": 1643,
+    "unrestricted_mae_pp_same_rows": 2.44672395357434,
+    "fallback_mae_pp_same_rows": 2.362405287172983
+  },
+  {
+    "scenario": "synthetic_hour",
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 30,
+    "common_point_rows": 1629,
+    "unrestricted_mae_pp_same_rows": 2.926785448839214,
+    "fallback_mae_pp_same_rows": 2.86193296672068
+  },
+  {
+    "scenario": "synthetic_hour",
+    "role": "station_holdout",
+    "technology": "LTE",
+    "horizon_minutes": 60,
+    "common_point_rows": 1609,
+    "unrestricted_mae_pp_same_rows": 3.311098707722885,
+    "fallback_mae_pp_same_rows": 3.3208949178200218
+  },
+  {
+    "scenario": "synthetic_hour",
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 15,
+    "common_point_rows": 1786,
+    "unrestricted_mae_pp_same_rows": 0.743439790892201,
+    "fallback_mae_pp_same_rows": 0.7455290070929961
+  },
+  {
+    "scenario": "synthetic_hour",
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 30,
+    "common_point_rows": 1784,
+    "unrestricted_mae_pp_same_rows": 0.812819243022049,
+    "fallback_mae_pp_same_rows": 0.8160248317578815
+  },
+  {
+    "scenario": "synthetic_hour",
+    "role": "station_holdout",
+    "technology": "NR",
+    "horizon_minutes": 60,
+    "common_point_rows": 1780,
+    "unrestricted_mae_pp_same_rows": 0.8620877328469921,
+    "fallback_mae_pp_same_rows": 0.8645352723043235
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "status": "complete",
+  "selected": {
+    "LTE_15m": {
+      "alpha": 0.1,
+      "tuning_mae_pp": 3.763601038637192
+    },
+    "LTE_30m": {
+      "alpha": 0.1,
+      "tuning_mae_pp": 4.608711540756573
+    },
+    "LTE_60m": {
+      "alpha": 0.1,
+      "tuning_mae_pp": 5.370175168898807
+    },
+    "NR_15m": {
+      "alpha": 0.1,
+      "tuning_mae_pp": 1.433812885848533
+    },
+    "NR_30m": {
+      "alpha": 0.1,
+      "tuning_mae_pp": 1.7403922223265116
+    },
+    "NR_60m": {
+      "alpha": 10.0,
+      "tuning_mae_pp": 2.0292036188247446
+    }
+  },
+  "selection": "Lowest pooled development tuning MAE per technology/horizon; tie: smaller alpha",
+  "alpha_candidates": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "features": [
+    "current_pct",
+    "lag_15_pct",
+    "lag_30_pct",
+    "lag_60_pct",
+    "lag_1440_pct",
+    "lag_10080_pct",
+    "observed_last_hour",
+    "mean_observed_last_hour",
+    "age_minutes",
+    "current_pct_missing",
+    "lag_15_pct_missing",
+    "lag_30_pct_missing",
+    "lag_60_pct_missing",
+    "lag_1440_pct_missing",
+    "lag_10080_pct_missing",
+    "observed_last_hour_missing",
+    "mean_observed_last_hour_missing",
+    "age_minutes_missing",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos"
+  ],
+  "threads": 2,
+  "preprocessing": "Training-only median imputation and standardization. Explicit missing flags. Empty training features retained with constant 0 by sklearn, flags preserved. No refit on tuning/calibration/test.",
+  "prediction_policy": "Clip every method prediction to physical 0..100 percentage range; fixed before scoring",
+  "evaluation": "All available rows compare Ridge/persistence; paired rows require daily seasonal too. Per-series, pooled and macro errors. Separate holdout station; no station IDs used as inputs.",
+  "calibration": "Not read, fitted or scored in this experiment",
+  "splits": [
+    {
+      "name": "train",
+      "start_inclusive": "2025-02-07T19:45:00+00:00",
+      "end_exclusive": "2025-03-01T00:00:00+00:00"
+    },
+    {
+      "name": "tuning",
+      "start_inclusive": "2025-03-01T00:00:00+00:00",
+      "end_exclusive": "2025-04-12T00:00:00+00:00"
+    },
+    {
+      "name": "calibration",
+      "start_inclusive": "2025-04-12T00:00:00+00:00",
+      "end_exclusive": "2025-04-26T00:00:00+00:00"
+    },
+    {
+      "name": "test",
+      "start_inclusive": "2025-04-26T00:00:00+00:00",
+      "end_exclusive": "2025-05-05T07:30:00+00:00"
+    }
+  ],
+  "station_holdout": "Site 53",
+  "python": "3.13.4 (tags/v3.13.4:8a526ec, Jun  3 2025, 17:46:04) [MSC v.1943 64 bit (AMD64)]",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "script_sha256": "0324727a58a9f800e13be934d0e9ecefd562ae0d18951cf90b2822594be4f76c",
+  "table_summary_sha256": "58c5b288b8182ddec05770c87a63cd3ef9412f60aac1baf3135576e61411eafa",
+  "elapsed_seconds": 9.54043150000507,
+  "artifacts_sha256": {
+    "coverage.json": "1839660f111d875a061e2fecbff77d3bc22f27299712721d28d514b568d8d8f8",
+    "forecasts.csv.gz": "20f2e72d1e2bc9363ec4d0e47d6a6483e5f9fe0996819ebb8d66fb7a7c12fc7a",
+    "LTE_15m.joblib": "1ea3d23112f5e8998c45cf789ae1dcde7bdeab7ef2100ffec208610ffb0def4c",
+    "LTE_30m.joblib": "a35e2a2ff47c1df74ac646cec19f89b3e4e5bb10e717c80a2e175909a3345994",
+    "LTE_60m.joblib": "86d0635bdcc6e73f6c12590c3ce8a3394977326a4ae57c022f692c97dde36c19",
+    "metrics.json": "3fd7beb6d922e65b0309e7f3017957cdc97e3af9eef20be5cb72b00ff325533a",
+    "NR_15m.joblib": "04534b0c9f89c59cef2c58ec0baf5e4574719157074566677493cdf47c60d2fd",
+    "NR_30m.joblib": "4e2650ee3a7d8e4cbd2cbdaaa8d7ffe8df521b71d8459dfccf1eeae1cfdefa75",
+    "NR_60m.joblib": "144614a03b1c2852a85d505e3a58e3323ed62fef89984c7aedd153bd3d864204",
+    "preprocessing.json": "09d7cadd6ab4d1d17e42fea050733c1946764401116fc5ae44758dee2335565d",
+    "selection.json": "f2892782eab210140062558abaabd1f48f5da5deed7268fe8fd61d7f11318aae",
+    "tuning_trials.json": "14e5290358a5b6ef68448f663cce69728e897574b3a2f6e7fd155d23c54ea0ab"
+  }
+}

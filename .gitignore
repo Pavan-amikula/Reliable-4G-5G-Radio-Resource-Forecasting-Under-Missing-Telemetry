@@ -1,0 +1,20 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Credentials and temporary extraction files
+.env
+.env.*
+!.env.example
+*.partial.sqlite

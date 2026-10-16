@@ -1,0 +1,2885 @@
+{
+  "health": {
+    "status": "ready",
+    "mode": "historical_replay",
+    "cached_forecast_groups": 6
+  },
+  "fresh_request": {
+    "technology": "LTE",
+    "band_mhz": 1800,
+    "station": "Site 16",
+    "sector": "1",
+    "origin_utc": "2025-04-26T00:00:00+00:00",
+    "history": [
+      {
+        "timestamp_utc": "2025-04-19T00:00:00+00:00",
+        "utilization_pct": 22.89
+      },
+      {
+        "timestamp_utc": "2025-04-19T00:15:00+00:00",
+        "utilization_pct": 31.69
+      },
+      {
+        "timestamp_utc": "2025-04-19T00:30:00+00:00",
+        "utilization_pct": 25.54
+      },
+      {
+        "timestamp_utc": "2025-04-19T00:45:00+00:00",
+        "utilization_pct": 24.49
+      },
+      {
+        "timestamp_utc": "2025-04-19T01:00:00+00:00",
+        "utilization_pct": 28.85
+      },
+      {
+        "timestamp_utc": "2025-04-19T01:15:00+00:00",
+        "utilization_pct": 30.67
+      },
+      {
+        "timestamp_utc": "2025-04-19T01:30:00+00:00",
+        "utilization_pct": 22.2
+      },
+      {
+        "timestamp_utc": "2025-04-19T01:45:00+00:00",
+        "utilization_pct": 18.45
+      },
+      {
+        "timestamp_utc": "2025-04-19T02:00:00+00:00",
+        "utilization_pct": 22.48
+      },
+      {
+        "timestamp_utc": "2025-04-19T02:15:00+00:00",
+        "utilization_pct": 26.54
+      },
+      {
+        "timestamp_utc": "2025-04-19T02:30:00+00:00",
+        "utilization_pct": 21.26
+      },
+      {
+        "timestamp_utc": "2025-04-19T02:45:00+00:00",
+        "utilization_pct": 18.75
+      },
+      {
+        "timestamp_utc": "2025-04-19T03:00:00+00:00",
+        "utilization_pct": 20.2
+      },
+      {
+        "timestamp_utc": "2025-04-19T03:15:00+00:00",
+        "utilization_pct": 18.99
+      },
+      {
+        "timestamp_utc": "2025-04-19T03:30:00+00:00",
+        "utilization_pct": 14.8
+      },
+      {
+        "timestamp_utc": "2025-04-19T03:45:00+00:00",
+        "utilization_pct": 11.87
+      },
+      {
+        "timestamp_utc": "2025-04-19T04:00:00+00:00",
+        "utilization_pct": 14.05
+      },
+      {
+        "timestamp_utc": "2025-04-19T04:15:00+00:00",
+        "utilization_pct": 13.02
+      },
+      {
+        "timestamp_utc": "2025-04-19T04:30:00+00:00",
+        "utilization_pct": 14.97
+      },
+      {
+        "timestamp_utc": "2025-04-19T04:45:00+00:00",
+        "utilization_pct": 15.32
+      },
+      {
+        "timestamp_utc": "2025-04-19T05:00:00+00:00",
+        "utilization_pct": 20.26
+      },
+      {
+        "timestamp_utc": "2025-04-19T05:15:00+00:00",
+        "utilization_pct": 13.79
+      },
+      {
+        "timestamp_utc": "2025-04-19T05:30:00+00:00",
+        "utilization_pct": 13.34
+      },
+      {
+        "timestamp_utc": "2025-04-19T05:45:00+00:00",
+        "utilization_pct": 11.25
+      },
+      {
+        "timestamp_utc": "2025-04-19T06:00:00+00:00",
+        "utilization_pct": 13.66
+      },
+      {
+        "timestamp_utc": "2025-04-19T06:15:00+00:00",
+        "utilization_pct": 9.0
+      },
+      {
+        "timestamp_utc": "2025-04-19T06:30:00+00:00",
+        "utilization_pct": 11.34
+      },
+      {
+        "timestamp_utc": "2025-04-19T06:45:00+00:00",
+        "utilization_pct": 16.05
+      },
+      {
+        "timestamp_utc": "2025-04-19T07:00:00+00:00",
+        "utilization_pct": 11.1
+      },
+      {
+        "timestamp_utc": "2025-04-19T07:15:00+00:00",
+        "utilization_pct": 14.07
+      },
+      {
+        "timestamp_utc": "2025-04-19T07:30:00+00:00",
+        "utilization_pct": 21.67
+      },
+      {
+        "timestamp_utc": "2025-04-19T07:45:00+00:00",
+        "utilization_pct": 16.43
+      },
+      {
+        "timestamp_utc": "2025-04-19T08:00:00+00:00",
+        "utilization_pct": 20.27
+      },
+      {
+        "timestamp_utc": "2025-04-19T08:15:00+00:00",
+        "utilization_pct": 18.89
+      },
+      {
+        "timestamp_utc": "2025-04-19T08:30:00+00:00",
+        "utilization_pct": 18.69
+      },
+      {
+        "timestamp_utc": "2025-04-19T08:45:00+00:00",
+        "utilization_pct": 16.05
+      },
+      {
+        "timestamp_utc": "2025-04-19T09:00:00+00:00",
+        "utilization_pct": 19.2
+      },
+      {
+        "timestamp_utc": "2025-04-19T09:15:00+00:00",
+        "utilization_pct": 17.35
+      },
+      {
+        "timestamp_utc": "2025-04-19T09:30:00+00:00",
+        "utilization_pct": 15.6
+      },
+      {
+        "timestamp_utc": "2025-04-19T09:45:00+00:00",
+        "utilization_pct": 14.6
+      },
+      {
+        "timestamp_utc": "2025-04-19T10:00:00+00:00",
+        "utilization_pct": 17.15
+      },
+      {
+        "timestamp_utc": "2025-04-19T10:15:00+00:00",
+        "utilization_pct": 26.79
+      },
+      {
+        "timestamp_utc": "2025-04-19T10:30:00+00:00",
+        "utilization_pct": 24.69
+      },
+      {
+        "timestamp_utc": "2025-04-19T10:45:00+00:00",
+        "utilization_pct": 27.22
+      },
+      {
+        "timestamp_utc": "2025-04-19T11:00:00+00:00",
+        "utilization_pct": 18.28
+      },
+      {
+        "timestamp_utc": "2025-04-19T11:15:00+00:00",
+        "utilization_pct": 19.87
+      },
+      {
+        "timestamp_utc": "2025-04-19T11:30:00+00:00",
+        "utilization_pct": 39.53
+      },
+      {
+        "timestamp_utc": "2025-04-19T11:45:00+00:00",
+        "utilization_pct": 36.13
+      },
+      {
+        "timestamp_utc": "2025-04-19T12:00:00+00:00",
+        "utilization_pct": 28.76
+      },
+      {
+        "timestamp_utc": "2025-04-19T12:15:00+00:00",
+        "utilization_pct": 23.34
+      },
+      {
+        "timestamp_utc": "2025-04-19T12:30:00+00:00",
+        "utilization_pct": 24.57
+      },
+      {
+        "timestamp_utc": "2025-04-19T12:45:00+00:00",
+        "utilization_pct": 24.19
+      },
+      {
+        "timestamp_utc": "2025-04-19T13:00:00+00:00",
+        "utilization_pct": 21.83
+      },
+      {
+        "timestamp_utc": "2025-04-19T13:15:00+00:00",
+        "utilization_pct": 23.78
+      },
+      {
+        "timestamp_utc": "2025-04-19T13:30:00+00:00",
+        "utilization_pct": 24.49
+      },
+      {
+        "timestamp_utc": "2025-04-19T13:45:00+00:00",
+        "utilization_pct": 19.24
+      },
+      {
+        "timestamp_utc": "2025-04-19T14:00:00+00:00",
+        "utilization_pct": 20.08
+      },
+      {
+        "timestamp_utc": "2025-04-19T14:15:00+00:00",
+        "utilization_pct": 20.94
+      },
+      {
+        "timestamp_utc": "2025-04-19T14:30:00+00:00",
+        "utilization_pct": 24.4
+      },
+      {
+        "timestamp_utc": "2025-04-19T14:45:00+00:00",
+        "utilization_pct": 21.85
+      },
+      {
+        "timestamp_utc": "2025-04-19T15:00:00+00:00",
+        "utilization_pct": 23.06
+      },
+      {
+        "timestamp_utc": "2025-04-19T15:15:00+00:00",
+        "utilization_pct": 22.74
+      },
+      {
+        "timestamp_utc": "2025-04-19T15:30:00+00:00",
+        "utilization_pct": 20.17
+      },
+      {
+        "timestamp_utc": "2025-04-19T15:45:00+00:00",
+        "utilization_pct": 26.77
+      },
+      {
+        "timestamp_utc": "2025-04-19T16:00:00+00:00",
+        "utilization_pct": 25.82
+      },
+      {
+        "timestamp_utc": "2025-04-19T16:15:00+00:00",
+        "utilization_pct": 25.2
+      },
+      {
+        "timestamp_utc": "2025-04-19T16:30:00+00:00",
+        "utilization_pct": 28.07
+      },
+      {
+        "timestamp_utc": "2025-04-19T16:45:00+00:00",
+        "utilization_pct": 14.87
+      },
+      {
+        "timestamp_utc": "2025-04-19T17:00:00+00:00",
+        "utilization_pct": 14.91
+      },
+      {
+        "timestamp_utc": "2025-04-19T17:15:00+00:00",
+        "utilization_pct": 16.39
+      },
+      {
+        "timestamp_utc": "2025-04-19T17:30:00+00:00",
+        "utilization_pct": 15.86
+      },
+      {
+        "timestamp_utc": "2025-04-19T17:45:00+00:00",
+        "utilization_pct": 19.32
+      },
+      {
+        "timestamp_utc": "2025-04-19T18:00:00+00:00",
+        "utilization_pct": 50.53
+      },
+      {
+        "timestamp_utc": "2025-04-19T18:15:00+00:00",
+        "utilization_pct": 58.22
+      },
+      {
+        "timestamp_utc": "2025-04-19T18:30:00+00:00",
+        "utilization_pct": 47.44
+      },
+      {
+        "timestamp_utc": "2025-04-19T18:45:00+00:00",
+        "utilization_pct": 48.73
+      },
+      {
+        "timestamp_utc": "2025-04-19T19:00:00+00:00",
+        "utilization_pct": 62.89
+      },
+      {
+        "timestamp_utc": "2025-04-19T19:15:00+00:00",
+        "utilization_pct": 66.7
+      },
+      {
+        "timestamp_utc": "2025-04-19T19:30:00+00:00",
+        "utilization_pct": 36.66
+      },
+      {
+        "timestamp_utc": "2025-04-19T19:45:00+00:00",
+        "utilization_pct": 50.53
+      },
+      {
+        "timestamp_utc": "2025-04-19T20:00:00+00:00",
+        "utilization_pct": 70.52
+      },
+      {
+        "timestamp_utc": "2025-04-19T20:15:00+00:00",
+        "utilization_pct": 62.36
+      },
+      {
+        "timestamp_utc": "2025-04-19T20:30:00+00:00",
+        "utilization_pct": 29.75
+      },
+      {
+        "timestamp_utc": "2025-04-19T20:45:00+00:00",
+        "utilization_pct": 34.6
+      },
+      {
+        "timestamp_utc": "2025-04-19T21:00:00+00:00",
+        "utilization_pct": 34.22
+      },
+      {
+        "timestamp_utc": "2025-04-19T21:15:00+00:00",
+        "utilization_pct": 33.3
+      },
+      {
+        "timestamp_utc": "2025-04-19T21:30:00+00:00",
+        "utilization_pct": 29.28
+      },
+      {
+        "timestamp_utc": "2025-04-19T21:45:00+00:00",
+        "utilization_pct": 23.17
+      },
+      {
+        "timestamp_utc": "2025-04-19T22:00:00+00:00",
+        "utilization_pct": 20.79
+      },
+      {
+        "timestamp_utc": "2025-04-19T22:15:00+00:00",
+        "utilization_pct": 24.26
+      },
+      {
+        "timestamp_utc": "2025-04-19T22:30:00+00:00",
+        "utilization_pct": 30.49
+      },
+      {
+        "timestamp_utc": "2025-04-19T22:45:00+00:00",
+        "utilization_pct": 22.77
+      },
+      {
+        "timestamp_utc": "2025-04-19T23:00:00+00:00",
+        "utilization_pct": 24.75
+      },
+      {
+        "timestamp_utc": "2025-04-19T23:15:00+00:00",
+        "utilization_pct": 22.43
+      },
+      {
+        "timestamp_utc": "2025-04-19T23:30:00+00:00",
+        "utilization_pct": 25.75
+      },
+      {
+        "timestamp_utc": "2025-04-19T23:45:00+00:00",
+        "utilization_pct": 22.33
+      },
+      {
+        "timestamp_utc": "2025-04-20T00:00:00+00:00",
+        "utilization_pct": 25.25
+      },
+      {
+        "timestamp_utc": "2025-04-20T00:15:00+00:00",
+        "utilization_pct": 28.95
+      },
+      {
+        "timestamp_utc": "2025-04-20T00:30:00+00:00",
+        "utilization_pct": 33.03
+      },
+      {
+        "timestamp_utc": "2025-04-20T00:45:00+00:00",
+        "utilization_pct": 20.22
+      },
+      {
+        "timestamp_utc": "2025-04-20T01:00:00+00:00",
+        "utilization_pct": 23.35
+      },
+      {
+        "timestamp_utc": "2025-04-20T01:15:00+00:00",
+        "utilization_pct": 23.85
+      },
+      {
+        "timestamp_utc": "2025-04-20T01:30:00+00:00",
+        "utilization_pct": 21.04
+      },
+      {
+        "timestamp_utc": "2025-04-20T01:45:00+00:00",
+        "utilization_pct": 20.52
+      },
+      {
+        "timestamp_utc": "2025-04-20T02:00:00+00:00",
+        "utilization_pct": 20.5
+      },
+      {
+        "timestamp_utc": "2025-04-20T02:15:00+00:00",
+        "utilization_pct": 20.75
+      },
+      {
+        "timestamp_utc": "2025-04-20T02:30:00+00:00",
+        "utilization_pct": 22.39
+      },
+      {
+        "timestamp_utc": "2025-04-20T02:45:00+00:00",
+        "utilization_pct": 23.81
+      },
+      {
+        "timestamp_utc": "2025-04-20T03:00:00+00:00",
+        "utilization_pct": 22.06
+      },
+      {
+        "timestamp_utc": "2025-04-20T03:15:00+00:00",
+        "utilization_pct": 19.63
+      },
+      {
+        "timestamp_utc": "2025-04-20T03:30:00+00:00",
+        "utilization_pct": 21.11
+      },
+      {
+        "timestamp_utc": "2025-04-20T03:45:00+00:00",
+        "utilization_pct": 19.64
+      },
+      {
+        "timestamp_utc": "2025-04-20T04:00:00+00:00",
+        "utilization_pct": 31.86
+      },
+      {
+        "timestamp_utc": "2025-04-20T04:15:00+00:00",
+        "utilization_pct": 25.86
+      },
+      {
+        "timestamp_utc": "2025-04-20T04:30:00+00:00",
+        "utilization_pct": 20.41
+      },
+      {
+        "timestamp_utc": "2025-04-20T04:45:00+00:00",
+        "utilization_pct": 23.82
+      },
+      {
+        "timestamp_utc": "2025-04-20T05:00:00+00:00",
+        "utilization_pct": 20.06
+      },
+      {
+        "timestamp_utc": "2025-04-20T05:15:00+00:00",
+        "utilization_pct": 18.61
+      },
+      {
+        "timestamp_utc": "2025-04-20T05:30:00+00:00",
+        "utilization_pct": 10.96
+      },
+      {
+        "timestamp_utc": "2025-04-20T05:45:00+00:00",
+        "utilization_pct": 10.26
+      },
+      {
+        "timestamp_utc": "2025-04-20T06:00:00+00:00",
+        "utilization_pct": 17.3
+      },
+      {
+        "timestamp_utc": "2025-04-20T06:15:00+00:00",
+        "utilization_pct": 20.45
+      },
+      {
+        "timestamp_utc": "2025-04-20T06:30:00+00:00",
+        "utilization_pct": 14.64
+      },
+      {
+        "timestamp_utc": "2025-04-20T06:45:00+00:00",
+        "utilization_pct": 23.34
+      },
+      {
+        "timestamp_utc": "2025-04-20T07:00:00+00:00",
+        "utilization_pct": 11.07
+      },
+      {
+        "timestamp_utc": "2025-04-20T07:15:00+00:00",
+        "utilization_pct": 19.19
+      },
+      {
+        "timestamp_utc": "2025-04-20T07:30:00+00:00",
+        "utilization_pct": 12.89
+      },
+      {
+        "timestamp_utc": "2025-04-20T07:45:00+00:00",
+        "utilization_pct": 14.67
+      },
+      {
+        "timestamp_utc": "2025-04-20T08:00:00+00:00",
+        "utilization_pct": 13.87
+      },
+      {
+        "timestamp_utc": "2025-04-20T08:15:00+00:00",
+        "utilization_pct": 19.98
+      },
+      {
+        "timestamp_utc": "2025-04-20T08:30:00+00:00",
+        "utilization_pct": 24.16
+      },
+      {
+        "timestamp_utc": "2025-04-20T08:45:00+00:00",
+        "utilization_pct": 22.03
+      },
+      {
+        "timestamp_utc": "2025-04-20T09:00:00+00:00",
+        "utilization_pct": 21.46
+      },
+      {
+        "timestamp_utc": "2025-04-20T09:15:00+00:00",
+        "utilization_pct": 21.73
+      },
+      {
+        "timestamp_utc": "2025-04-20T09:30:00+00:00",
+        "utilization_pct": 19.78
+      },
+      {
+        "timestamp_utc": "2025-04-20T09:45:00+00:00",
+        "utilization_pct": 16.29
+      },
+      {
+        "timestamp_utc": "2025-04-20T10:00:00+00:00",
+        "utilization_pct": 20.78
+      },
+      {
+        "timestamp_utc": "2025-04-20T10:15:00+00:00",
+        "utilization_pct": 30.46
+      },
+      {
+        "timestamp_utc": "2025-04-20T10:30:00+00:00",
+        "utilization_pct": 20.39
+      },
+      {
+        "timestamp_utc": "2025-04-20T10:45:00+00:00",
+        "utilization_pct": 18.73
+      },
+      {
+        "timestamp_utc": "2025-04-20T11:00:00+00:00",
+        "utilization_pct": 15.91
+      },
+      {
+        "timestamp_utc": "2025-04-20T11:15:00+00:00",
+        "utilization_pct": 17.22
+      },
+      {
+        "timestamp_utc": "2025-04-20T11:30:00+00:00",
+        "utilization_pct": 26.41
+      },
+      {
+        "timestamp_utc": "2025-04-20T11:45:00+00:00",
+        "utilization_pct": 18.17
+      },
+      {
+        "timestamp_utc": "2025-04-20T12:00:00+00:00",
+        "utilization_pct": 29.22
+      },
+      {
+        "timestamp_utc": "2025-04-20T12:15:00+00:00",
+        "utilization_pct": 26.22
+      },
+      {
+        "timestamp_utc": "2025-04-20T12:30:00+00:00",
+        "utilization_pct": 31.76
+      },
+      {
+        "timestamp_utc": "2025-04-20T12:45:00+00:00",
+        "utilization_pct": 23.11
+      },
+      {
+        "timestamp_utc": "2025-04-20T13:00:00+00:00",
+        "utilization_pct": 29.69
+      },
+      {
+        "timestamp_utc": "2025-04-20T13:15:00+00:00",
+        "utilization_pct": 23.4
+      },
+      {
+        "timestamp_utc": "2025-04-20T13:30:00+00:00",
+        "utilization_pct": 26.9
+      },
+      {
+        "timestamp_utc": "2025-04-20T13:45:00+00:00",
+        "utilization_pct": 24.73
+      },
+      {
+        "timestamp_utc": "2025-04-20T14:00:00+00:00",
+        "utilization_pct": 21.59
+      },
+      {
+        "timestamp_utc": "2025-04-20T14:15:00+00:00",
+        "utilization_pct": 22.27
+      },
+      {
+        "timestamp_utc": "2025-04-20T14:30:00+00:00",
+        "utilization_pct": 21.13
+      },
+      {
+        "timestamp_utc": "2025-04-20T14:45:00+00:00",
+        "utilization_pct": 19.4
+      },
+      {
+        "timestamp_utc": "2025-04-20T15:00:00+00:00",
+        "utilization_pct": 14.15
+      },
+      {
+        "timestamp_utc": "2025-04-20T15:15:00+00:00",
+        "utilization_pct": 22.41
+      },
+      {
+        "timestamp_utc": "2025-04-20T15:30:00+00:00",
+        "utilization_pct": 22.1
+      },
+      {
+        "timestamp_utc": "2025-04-20T15:45:00+00:00",
+        "utilization_pct": 24.4
+      },
+      {
+        "timestamp_utc": "2025-04-20T16:00:00+00:00",
+        "utilization_pct": 24.86
+      },
+      {
+        "timestamp_utc": "2025-04-20T16:15:00+00:00",
+        "utilization_pct": 20.95
+      },
+      {
+        "timestamp_utc": "2025-04-20T16:30:00+00:00",
+        "utilization_pct": 21.67
+      },
+      {
+        "timestamp_utc": "2025-04-20T16:45:00+00:00",
+        "utilization_pct": 26.82
+      },
+      {
+        "timestamp_utc": "2025-04-20T17:00:00+00:00",
+        "utilization_pct": 17.89
+      },
+      {
+        "timestamp_utc": "2025-04-20T17:15:00+00:00",
+        "utilization_pct": 14.44
+      },
+      {
+        "timestamp_utc": "2025-04-20T17:30:00+00:00",
+        "utilization_pct": 15.37
+      },
+      {
+        "timestamp_utc": "2025-04-20T17:45:00+00:00",
+        "utilization_pct": 37.99
+      },
+      {
+        "timestamp_utc": "2025-04-20T18:00:00+00:00",
+        "utilization_pct": 18.99
+      },
+      {
+        "timestamp_utc": "2025-04-20T18:15:00+00:00",
+        "utilization_pct": 16.91
+      },
+      {
+        "timestamp_utc": "2025-04-20T18:30:00+00:00",
+        "utilization_pct": 19.42
+      },
+      {
+        "timestamp_utc": "2025-04-20T18:45:00+00:00",
+        "utilization_pct": 23.19
+      },
+      {
+        "timestamp_utc": "2025-04-20T19:00:00+00:00",
+        "utilization_pct": 25.26
+      },
+      {
+        "timestamp_utc": "2025-04-20T19:15:00+00:00",
+        "utilization_pct": 20.39
+      },
+      {
+        "timestamp_utc": "2025-04-20T19:30:00+00:00",
+        "utilization_pct": 22.27
+      },
+      {
+        "timestamp_utc": "2025-04-20T19:45:00+00:00",
+        "utilization_pct": 23.33
+      },
+      {
+        "timestamp_utc": "2025-04-20T20:00:00+00:00",
+        "utilization_pct": 23.4
+      },
+      {
+        "timestamp_utc": "2025-04-20T20:15:00+00:00",
+        "utilization_pct": 25.3
+      },
+      {
+        "timestamp_utc": "2025-04-20T20:30:00+00:00",
+        "utilization_pct": 26.5
+      },
+      {
+        "timestamp_utc": "2025-04-20T20:45:00+00:00",
+        "utilization_pct": 21.91
+      },
+      {
+        "timestamp_utc": "2025-04-20T21:00:00+00:00",
+        "utilization_pct": 35.59
+      },
+      {
+        "timestamp_utc": "2025-04-20T21:15:00+00:00",
+        "utilization_pct": 29.68
+      },
+      {
+        "timestamp_utc": "2025-04-20T21:30:00+00:00",
+        "utilization_pct": 26.38
+      },
+      {
+        "timestamp_utc": "2025-04-20T21:45:00+00:00",
+        "utilization_pct": 21.1
+      },
+      {
+        "timestamp_utc": "2025-04-20T22:00:00+00:00",
+        "utilization_pct": 16.02
+      },
+      {
+        "timestamp_utc": "2025-04-20T22:15:00+00:00",
+        "utilization_pct": 18.41
+      },
+      {
+        "timestamp_utc": "2025-04-20T22:30:00+00:00",
+        "utilization_pct": 19.22
+      },
+      {
+        "timestamp_utc": "2025-04-20T22:45:00+00:00",
+        "utilization_pct": 16.85
+      },
+      {
+        "timestamp_utc": "2025-04-20T23:00:00+00:00",
+        "utilization_pct": 17.88
+      },
+      {
+        "timestamp_utc": "2025-04-20T23:15:00+00:00",
+        "utilization_pct": 10.92
+      },
+      {
+        "timestamp_utc": "2025-04-20T23:30:00+00:00",
+        "utilization_pct": 20.95
+      },
+      {
+        "timestamp_utc": "2025-04-20T23:45:00+00:00",
+        "utilization_pct": 16.7
+      },
+      {
+        "timestamp_utc": "2025-04-21T00:00:00+00:00",
+        "utilization_pct": 15.86
+      },
+      {
+        "timestamp_utc": "2025-04-21T00:15:00+00:00",
+        "utilization_pct": 15.89
+      },
+      {
+        "timestamp_utc": "2025-04-21T00:30:00+00:00",
+        "utilization_pct": 13.34
+      },
+      {
+        "timestamp_utc": "2025-04-21T00:45:00+00:00",
+        "utilization_pct": 12.02
+      },
+      {
+        "timestamp_utc": "2025-04-21T01:00:00+00:00",
+        "utilization_pct": 9.76
+      },
+      {
+        "timestamp_utc": "2025-04-21T01:15:00+00:00",
+        "utilization_pct": 13.0
+      },
+      {
+        "timestamp_utc": "2025-04-21T01:30:00+00:00",
+        "utilization_pct": 9.98
+      },
+      {
+        "timestamp_utc": "2025-04-21T01:45:00+00:00",
+        "utilization_pct": 13.2
+      },
+      {
+        "timestamp_utc": "2025-04-21T02:00:00+00:00",
+        "utilization_pct": 8.13
+      },
+      {
+        "timestamp_utc": "2025-04-21T02:15:00+00:00",
+        "utilization_pct": 7.93
+      },
+      {
+        "timestamp_utc": "2025-04-21T02:30:00+00:00",
+        "utilization_pct": 9.28
+      },
+      {
+        "timestamp_utc": "2025-04-21T02:45:00+00:00",
+        "utilization_pct": 12.21
+      },
+      {
+        "timestamp_utc": "2025-04-21T03:00:00+00:00",
+        "utilization_pct": 11.65
+      },
+      {
+        "timestamp_utc": "2025-04-21T03:15:00+00:00",
+        "utilization_pct": 10.78
+      },
+      {
+        "timestamp_utc": "2025-04-21T03:30:00+00:00",
+        "utilization_pct": 13.98
+      },
+      {
+        "timestamp_utc": "2025-04-21T03:45:00+00:00",
+        "utilization_pct": 14.55
+      },
+      {
+        "timestamp_utc": "2025-04-21T04:00:00+00:00",
+        "utilization_pct": 16.1
+      },
+      {
+        "timestamp_utc": "2025-04-21T04:15:00+00:00",
+        "utilization_pct": 12.43
+      },
+      {
+        "timestamp_utc": "2025-04-21T04:30:00+00:00",
+        "utilization_pct": 12.14
+      },
+      {
+        "timestamp_utc": "2025-04-21T04:45:00+00:00",
+        "utilization_pct": 13.61
+      },
+      {
+        "timestamp_utc": "2025-04-21T05:00:00+00:00",
+        "utilization_pct": 12.95
+      },
+      {
+        "timestamp_utc": "2025-04-21T05:15:00+00:00",
+        "utilization_pct": 12.93
+      },
+      {
+        "timestamp_utc": "2025-04-21T05:30:00+00:00",
+        "utilization_pct": 12.86
+      },
+      {
+        "timestamp_utc": "2025-04-21T05:45:00+00:00",
+        "utilization_pct": 10.22
+      },
+      {
+        "timestamp_utc": "2025-04-21T06:00:00+00:00",
+        "utilization_pct": 9.36
+      },
+      {
+        "timestamp_utc": "2025-04-21T06:15:00+00:00",
+        "utilization_pct": 12.89
+      },
+      {
+        "timestamp_utc": "2025-04-21T06:30:00+00:00",
+        "utilization_pct": 7.96
+      },
+      {
+        "timestamp_utc": "2025-04-21T06:45:00+00:00",
+        "utilization_pct": 9.93
+      },
+      {
+        "timestamp_utc": "2025-04-21T07:00:00+00:00",
+        "utilization_pct": 10.03
+      },
+      {
+        "timestamp_utc": "2025-04-21T07:15:00+00:00",
+        "utilization_pct": 10.77
+      },
+      {
+        "timestamp_utc": "2025-04-21T07:30:00+00:00",
+        "utilization_pct": 12.74
+      },
+      {
+        "timestamp_utc": "2025-04-21T07:45:00+00:00",
+        "utilization_pct": 11.93
+      },
+      {
+        "timestamp_utc": "2025-04-21T08:00:00+00:00",
+        "utilization_pct": 12.75
+      },
+      {
+        "timestamp_utc": "2025-04-21T08:15:00+00:00",
+        "utilization_pct": 14.34
+      },
+      {
+        "timestamp_utc": "2025-04-21T08:30:00+00:00",
+        "utilization_pct": 16.26
+      },
+      {
+        "timestamp_utc": "2025-04-21T08:45:00+00:00",
+        "utilization_pct": 19.67
+      },
+      {
+        "timestamp_utc": "2025-04-21T09:00:00+00:00",
+        "utilization_pct": 22.09
+      },
+      {
+        "timestamp_utc": "2025-04-21T09:15:00+00:00",
+        "utilization_pct": 14.75
+      },
+      {
+        "timestamp_utc": "2025-04-21T09:30:00+00:00",
+        "utilization_pct": 23.3
+      },
+      {
+        "timestamp_utc": "2025-04-21T09:45:00+00:00",
+        "utilization_pct": 13.58
+      },
+      {
+        "timestamp_utc": "2025-04-21T10:00:00+00:00",
+        "utilization_pct": 15.24
+      },
+      {
+        "timestamp_utc": "2025-04-21T10:15:00+00:00",
+        "utilization_pct": 21.39
+      },
+      {
+        "timestamp_utc": "2025-04-21T10:30:00+00:00",
+        "utilization_pct": 17.08
+      },
+      {
+        "timestamp_utc": "2025-04-21T10:45:00+00:00",
+        "utilization_pct": 13.03
+      },
+      {
+        "timestamp_utc": "2025-04-21T11:00:00+00:00",
+        "utilization_pct": 18.22
+      },
+      {
+        "timestamp_utc": "2025-04-21T11:15:00+00:00",
+        "utilization_pct": 20.3
+      },
+      {
+        "timestamp_utc": "2025-04-21T11:30:00+00:00",
+        "utilization_pct": 22.97
+      },
+      {
+        "timestamp_utc": "2025-04-21T11:45:00+00:00",
+        "utilization_pct": 25.02
+      },
+      {
+        "timestamp_utc": "2025-04-21T12:00:00+00:00",
+        "utilization_pct": 32.65
+      },
+      {
+        "timestamp_utc": "2025-04-21T12:15:00+00:00",
+        "utilization_pct": 30.43
+      },
+      {
+        "timestamp_utc": "2025-04-21T12:30:00+00:00",
+        "utilization_pct": 26.24
+      },
+      {
+        "timestamp_utc": "2025-04-21T12:45:00+00:00",
+        "utilization_pct": 26.47
+      },
+      {
+        "timestamp_utc": "2025-04-21T13:00:00+00:00",
+        "utilization_pct": 22.91
+      },
+      {
+        "timestamp_utc": "2025-04-21T13:15:00+00:00",
+        "utilization_pct": 34.61
+      },
+      {
+        "timestamp_utc": "2025-04-21T13:30:00+00:00",
+        "utilization_pct": 28.26
+      },
+      {
+        "timestamp_utc": "2025-04-21T13:45:00+00:00",
+        "utilization_pct": 35.05
+      },
+      {
+        "timestamp_utc": "2025-04-21T14:00:00+00:00",
+        "utilization_pct": 24.97
+      },
+      {
+        "timestamp_utc": "2025-04-21T14:15:00+00:00",
+        "utilization_pct": 23.94
+      },
+      {
+        "timestamp_utc": "2025-04-21T14:30:00+00:00",
+        "utilization_pct": 35.38
+      },
+      {
+        "timestamp_utc": "2025-04-21T14:45:00+00:00",
+        "utilization_pct": 43.73
+      },
+      {
+        "timestamp_utc": "2025-04-21T15:00:00+00:00",
+        "utilization_pct": 30.87
+      },
+      {
+        "timestamp_utc": "2025-04-21T15:15:00+00:00",
+        "utilization_pct": 33.45
+      },
+      {
+        "timestamp_utc": "2025-04-21T15:30:00+00:00",
+        "utilization_pct": 29.34
+      },
+      {
+        "timestamp_utc": "2025-04-21T15:45:00+00:00",
+        "utilization_pct": 25.02
+      },
+      {
+        "timestamp_utc": "2025-04-21T16:00:00+00:00",
+        "utilization_pct": 32.6
+      },
+      {
+        "timestamp_utc": "2025-04-21T16:15:00+00:00",
+        "utilization_pct": 37.33
+      },
+      {
+        "timestamp_utc": "2025-04-21T16:30:00+00:00",
+        "utilization_pct": 31.56
+      },
+      {
+        "timestamp_utc": "2025-04-21T16:45:00+00:00",
+        "utilization_pct": 26.98
+      },
+      {
+        "timestamp_utc": "2025-04-21T17:00:00+00:00",
+        "utilization_pct": 20.77
+      },
+      {
+        "timestamp_utc": "2025-04-21T17:15:00+00:00",
+        "utilization_pct": 23.25
+      },
+      {
+        "timestamp_utc": "2025-04-21T17:30:00+00:00",
+        "utilization_pct": 15.57
+      },
+      {
+        "timestamp_utc": "2025-04-21T17:45:00+00:00",
+        "utilization_pct": 18.54
+      },
+      {
+        "timestamp_utc": "2025-04-21T18:00:00+00:00",
+        "utilization_pct": 11.62
+      },
+      {
+        "timestamp_utc": "2025-04-21T18:15:00+00:00",
+        "utilization_pct": 15.81
+      },
+      {
+        "timestamp_utc": "2025-04-21T18:30:00+00:00",
+        "utilization_pct": 14.63
+      },
+      {
+        "timestamp_utc": "2025-04-21T18:45:00+00:00",
+        "utilization_pct": 17.18
+      },
+      {
+        "timestamp_utc": "2025-04-21T19:00:00+00:00",
+        "utilization_pct": 30.11
+      },
+      {
+        "timestamp_utc": "2025-04-21T19:15:00+00:00",
+        "utilization_pct": 26.29
+      },
+      {
+        "timestamp_utc": "2025-04-21T19:30:00+00:00",
+        "utilization_pct": 23.87
+      },
+      {
+        "timestamp_utc": "2025-04-21T19:45:00+00:00",
+        "utilization_pct": 20.57
+      },
+      {
+        "timestamp_utc": "2025-04-21T20:00:00+00:00",
+        "utilization_pct": 28.27
+      },
+      {
+        "timestamp_utc": "2025-04-21T20:15:00+00:00",
+        "utilization_pct": 25.4
+      },
+      {
+        "timestamp_utc": "2025-04-21T20:30:00+00:00",
+        "utilization_pct": 19.3
+      },
+      {
+        "timestamp_utc": "2025-04-21T20:45:00+00:00",
+        "utilization_pct": 17.37
+      },
+      {
+        "timestamp_utc": "2025-04-21T21:00:00+00:00",
+        "utilization_pct": 15.15
+      },
+      {
+        "timestamp_utc": "2025-04-21T21:15:00+00:00",
+        "utilization_pct": 16.62
+      },
+      {
+        "timestamp_utc": "2025-04-21T21:30:00+00:00",
+        "utilization_pct": 19.48
+      },
+      {
+        "timestamp_utc": "2025-04-21T21:45:00+00:00",
+        "utilization_pct": 20.72
+      },
+      {
+        "timestamp_utc": "2025-04-21T22:00:00+00:00",
+        "utilization_pct": 26.96
+      },
+      {
+        "timestamp_utc": "2025-04-21T22:15:00+00:00",
+        "utilization_pct": 26.12
+      },
+      {
+        "timestamp_utc": "2025-04-21T22:30:00+00:00",
+        "utilization_pct": 21.04
+      },
+      {
+        "timestamp_utc": "2025-04-21T22:45:00+00:00",
+        "utilization_pct": 15.59
+      },
+      {
+        "timestamp_utc": "2025-04-21T23:00:00+00:00",
+        "utilization_pct": 20.94
+      },
+      {
+        "timestamp_utc": "2025-04-21T23:15:00+00:00",
+        "utilization_pct": 19.22
+      },
+      {
+        "timestamp_utc": "2025-04-21T23:30:00+00:00",
+        "utilization_pct": 23.38
+      },
+      {
+        "timestamp_utc": "2025-04-21T23:45:00+00:00",
+        "utilization_pct": 16.91
+      },
+      {
+        "timestamp_utc": "2025-04-22T00:00:00+00:00",
+        "utilization_pct": 18.0
+      },
+      {
+        "timestamp_utc": "2025-04-22T00:15:00+00:00",
+        "utilization_pct": 17.02
+      },
+      {
+        "timestamp_utc": "2025-04-22T00:30:00+00:00",
+        "utilization_pct": 16.04
+      },
+      {
+        "timestamp_utc": "2025-04-22T00:45:00+00:00",
+        "utilization_pct": 24.15
+      },
+      {
+        "timestamp_utc": "2025-04-22T01:00:00+00:00",
+        "utilization_pct": 28.0
+      },
+      {
+        "timestamp_utc": "2025-04-22T01:15:00+00:00",
+        "utilization_pct": 17.58
+      },
+      {
+        "timestamp_utc": "2025-04-22T01:30:00+00:00",
+        "utilization_pct": 17.52
+      },
+      {
+        "timestamp_utc": "2025-04-22T01:45:00+00:00",
+        "utilization_pct": 17.1
+      },
+      {
+        "timestamp_utc": "2025-04-22T02:00:00+00:00",
+        "utilization_pct": 9.79
+      },
+      {
+        "timestamp_utc": "2025-04-22T02:15:00+00:00",
+        "utilization_pct": 12.72
+      },
+      {
+        "timestamp_utc": "2025-04-22T02:30:00+00:00",
+        "utilization_pct": 12.8
+      },
+      {
+        "timestamp_utc": "2025-04-22T02:45:00+00:00",
+        "utilization_pct": 17.63
+      },
+      {
+        "timestamp_utc": "2025-04-22T03:00:00+00:00",
+        "utilization_pct": 19.04
+      },
+      {
+        "timestamp_utc": "2025-04-22T03:15:00+00:00",
+        "utilization_pct": 14.01
+      },
+      {
+        "timestamp_utc": "2025-04-22T03:30:00+00:00",
+        "utilization_pct": 12.31
+      },
+      {
+        "timestamp_utc": "2025-04-22T03:45:00+00:00",
+        "utilization_pct": 19.07
+      },
+      {
+        "timestamp_utc": "2025-04-22T04:00:00+00:00",
+        "utilization_pct": 17.63
+      },
+      {
+        "timestamp_utc": "2025-04-22T04:15:00+00:00",
+        "utilization_pct": 14.06
+      },
+      {
+        "timestamp_utc": "2025-04-22T04:30:00+00:00",
+        "utilization_pct": 15.11
+      },
+      {
+        "timestamp_utc": "2025-04-22T04:45:00+00:00",
+        "utilization_pct": 17.39
+      },
+      {
+        "timestamp_utc": "2025-04-22T05:00:00+00:00",
+        "utilization_pct": 19.9
+      },
+      {
+        "timestamp_utc": "2025-04-22T05:15:00+00:00",
+        "utilization_pct": 24.34
+      },
+      {
+        "timestamp_utc": "2025-04-22T05:30:00+00:00",
+        "utilization_pct": 30.11
+      },
+      {
+        "timestamp_utc": "2025-04-22T05:45:00+00:00",
+        "utilization_pct": 33.39
+      },
+      {
+        "timestamp_utc": "2025-04-22T06:00:00+00:00",
+        "utilization_pct": 33.65
+      },
+      {
+        "timestamp_utc": "2025-04-22T06:15:00+00:00",
+        "utilization_pct": 33.63
+      },
+      {
+        "timestamp_utc": "2025-04-22T06:30:00+00:00",
+        "utilization_pct": 41.0
+      },
+      {
+        "timestamp_utc": "2025-04-22T06:45:00+00:00",
+        "utilization_pct": 47.3
+      },
+      {
+        "timestamp_utc": "2025-04-22T07:00:00+00:00",
+        "utilization_pct": 40.1
+      },
+      {
+        "timestamp_utc": "2025-04-22T07:15:00+00:00",
+        "utilization_pct": 33.9
+      },
+      {
+        "timestamp_utc": "2025-04-22T07:30:00+00:00",
+        "utilization_pct": 31.79
+      },
+      {
+        "timestamp_utc": "2025-04-22T07:45:00+00:00",
+        "utilization_pct": 40.81
+      },
+      {
+        "timestamp_utc": "2025-04-22T08:00:00+00:00",
+        "utilization_pct": 40.12
+      },
+      {
+        "timestamp_utc": "2025-04-22T08:15:00+00:00",
+        "utilization_pct": 43.96
+      },
+      {
+        "timestamp_utc": "2025-04-22T08:30:00+00:00",
+        "utilization_pct": 40.65
+      },
+      {
+        "timestamp_utc": "2025-04-22T08:45:00+00:00",
+        "utilization_pct": 55.93
+      },
+      {
+        "timestamp_utc": "2025-04-22T09:00:00+00:00",
+        "utilization_pct": 53.11
+      },
+      {
+        "timestamp_utc": "2025-04-22T09:15:00+00:00",
+        "utilization_pct": 47.71
+      },
+      {
+        "timestamp_utc": "2025-04-22T09:30:00+00:00",
+        "utilization_pct": 51.39
+      },
+      {
+        "timestamp_utc": "2025-04-22T09:45:00+00:00",
+        "utilization_pct": 49.64
+      },
+      {
+        "timestamp_utc": "2025-04-22T10:00:00+00:00",
+        "utilization_pct": 53.11
+      },
+      {
+        "timestamp_utc": "2025-04-22T10:15:00+00:00",
+        "utilization_pct": 58.6
+      },
+      {
+        "timestamp_utc": "2025-04-22T10:30:00+00:00",
+        "utilization_pct": 48.03
+      },
+      {
+        "timestamp_utc": "2025-04-22T10:45:00+00:00",
+        "utilization_pct": 42.25
+      },
+      {
+        "timestamp_utc": "2025-04-22T11:00:00+00:00",
+        "utilization_pct": 56.68
+      },
+      {
+        "timestamp_utc": "2025-04-22T11:15:00+00:00",
+        "utilization_pct": 57.49
+      },
+      {
+        "timestamp_utc": "2025-04-22T11:30:00+00:00",
+        "utilization_pct": 47.89
+      },
+      {
+        "timestamp_utc": "2025-04-22T11:45:00+00:00",
+        "utilization_pct": 46.16
+      },
+      {
+        "timestamp_utc": "2025-04-22T12:00:00+00:00",
+        "utilization_pct": 45.46
+      },
+      {
+        "timestamp_utc": "2025-04-22T12:15:00+00:00",
+        "utilization_pct": 47.97
+      },
+      {
+        "timestamp_utc": "2025-04-22T12:30:00+00:00",
+        "utilization_pct": 54.03
+      },
+      {
+        "timestamp_utc": "2025-04-22T12:45:00+00:00",
+        "utilization_pct": 61.2
+      },
+      {
+        "timestamp_utc": "2025-04-22T13:00:00+00:00",
+        "utilization_pct": 56.99
+      },
+      {
+        "timestamp_utc": "2025-04-22T13:15:00+00:00",
+        "utilization_pct": 42.72
+      },
+      {
+        "timestamp_utc": "2025-04-22T13:30:00+00:00",
+        "utilization_pct": 46.63
+      },
+      {
+        "timestamp_utc": "2025-04-22T13:45:00+00:00",
+        "utilization_pct": 47.71
+      },
+      {
+        "timestamp_utc": "2025-04-22T14:00:00+00:00",
+        "utilization_pct": 38.54
+      },
+      {
+        "timestamp_utc": "2025-04-22T14:15:00+00:00",
+        "utilization_pct": 33.18
+      },
+      {
+        "timestamp_utc": "2025-04-22T14:30:00+00:00",
+        "utilization_pct": 33.8
+      },
+      {
+        "timestamp_utc": "2025-04-22T14:45:00+00:00",
+        "utilization_pct": 26.02
+      },
+      {
+        "timestamp_utc": "2025-04-22T15:00:00+00:00",
+        "utilization_pct": 34.24
+      },
+      {
+        "timestamp_utc": "2025-04-22T15:15:00+00:00",
+        "utilization_pct": 37.32
+      },
+      {
+        "timestamp_utc": "2025-04-22T15:30:00+00:00",
+        "utilization_pct": 26.94
+      },
+      {
+        "timestamp_utc": "2025-04-22T15:45:00+00:00",
+        "utilization_pct": 36.05
+      },
+      {
+        "timestamp_utc": "2025-04-22T16:00:00+00:00",
+        "utilization_pct": 31.45
+      },
+      {
+        "timestamp_utc": "2025-04-22T16:15:00+00:00",
+        "utilization_pct": 36.14
+      },
+      {
+        "timestamp_utc": "2025-04-22T16:30:00+00:00",
+        "utilization_pct": 29.65
+      },
+      {
+        "timestamp_utc": "2025-04-22T16:45:00+00:00",
+        "utilization_pct": 28.2
+      },
+      {
+        "timestamp_utc": "2025-04-22T17:00:00+00:00",
+        "utilization_pct": 29.61
+      },
+      {
+        "timestamp_utc": "2025-04-22T17:15:00+00:00",
+        "utilization_pct": 36.88
+      },
+      {
+        "timestamp_utc": "2025-04-22T17:30:00+00:00",
+        "utilization_pct": 32.9
+      },
+      {
+        "timestamp_utc": "2025-04-22T17:45:00+00:00",
+        "utilization_pct": 31.78
+      },
+      {
+        "timestamp_utc": "2025-04-22T18:00:00+00:00",
+        "utilization_pct": 38.19
+      },
+      {
+        "timestamp_utc": "2025-04-22T18:15:00+00:00",
+        "utilization_pct": 51.41
+      },
+      {
+        "timestamp_utc": "2025-04-22T18:30:00+00:00",
+        "utilization_pct": 39.49
+      },
+      {
+        "timestamp_utc": "2025-04-22T18:45:00+00:00",
+        "utilization_pct": 22.59
+      },
+      {
+        "timestamp_utc": "2025-04-22T19:00:00+00:00",
+        "utilization_pct": 37.61
+      },
+      {
+        "timestamp_utc": "2025-04-22T19:15:00+00:00",
+        "utilization_pct": 32.22
+      },
+      {
+        "timestamp_utc": "2025-04-22T19:30:00+00:00",
+        "utilization_pct": 15.43
+      },
+      {
+        "timestamp_utc": "2025-04-22T19:45:00+00:00",
+        "utilization_pct": 37.91
+      },
+      {
+        "timestamp_utc": "2025-04-22T20:00:00+00:00",
+        "utilization_pct": 39.23
+      },
+      {
+        "timestamp_utc": "2025-04-22T20:15:00+00:00",
+        "utilization_pct": 28.49
+      },
+      {
+        "timestamp_utc": "2025-04-22T20:30:00+00:00",
+        "utilization_pct": 23.86
+      },
+      {
+        "timestamp_utc": "2025-04-22T20:45:00+00:00",
+        "utilization_pct": 41.32
+      },
+      {
+        "timestamp_utc": "2025-04-22T21:00:00+00:00",
+        "utilization_pct": 28.56
+      },
+      {
+        "timestamp_utc": "2025-04-22T21:15:00+00:00",
+        "utilization_pct": 32.89
+      },
+      {
+        "timestamp_utc": "2025-04-22T21:30:00+00:00",
+        "utilization_pct": 30.07
+      },
+      {
+        "timestamp_utc": "2025-04-22T21:45:00+00:00",
+        "utilization_pct": 28.28
+      },
+      {
+        "timestamp_utc": "2025-04-22T22:00:00+00:00",
+        "utilization_pct": 27.8
+      },
+      {
+        "timestamp_utc": "2025-04-22T22:15:00+00:00",
+        "utilization_pct": 30.65
+      },
+      {
+        "timestamp_utc": "2025-04-22T22:30:00+00:00",
+        "utilization_pct": 31.47
+      },
+      {
+        "timestamp_utc": "2025-04-22T22:45:00+00:00",
+        "utilization_pct": 28.12
+      },
+      {
+        "timestamp_utc": "2025-04-22T23:00:00+00:00",
+        "utilization_pct": 27.24
+      },
+      {
+        "timestamp_utc": "2025-04-22T23:15:00+00:00",
+        "utilization_pct": 25.54
+      },
+      {
+        "timestamp_utc": "2025-04-22T23:30:00+00:00",
+        "utilization_pct": 30.94
+      },
+      {
+        "timestamp_utc": "2025-04-22T23:45:00+00:00",
+        "utilization_pct": 30.83
+      },
+      {
+        "timestamp_utc": "2025-04-23T00:00:00+00:00",
+        "utilization_pct": 28.62
+      },
+      {
+        "timestamp_utc": "2025-04-23T00:15:00+00:00",
+        "utilization_pct": 32.13
+      },
+      {
+        "timestamp_utc": "2025-04-23T00:30:00+00:00",
+        "utilization_pct": 29.3
+      },
+      {
+        "timestamp_utc": "2025-04-23T00:45:00+00:00",
+        "utilization_pct": 21.93
+      },
+      {
+        "timestamp_utc": "2025-04-23T01:00:00+00:00",
+        "utilization_pct": 24.81
+      },
+      {
+        "timestamp_utc": "2025-04-23T01:15:00+00:00",
+        "utilization_pct": 22.96
+      },
+      {
+        "timestamp_utc": "2025-04-23T01:30:00+00:00",
+        "utilization_pct": 16.26
+      },
+      {
+        "timestamp_utc": "2025-04-23T01:45:00+00:00",
+        "utilization_pct": 19.64
+      },
+      {
+        "timestamp_utc": "2025-04-23T02:00:00+00:00",
+        "utilization_pct": 19.82
+      },
+      {
+        "timestamp_utc": "2025-04-23T02:15:00+00:00",
+        "utilization_pct": 17.74
+      },
+      {
+        "timestamp_utc": "2025-04-23T02:30:00+00:00",
+        "utilization_pct": 14.44
+      },
+      {
+        "timestamp_utc": "2025-04-23T02:45:00+00:00",
+        "utilization_pct": 11.14
+      },
+      {
+        "timestamp_utc": "2025-04-23T03:00:00+00:00",
+        "utilization_pct": 14.67
+      },
+      {
+        "timestamp_utc": "2025-04-23T03:15:00+00:00",
+        "utilization_pct": 22.99
+      },
+      {
+        "timestamp_utc": "2025-04-23T03:30:00+00:00",
+        "utilization_pct": 20.85
+      },
+      {
+        "timestamp_utc": "2025-04-23T03:45:00+00:00",
+        "utilization_pct": 17.14
+      },
+      {
+        "timestamp_utc": "2025-04-23T04:00:00+00:00",
+        "utilization_pct": 22.33
+      },
+      {
+        "timestamp_utc": "2025-04-23T04:15:00+00:00",
+        "utilization_pct": 27.85
+      },
+      {
+        "timestamp_utc": "2025-04-23T04:30:00+00:00",
+        "utilization_pct": 19.76
+      },
+      {
+        "timestamp_utc": "2025-04-23T04:45:00+00:00",
+        "utilization_pct": 19.52
+      },
+      {
+        "timestamp_utc": "2025-04-23T05:00:00+00:00",
+        "utilization_pct": 26.61
+      },
+      {
+        "timestamp_utc": "2025-04-23T05:15:00+00:00",
+        "utilization_pct": 26.93
+      },
+      {
+        "timestamp_utc": "2025-04-23T05:30:00+00:00",
+        "utilization_pct": 43.86
+      },
+      {
+        "timestamp_utc": "2025-04-23T05:45:00+00:00",
+        "utilization_pct": 37.47
+      },
+      {
+        "timestamp_utc": "2025-04-23T06:00:00+00:00",
+        "utilization_pct": 33.58
+      },
+      {
+        "timestamp_utc": "2025-04-23T06:15:00+00:00",
+        "utilization_pct": 45.05
+      },
+      {
+        "timestamp_utc": "2025-04-23T06:30:00+00:00",
+        "utilization_pct": 48.21
+      },
+      {
+        "timestamp_utc": "2025-04-23T06:45:00+00:00",
+        "utilization_pct": 52.09
+      },
+      {
+        "timestamp_utc": "2025-04-23T07:00:00+00:00",
+        "utilization_pct": 46.71
+      },
+      {
+        "timestamp_utc": "2025-04-23T07:15:00+00:00",
+        "utilization_pct": 45.65
+      },
+      {
+        "timestamp_utc": "2025-04-23T07:30:00+00:00",
+        "utilization_pct": 47.42
+      },
+      {
+        "timestamp_utc": "2025-04-23T07:45:00+00:00",
+        "utilization_pct": 46.01
+      },
+      {
+        "timestamp_utc": "2025-04-23T08:00:00+00:00",
+        "utilization_pct": 46.14
+      },
+      {
+        "timestamp_utc": "2025-04-23T08:15:00+00:00",
+        "utilization_pct": 62.85
+      },
+      {
+        "timestamp_utc": "2025-04-23T08:30:00+00:00",
+        "utilization_pct": 72.48
+      },
+      {
+        "timestamp_utc": "2025-04-23T08:45:00+00:00",
+        "utilization_pct": 62.11
+      },
+      {
+        "timestamp_utc": "2025-04-23T09:00:00+00:00",
+        "utilization_pct": 55.19
+      },
+      {
+        "timestamp_utc": "2025-04-23T09:15:00+00:00",
+        "utilization_pct": 57.07
+      },
+      {
+        "timestamp_utc": "2025-04-23T09:30:00+00:00",
+        "utilization_pct": 57.51
+      },
+      {
+        "timestamp_utc": "2025-04-23T09:45:00+00:00",
+        "utilization_pct": 59.88
+      },
+      {
+        "timestamp_utc": "2025-04-23T10:00:00+00:00",
+        "utilization_pct": 62.39
+      },
+      {
+        "timestamp_utc": "2025-04-23T10:15:00+00:00",
+        "utilization_pct": 63.57
+      },
+      {
+        "timestamp_utc": "2025-04-23T10:30:00+00:00",
+        "utilization_pct": 61.66
+      },
+      {
+        "timestamp_utc": "2025-04-23T10:45:00+00:00",
+        "utilization_pct": 66.72
+      },
+      {
+        "timestamp_utc": "2025-04-23T11:00:00+00:00",
+        "utilization_pct": 53.33
+      },
+      {
+        "timestamp_utc": "2025-04-23T11:15:00+00:00",
+        "utilization_pct": 59.38
+      },
+      {
+        "timestamp_utc": "2025-04-23T11:30:00+00:00",
+        "utilization_pct": 68.77
+      },
+      {
+        "timestamp_utc": "2025-04-23T11:45:00+00:00",
+        "utilization_pct": 66.04
+      },
+      {
+        "timestamp_utc": "2025-04-23T12:00:00+00:00",
+        "utilization_pct": 64.85
+      },
+      {
+        "timestamp_utc": "2025-04-23T12:15:00+00:00",
+        "utilization_pct": 68.9
+      },
+      {
+        "timestamp_utc": "2025-04-23T12:30:00+00:00",
+        "utilization_pct": 66.26
+      },
+      {
+        "timestamp_utc": "2025-04-23T12:45:00+00:00",
+        "utilization_pct": 59.9
+      },
+      {
+        "timestamp_utc": "2025-04-23T13:00:00+00:00",
+        "utilization_pct": 67.0
+      },
+      {
+        "timestamp_utc": "2025-04-23T13:15:00+00:00",
+        "utilization_pct": 65.37
+      },
+      {
+        "timestamp_utc": "2025-04-23T13:30:00+00:00",
+        "utilization_pct": 58.15
+      },
+      {
+        "timestamp_utc": "2025-04-23T13:45:00+00:00",
+        "utilization_pct": 64.35
+      },
+      {
+        "timestamp_utc": "2025-04-23T14:00:00+00:00",
+        "utilization_pct": 54.85
+      },
+      {
+        "timestamp_utc": "2025-04-23T14:15:00+00:00",
+        "utilization_pct": 50.31
+      },
+      {
+        "timestamp_utc": "2025-04-23T14:30:00+00:00",
+        "utilization_pct": 42.71
+      },
+      {
+        "timestamp_utc": "2025-04-23T14:45:00+00:00",
+        "utilization_pct": 48.54
+      },
+      {
+        "timestamp_utc": "2025-04-23T15:00:00+00:00",
+        "utilization_pct": 43.61
+      },
+      {
+        "timestamp_utc": "2025-04-23T15:15:00+00:00",
+        "utilization_pct": 33.07
+      },
+      {
+        "timestamp_utc": "2025-04-23T15:30:00+00:00",
+        "utilization_pct": 38.46
+      },
+      {
+        "timestamp_utc": "2025-04-23T15:45:00+00:00",
+        "utilization_pct": 39.15
+      },
+      {
+        "timestamp_utc": "2025-04-23T16:00:00+00:00",
+        "utilization_pct": 45.32
+      },
+      {
+        "timestamp_utc": "2025-04-23T16:15:00+00:00",
+        "utilization_pct": 50.36
+      },
+      {
+        "timestamp_utc": "2025-04-23T16:30:00+00:00",
+        "utilization_pct": 38.58
+      },
+      {
+        "timestamp_utc": "2025-04-23T16:45:00+00:00",
+        "utilization_pct": 36.59
+      },
+      {
+        "timestamp_utc": "2025-04-23T17:00:00+00:00",
+        "utilization_pct": 32.94
+      },
+      {
+        "timestamp_utc": "2025-04-23T17:15:00+00:00",
+        "utilization_pct": 35.07
+      },
+      {
+        "timestamp_utc": "2025-04-23T17:30:00+00:00",
+        "utilization_pct": 24.16
+      },
+      {
+        "timestamp_utc": "2025-04-23T17:45:00+00:00",
+        "utilization_pct": 44.48
+      },
+      {
+        "timestamp_utc": "2025-04-23T18:00:00+00:00",
+        "utilization_pct": 54.58
+      },
+      {
+        "timestamp_utc": "2025-04-23T18:15:00+00:00",
+        "utilization_pct": 68.88
+      },
+      {
+        "timestamp_utc": "2025-04-23T18:30:00+00:00",
+        "utilization_pct": 68.37
+      },
+      {
+        "timestamp_utc": "2025-04-23T18:45:00+00:00",
+        "utilization_pct": 42.87
+      },
+      {
+        "timestamp_utc": "2025-04-23T19:00:00+00:00",
+        "utilization_pct": 55.81
+      },
+      {
+        "timestamp_utc": "2025-04-23T19:15:00+00:00",
+        "utilization_pct": 62.0
+      },
+      {
+        "timestamp_utc": "2025-04-23T19:30:00+00:00",
+        "utilization_pct": 53.21
+      },
+      {
+        "timestamp_utc": "2025-04-23T19:45:00+00:00",
+        "utilization_pct": 38.43
+      },
+      {
+        "timestamp_utc": "2025-04-23T20:00:00+00:00",
+        "utilization_pct": 60.95
+      },
+      {
+        "timestamp_utc": "2025-04-23T20:15:00+00:00",
+        "utilization_pct": 62.75
+      },
+      {
+        "timestamp_utc": "2025-04-23T20:30:00+00:00",
+        "utilization_pct": 35.55
+      },
+      {
+        "timestamp_utc": "2025-04-23T20:45:00+00:00",
+        "utilization_pct": 33.4
+      },
+      {
+        "timestamp_utc": "2025-04-23T21:00:00+00:00",
+        "utilization_pct": 27.57
+      },
+      {
+        "timestamp_utc": "2025-04-23T21:15:00+00:00",
+        "utilization_pct": 38.29
+      },
+      {
+        "timestamp_utc": "2025-04-23T21:30:00+00:00",
+        "utilization_pct": 48.54
+      },
+      {
+        "timestamp_utc": "2025-04-23T21:45:00+00:00",
+        "utilization_pct": 29.01
+      },
+      {
+        "timestamp_utc": "2025-04-23T22:00:00+00:00",
+        "utilization_pct": 28.15
+      },
+      {
+        "timestamp_utc": "2025-04-23T22:15:00+00:00",
+        "utilization_pct": 37.76
+      },
+      {
+        "timestamp_utc": "2025-04-23T22:30:00+00:00",
+        "utilization_pct": 38.92
+      },
+      {
+        "timestamp_utc": "2025-04-23T22:45:00+00:00",
+        "utilization_pct": 38.42
+      },
+      {
+        "timestamp_utc": "2025-04-23T23:00:00+00:00",
+        "utilization_pct": 33.8
+      },
+      {
+        "timestamp_utc": "2025-04-23T23:15:00+00:00",
+        "utilization_pct": 28.53
+      },
+      {
+        "timestamp_utc": "2025-04-23T23:30:00+00:00",
+        "utilization_pct": 37.39
+      },
+      {
+        "timestamp_utc": "2025-04-23T23:45:00+00:00",
+        "utilization_pct": 32.77
+      },
+      {
+        "timestamp_utc": "2025-04-24T00:00:00+00:00",
+        "utilization_pct": 32.14
+      },
+      {
+        "timestamp_utc": "2025-04-24T00:15:00+00:00",
+        "utilization_pct": 28.46
+      },
+      {
+        "timestamp_utc": "2025-04-24T00:30:00+00:00",
+        "utilization_pct": 28.9
+      },
+      {
+        "timestamp_utc": "2025-04-24T00:45:00+00:00",
+        "utilization_pct": 34.42
+      },
+      {
+        "timestamp_utc": "2025-04-24T01:00:00+00:00",
+        "utilization_pct": 34.62
+      },
+      {
+        "timestamp_utc": "2025-04-24T01:15:00+00:00",
+        "utilization_pct": 52.84
+      },
+      {
+        "timestamp_utc": "2025-04-24T01:30:00+00:00",
+        "utilization_pct": 40.61
+      },
+      {
+        "timestamp_utc": "2025-04-24T01:45:00+00:00",
+        "utilization_pct": 27.63
+      },
+      {
+        "timestamp_utc": "2025-04-24T02:00:00+00:00",
+        "utilization_pct": 29.83
+      },
+      {
+        "timestamp_utc": "2025-04-24T02:15:00+00:00",
+        "utilization_pct": 24.61
+      },
+      {
+        "timestamp_utc": "2025-04-24T02:30:00+00:00",
+        "utilization_pct": 20.01
+      },
+      {
+        "timestamp_utc": "2025-04-24T02:45:00+00:00",
+        "utilization_pct": 20.87
+      },
+      {
+        "timestamp_utc": "2025-04-24T03:00:00+00:00",
+        "utilization_pct": 25.76
+      },
+      {
+        "timestamp_utc": "2025-04-24T03:15:00+00:00",
+        "utilization_pct": 24.32
+      },
+      {
+        "timestamp_utc": "2025-04-24T03:30:00+00:00",
+        "utilization_pct": 18.54
+      },
+      {
+        "timestamp_utc": "2025-04-24T03:45:00+00:00",
+        "utilization_pct": 20.98
+      },
+      {
+        "timestamp_utc": "2025-04-24T04:00:00+00:00",
+        "utilization_pct": 29.94
+      },
+      {
+        "timestamp_utc": "2025-04-24T04:15:00+00:00",
+        "utilization_pct": 25.16
+      },
+      {
+        "timestamp_utc": "2025-04-24T04:30:00+00:00",
+        "utilization_pct": 20.18
+      },
+      {
+        "timestamp_utc": "2025-04-24T04:45:00+00:00",
+        "utilization_pct": 24.04
+      },
+      {
+        "timestamp_utc": "2025-04-24T05:00:00+00:00",
+        "utilization_pct": 32.42
+      },
+      {
+        "timestamp_utc": "2025-04-24T05:15:00+00:00",
+        "utilization_pct": 25.56
+      },
+      {
+        "timestamp_utc": "2025-04-24T05:30:00+00:00",
+        "utilization_pct": 34.43
+      },
+      {
+        "timestamp_utc": "2025-04-24T05:45:00+00:00",
+        "utilization_pct": 49.64
+      },
+      {
+        "timestamp_utc": "2025-04-24T06:00:00+00:00",
+        "utilization_pct": 32.13
+      },
+      {
+        "timestamp_utc": "2025-04-24T06:15:00+00:00",
+        "utilization_pct": 37.85
+      },
+      {
+        "timestamp_utc": "2025-04-24T06:30:00+00:00",
+        "utilization_pct": 40.34
+      },
+      {
+        "timestamp_utc": "2025-04-24T06:45:00+00:00",
+        "utilization_pct": 31.8
+      },
+      {
+        "timestamp_utc": "2025-04-24T07:00:00+00:00",
+        "utilization_pct": 38.63
+      },
+      {
+        "timestamp_utc": "2025-04-24T07:15:00+00:00",
+        "utilization_pct": 41.96
+      },
+      {
+        "timestamp_utc": "2025-04-24T07:30:00+00:00",
+        "utilization_pct": 43.11
+      },
+      {
+        "timestamp_utc": "2025-04-24T07:45:00+00:00",
+        "utilization_pct": 47.49
+      },
+      {
+        "timestamp_utc": "2025-04-24T08:00:00+00:00",
+        "utilization_pct": 42.73
+      },
+      {
+        "timestamp_utc": "2025-04-24T08:15:00+00:00",
+        "utilization_pct": 52.21
+      },
+      {
+        "timestamp_utc": "2025-04-24T08:30:00+00:00",
+        "utilization_pct": 51.49
+      },
+      {
+        "timestamp_utc": "2025-04-24T08:45:00+00:00",
+        "utilization_pct": 42.6
+      },
+      {
+        "timestamp_utc": "2025-04-24T09:00:00+00:00",
+        "utilization_pct": 53.32
+      },
+      {
+        "timestamp_utc": "2025-04-24T09:15:00+00:00",
+        "utilization_pct": 57.28
+      },
+      {
+        "timestamp_utc": "2025-04-24T09:30:00+00:00",
+        "utilization_pct": 52.31
+      },
+      {
+        "timestamp_utc": "2025-04-24T09:45:00+00:00",
+        "utilization_pct": 58.1
+      },
+      {
+        "timestamp_utc": "2025-04-24T10:00:00+00:00",
+        "utilization_pct": 51.96
+      },
+      {
+        "timestamp_utc": "2025-04-24T10:15:00+00:00",
+        "utilization_pct": 62.23
+      },
+      {
+        "timestamp_utc": "2025-04-24T10:30:00+00:00",
+        "utilization_pct": 59.46
+      },
+      {
+        "timestamp_utc": "2025-04-24T10:45:00+00:00",
+        "utilization_pct": 55.58
+      },
+      {
+        "timestamp_utc": "2025-04-24T11:00:00+00:00",
+        "utilization_pct": 52.64
+      },
+      {
+        "timestamp_utc": "2025-04-24T11:15:00+00:00",
+        "utilization_pct": 46.02
+      },
+      {
+        "timestamp_utc": "2025-04-24T11:30:00+00:00",
+        "utilization_pct": 45.77
+      },
+      {
+        "timestamp_utc": "2025-04-24T11:45:00+00:00",
+        "utilization_pct": 53.22
+      },
+      {
+        "timestamp_utc": "2025-04-24T12:00:00+00:00",
+        "utilization_pct": 57.51
+      },
+      {
+        "timestamp_utc": "2025-04-24T12:15:00+00:00",
+        "utilization_pct": 61.09
+      },
+      {
+        "timestamp_utc": "2025-04-24T12:30:00+00:00",
+        "utilization_pct": 65.7
+      },
+      {
+        "timestamp_utc": "2025-04-24T12:45:00+00:00",
+        "utilization_pct": 60.34
+      },
+      {
+        "timestamp_utc": "2025-04-24T13:00:00+00:00",
+        "utilization_pct": 63.92
+      },
+      {
+        "timestamp_utc": "2025-04-24T13:15:00+00:00",
+        "utilization_pct": 63.47
+      },
+      {
+        "timestamp_utc": "2025-04-24T13:30:00+00:00",
+        "utilization_pct": 48.4
+      },
+      {
+        "timestamp_utc": "2025-04-24T13:45:00+00:00",
+        "utilization_pct": 51.61
+      },
+      {
+        "timestamp_utc": "2025-04-24T14:00:00+00:00",
+        "utilization_pct": 50.78
+      },
+      {
+        "timestamp_utc": "2025-04-24T14:15:00+00:00",
+        "utilization_pct": 62.45
+      },
+      {
+        "timestamp_utc": "2025-04-24T14:30:00+00:00",
+        "utilization_pct": 37.18
+      },
+      {
+        "timestamp_utc": "2025-04-24T14:45:00+00:00",
+        "utilization_pct": 32.89
+      },
+      {
+        "timestamp_utc": "2025-04-24T15:00:00+00:00",
+        "utilization_pct": 34.84
+      },
+      {
+        "timestamp_utc": "2025-04-24T15:15:00+00:00",
+        "utilization_pct": 31.36
+      },
+      {
+        "timestamp_utc": "2025-04-24T15:30:00+00:00",
+        "utilization_pct": 43.52
+      },
+      {
+        "timestamp_utc": "2025-04-24T15:45:00+00:00",
+        "utilization_pct": 40.7
+      },
+      {
+        "timestamp_utc": "2025-04-24T16:00:00+00:00",
+        "utilization_pct": 38.88
+      },
+      {
+        "timestamp_utc": "2025-04-24T16:15:00+00:00",
+        "utilization_pct": 40.95
+      },
+      {
+        "timestamp_utc": "2025-04-24T16:30:00+00:00",
+        "utilization_pct": 51.69
+      },
+      {
+        "timestamp_utc": "2025-04-24T16:45:00+00:00",
+        "utilization_pct": 36.27
+      },
+      {
+        "timestamp_utc": "2025-04-24T17:00:00+00:00",
+        "utilization_pct": 28.44
+      },
+      {
+        "timestamp_utc": "2025-04-24T17:15:00+00:00",
+        "utilization_pct": 26.0
+      },
+      {
+        "timestamp_utc": "2025-04-24T17:30:00+00:00",
+        "utilization_pct": 27.33
+      },
+      {
+        "timestamp_utc": "2025-04-24T17:45:00+00:00",
+        "utilization_pct": 30.6
+      },
+      {
+        "timestamp_utc": "2025-04-24T18:00:00+00:00",
+        "utilization_pct": 28.55
+      },
+      {
+        "timestamp_utc": "2025-04-24T18:15:00+00:00",
+        "utilization_pct": 43.42
+      },
+      {
+        "timestamp_utc": "2025-04-24T18:30:00+00:00",
+        "utilization_pct": 46.08
+      },
+      {
+        "timestamp_utc": "2025-04-24T18:45:00+00:00",
+        "utilization_pct": 51.16
+      },
+      {
+        "timestamp_utc": "2025-04-24T19:00:00+00:00",
+        "utilization_pct": 49.71
+      },
+      {
+        "timestamp_utc": "2025-04-24T19:15:00+00:00",
+        "utilization_pct": 46.38
+      },
+      {
+        "timestamp_utc": "2025-04-24T19:30:00+00:00",
+        "utilization_pct": 45.57
+      },
+      {
+        "timestamp_utc": "2025-04-24T19:45:00+00:00",
+        "utilization_pct": 50.0
+      },
+      {
+        "timestamp_utc": "2025-04-24T20:00:00+00:00",
+        "utilization_pct": 51.46
+      },
+      {
+        "timestamp_utc": "2025-04-24T20:15:00+00:00",
+        "utilization_pct": 45.47
+      },
+      {
+        "timestamp_utc": "2025-04-24T20:30:00+00:00",
+        "utilization_pct": 37.88
+      },
+      {
+        "timestamp_utc": "2025-04-24T20:45:00+00:00",
+        "utilization_pct": 39.17
+      },
+      {
+        "timestamp_utc": "2025-04-24T21:00:00+00:00",
+        "utilization_pct": 52.0
+      },
+      {
+        "timestamp_utc": "2025-04-24T21:15:00+00:00",
+        "utilization_pct": 48.56
+      },
+      {
+        "timestamp_utc": "2025-04-24T21:30:00+00:00",
+        "utilization_pct": 31.58
+      },
+      {
+        "timestamp_utc": "2025-04-24T21:45:00+00:00",
+        "utilization_pct": 29.04
+      },
+      {
+        "timestamp_utc": "2025-04-24T22:00:00+00:00",
+        "utilization_pct": 45.6
+      },
+      {
+        "timestamp_utc": "2025-04-24T22:15:00+00:00",
+        "utilization_pct": 58.0
+      },
+      {
+        "timestamp_utc": "2025-04-24T22:30:00+00:00",
+        "utilization_pct": 43.81
+      },
+      {
+        "timestamp_utc": "2025-04-24T22:45:00+00:00",
+        "utilization_pct": 34.6
+      },
+      {
+        "timestamp_utc": "2025-04-24T23:00:00+00:00",
+        "utilization_pct": 33.14
+      },
+      {
+        "timestamp_utc": "2025-04-24T23:15:00+00:00",
+        "utilization_pct": 43.81
+      },
+      {
+        "timestamp_utc": "2025-04-24T23:30:00+00:00",
+        "utilization_pct": 49.62
+      },
+      {
+        "timestamp_utc": "2025-04-24T23:45:00+00:00",
+        "utilization_pct": 54.44
+      },
+      {
+        "timestamp_utc": "2025-04-25T00:00:00+00:00",
+        "utilization_pct": 47.46
+      },
+      {
+        "timestamp_utc": "2025-04-25T00:15:00+00:00",
+        "utilization_pct": 49.97
+      },
+      {
+        "timestamp_utc": "2025-04-25T00:30:00+00:00",
+        "utilization_pct": 41.03
+      },
+      {
+        "timestamp_utc": "2025-04-25T00:45:00+00:00",
+        "utilization_pct": 30.1
+      },
+      {
+        "timestamp_utc": "2025-04-25T01:00:00+00:00",
+        "utilization_pct": 28.85
+      },
+      {
+        "timestamp_utc": "2025-04-25T01:15:00+00:00",
+        "utilization_pct": 43.66
+      },
+      {
+        "timestamp_utc": "2025-04-25T01:30:00+00:00",
+        "utilization_pct": 29.12
+      },
+      {
+        "timestamp_utc": "2025-04-25T01:45:00+00:00",
+        "utilization_pct": 36.17
+      },
+      {
+        "timestamp_utc": "2025-04-25T02:00:00+00:00",
+        "utilization_pct": 28.49
+      },
+      {
+        "timestamp_utc": "2025-04-25T02:15:00+00:00",
+        "utilization_pct": 32.54
+      },
+      {
+        "timestamp_utc": "2025-04-25T02:30:00+00:00",
+        "utilization_pct": 20.1
+      },
+      {
+        "timestamp_utc": "2025-04-25T02:45:00+00:00",
+        "utilization_pct": 21.92
+      },
+      {
+        "timestamp_utc": "2025-04-25T03:00:00+00:00",
+        "utilization_pct": 24.91
+      },
+      {
+        "timestamp_utc": "2025-04-25T03:15:00+00:00",
+        "utilization_pct": 26.5
+      },
+      {
+        "timestamp_utc": "2025-04-25T03:30:00+00:00",
+        "utilization_pct": 32.5
+      },
+      {
+        "timestamp_utc": "2025-04-25T03:45:00+00:00",
+        "utilization_pct": 38.91
+      },
+      {
+        "timestamp_utc": "2025-04-25T04:00:00+00:00",
+        "utilization_pct": 30.23
+      },
+      {
+        "timestamp_utc": "2025-04-25T04:15:00+00:00",
+        "utilization_pct": 22.57
+      },
+      {
+        "timestamp_utc": "2025-04-25T04:30:00+00:00",
+        "utilization_pct": 19.1
+      },
+      {
+        "timestamp_utc": "2025-04-25T04:45:00+00:00",
+        "utilization_pct": 16.76
+      },
+      {
+        "timestamp_utc": "2025-04-25T05:00:00+00:00",
+        "utilization_pct": 16.66
+      },
+      {
+        "timestamp_utc": "2025-04-25T05:15:00+00:00",
+        "utilization_pct": 27.38
+      },
+      {
+        "timestamp_utc": "2025-04-25T05:30:00+00:00",
+        "utilization_pct": 36.22
+      },
+      {
+        "timestamp_utc": "2025-04-25T05:45:00+00:00",
+        "utilization_pct": 51.87
+      },
+      {
+        "timestamp_utc": "2025-04-25T06:00:00+00:00",
+        "utilization_pct": 48.88
+      },
+      {
+        "timestamp_utc": "2025-04-25T06:15:00+00:00",
+        "utilization_pct": 48.12
+      },
+      {
+        "timestamp_utc": "2025-04-25T06:30:00+00:00",
+        "utilization_pct": 53.68
+      },
+      {
+        "timestamp_utc": "2025-04-25T06:45:00+00:00",
+        "utilization_pct": 53.2
+      },
+      {
+        "timestamp_utc": "2025-04-25T07:00:00+00:00",
+        "utilization_pct": 41.11
+      },
+      {
+        "timestamp_utc": "2025-04-25T07:15:00+00:00",
+        "utilization_pct": 46.13
+      },
+      {
+        "timestamp_utc": "2025-04-25T07:30:00+00:00",
+        "utilization_pct": 46.39
+      },
+      {
+        "timestamp_utc": "2025-04-25T07:45:00+00:00",
+        "utilization_pct": 53.07
+      },
+      {
+        "timestamp_utc": "2025-04-25T08:00:00+00:00",
+        "utilization_pct": 49.2
+      },
+      {
+        "timestamp_utc": "2025-04-25T08:15:00+00:00",
+        "utilization_pct": 43.54
+      },
+      {
+        "timestamp_utc": "2025-04-25T08:30:00+00:00",
+        "utilization_pct": 49.64
+      },
+      {
+        "timestamp_utc": "2025-04-25T08:45:00+00:00",
+        "utilization_pct": 48.57
+      },
+      {
+        "timestamp_utc": "2025-04-25T09:00:00+00:00",
+        "utilization_pct": 54.21
+      },
+      {
+        "timestamp_utc": "2025-04-25T09:15:00+00:00",
+        "utilization_pct": 63.61
+      },
+      {
+        "timestamp_utc": "2025-04-25T09:30:00+00:00",
+        "utilization_pct": 56.65
+      },
+      {
+        "timestamp_utc": "2025-04-25T09:45:00+00:00",
+        "utilization_pct": 58.98
+      },
+      {
+        "timestamp_utc": "2025-04-25T10:00:00+00:00",
+        "utilization_pct": 53.53
+      },
+      {
+        "timestamp_utc": "2025-04-25T10:15:00+00:00",
+        "utilization_pct": 57.45
+      },
+      {
+        "timestamp_utc": "2025-04-25T10:30:00+00:00",
+        "utilization_pct": 50.44
+      },
+      {
+        "timestamp_utc": "2025-04-25T10:45:00+00:00",
+        "utilization_pct": 46.76
+      },
+      {
+        "timestamp_utc": "2025-04-25T11:00:00+00:00",
+        "utilization_pct": 54.21
+      },
+      {
+        "timestamp_utc": "2025-04-25T11:15:00+00:00",
+        "utilization_pct": 45.94
+      },
+      {
+        "timestamp_utc": "2025-04-25T11:30:00+00:00",
+        "utilization_pct": 49.55
+      },
+      {
+        "timestamp_utc": "2025-04-25T11:45:00+00:00",
+        "utilization_pct": 55.83
+      },
+      {
+        "timestamp_utc": "2025-04-25T12:00:00+00:00",
+        "utilization_pct": 48.86
+      },
+      {
+        "timestamp_utc": "2025-04-25T12:15:00+00:00",
+        "utilization_pct": 62.41
+      },
+      {
+        "timestamp_utc": "2025-04-25T12:30:00+00:00",
+        "utilization_pct": 63.24
+      },
+      {
+        "timestamp_utc": "2025-04-25T12:45:00+00:00",
+        "utilization_pct": 58.52
+      },
+      {
+        "timestamp_utc": "2025-04-25T13:00:00+00:00",
+        "utilization_pct": 61.91
+      },
+      {
+        "timestamp_utc": "2025-04-25T13:15:00+00:00",
+        "utilization_pct": 52.13
+      },
+      {
+        "timestamp_utc": "2025-04-25T13:30:00+00:00",
+        "utilization_pct": 57.18
+      },
+      {
+        "timestamp_utc": "2025-04-25T13:45:00+00:00",
+        "utilization_pct": 56.85
+      },
+      {
+        "timestamp_utc": "2025-04-25T14:00:00+00:00",
+        "utilization_pct": 49.49
+      },
+      {
+        "timestamp_utc": "2025-04-25T14:15:00+00:00",
+        "utilization_pct": 54.54
+      },
+      {
+        "timestamp_utc": "2025-04-25T14:30:00+00:00",
+        "utilization_pct": 41.84
+      },
+      {
+        "timestamp_utc": "2025-04-25T14:45:00+00:00",
+        "utilization_pct": 38.42
+      },
+      {
+        "timestamp_utc": "2025-04-25T15:00:00+00:00",
+        "utilization_pct": 39.84
+      },
+      {
+        "timestamp_utc": "2025-04-25T15:15:00+00:00",
+        "utilization_pct": 38.9
+      },
+      {
+        "timestamp_utc": "2025-04-25T15:30:00+00:00",
+        "utilization_pct": 31.01
+      },
+      {
+        "timestamp_utc": "2025-04-25T15:45:00+00:00",
+        "utilization_pct": 31.94
+      },
+      {
+        "timestamp_utc": "2025-04-25T16:00:00+00:00",
+        "utilization_pct": 34.19
+      },
+      {
+        "timestamp_utc": "2025-04-25T16:15:00+00:00",
+        "utilization_pct": 33.92
+      },
+      {
+        "timestamp_utc": "2025-04-25T16:30:00+00:00",
+        "utilization_pct": 35.19
+      },
+      {
+        "timestamp_utc": "2025-04-25T16:45:00+00:00",
+        "utilization_pct": 38.01
+      },
+      {
+        "timestamp_utc": "2025-04-25T17:00:00+00:00",
+        "utilization_pct": 36.46
+      },
+      {
+        "timestamp_utc": "2025-04-25T17:15:00+00:00",
+        "utilization_pct": 28.69
+      },
+      {
+        "timestamp_utc": "2025-04-25T17:30:00+00:00",
+        "utilization_pct": 28.84
+      },
+      {
+        "timestamp_utc": "2025-04-25T17:45:00+00:00",
+        "utilization_pct": 24.1
+      },
+      {
+        "timestamp_utc": "2025-04-25T18:00:00+00:00",
+        "utilization_pct": 22.52
+      },
+      {
+        "timestamp_utc": "2025-04-25T18:15:00+00:00",
+        "utilization_pct": 25.93
+      },
+      {
+        "timestamp_utc": "2025-04-25T18:30:00+00:00",
+        "utilization_pct": 48.2
+      },
+      {
+        "timestamp_utc": "2025-04-25T18:45:00+00:00",
+        "utilization_pct": 51.95
+      },
+      {
+        "timestamp_utc": "2025-04-25T19:00:00+00:00",
+        "utilization_pct": 48.4
+      },
+      {
+        "timestamp_utc": "2025-04-25T19:15:00+00:00",
+        "utilization_pct": 42.01
+      },
+      {
+        "timestamp_utc": "2025-04-25T19:30:00+00:00",
+        "utilization_pct": 46.56
+      },
+      {
+        "timestamp_utc": "2025-04-25T19:45:00+00:00",
+        "utilization_pct": 40.02
+      },
+      {
+        "timestamp_utc": "2025-04-25T20:00:00+00:00",
+        "utilization_pct": 41.4
+      },
+      {
+        "timestamp_utc": "2025-04-25T20:15:00+00:00",
+        "utilization_pct": 42.79
+      },
+      {
+        "timestamp_utc": "2025-04-25T20:30:00+00:00",
+        "utilization_pct": 52.09
+      },
+      {
+        "timestamp_utc": "2025-04-25T20:45:00+00:00",
+        "utilization_pct": 40.28
+      },
+      {
+        "timestamp_utc": "2025-04-25T21:00:00+00:00",
+        "utilization_pct": 27.21
+      },
+      {
+        "timestamp_utc": "2025-04-25T21:15:00+00:00",
+        "utilization_pct": 21.53
+      },
+      {
+        "timestamp_utc": "2025-04-25T21:30:00+00:00",
+        "utilization_pct": 19.72
+      },
+      {
+        "timestamp_utc": "2025-04-25T21:45:00+00:00",
+        "utilization_pct": 21.32
+      },
+      {
+        "timestamp_utc": "2025-04-25T22:00:00+00:00",
+        "utilization_pct": 23.06
+      },
+      {
+        "timestamp_utc": "2025-04-25T22:15:00+00:00",
+        "utilization_pct": 29.08
+      },
+      {
+        "timestamp_utc": "2025-04-25T22:30:00+00:00",
+        "utilization_pct": 23.9
+      },
+      {
+        "timestamp_utc": "2025-04-25T22:45:00+00:00",
+        "utilization_pct": 18.76
+      },
+      {
+        "timestamp_utc": "2025-04-25T23:00:00+00:00",
+        "utilization_pct": 20.89
+      },
+      {
+        "timestamp_utc": "2025-04-25T23:15:00+00:00",
+        "utilization_pct": 24.96
+      },
+      {
+        "timestamp_utc": "2025-04-25T23:30:00+00:00",
+        "utilization_pct": 14.43
+      },
+      {
+        "timestamp_utc": "2025-04-25T23:45:00+00:00",
+        "utilization_pct": 21.66
+      },
+      {
+        "timestamp_utc": "2025-04-26T00:00:00+00:00",
+        "utilization_pct": 14.04
+      }
+    ]
+  },
+  "fresh_response": {
+    "schema_version": 1,
+    "mode": "historical_replay",
+    "series": {
+      "technology": "LTE",
+      "band_mhz": 1800,
+      "station": "Site 16",
+      "sector": "1"
+    },
+    "origin_utc": "2025-04-26T00:00:00+00:00",
+    "status": "fresh_model",
+    "last_observation_utc": "2025-04-26T00:00:00+00:00",
+    "age_minutes": 0.0,
+    "history_readings_provided": 673,
+    "missing_inputs": [],
+    "range_status": "available",
+    "range_target_fraction": 0.9,
+    "range_coverage_guaranteed": false,
+    "forecasts": [
+      {
+        "horizon_minutes": 15,
+        "target_utc": "2025-04-26T00:15:00+00:00",
+        "target_within_evaluated_period": true,
+        "predicted_utilization_pct": 15.222570316172794,
+        "range_lower_pct": 10.78532503194922,
+        "range_upper_pct": 20.679464363449334,
+        "quantile_median_pct": 15.29760810928163,
+        "method": "hgb"
+      },
+      {
+        "horizon_minutes": 30,
+        "target_utc": "2025-04-26T00:30:00+00:00",
+        "target_within_evaluated_period": true,
+        "predicted_utilization_pct": 16.704600343402426,
+        "range_lower_pct": 10.335537344949303,
+        "range_upper_pct": 26.215348130900516,
+        "quantile_median_pct": 17.491879937623683,
+        "method": "hgb"
+      },
+      {
+        "horizon_minutes": 60,
+        "target_utc": "2025-04-26T01:00:00+00:00",
+        "target_within_evaluated_period": true,
+        "predicted_utilization_pct": 16.90621654268302,
+        "range_lower_pct": 10.33722406616182,
+        "range_upper_pct": 26.425475333655655,
+        "quantile_median_pct": 16.47773045206016,
+        "method": "hgb"
+      }
+    ],
+    "interpretation": "Recorded-data replay. Fresh means a current reading is supplied; it does not guarantee complete history or reliable ranges during missing telemetry. Stale fallback uses a fixed illustrative 60-minute limit. Counter availability at its timestamp is assumed."
+  },
+  "stale_response": {
+    "schema_version": 1,
+    "mode": "historical_replay",
+    "series": {
+      "technology": "LTE",
+      "band_mhz": 1800,
+      "station": "Site 16",
+      "sector": "1"
+    },
+    "origin_utc": "2025-04-26T00:00:00+00:00",
+    "status": "stale_persistence",
+    "last_observation_utc": "2025-04-25T23:30:00+00:00",
+    "age_minutes": 30.0,
+    "history_readings_provided": 1,
+    "missing_inputs": [
+      "current_pct",
+      "lag_15_pct",
+      "lag_60_pct",
+      "lag_1440_pct",
+      "lag_10080_pct"
+    ],
+    "range_status": "withheld",
+    "range_target_fraction": 0.9,
+    "range_coverage_guaranteed": false,
+    "forecasts": [
+      {
+        "horizon_minutes": 15,
+        "target_utc": "2025-04-26T00:15:00+00:00",
+        "target_within_evaluated_period": true,
+        "predicted_utilization_pct": 12.0,
+        "range_lower_pct": null,
+        "range_upper_pct": null,
+        "quantile_median_pct": null,
+        "method": "last_observed_value"
+      },
+      {
+        "horizon_minutes": 30,
+        "target_utc": "2025-04-26T00:30:00+00:00",
+        "target_within_evaluated_period": true,
+        "predicted_utilization_pct": 12.0,
+        "range_lower_pct": null,
+        "range_upper_pct": null,
+        "quantile_median_pct": null,
+        "method": "last_observed_value"
+      },
+      {
+        "horizon_minutes": 60,
+        "target_utc": "2025-04-26T01:00:00+00:00",
+        "target_within_evaluated_period": true,
+        "predicted_utilization_pct": 12.0,
+        "range_lower_pct": null,
+        "range_upper_pct": null,
+        "quantile_median_pct": null,
+        "method": "last_observed_value"
+      }
+    ],
+    "interpretation": "Recorded-data replay. Fresh means a current reading is supplied; it does not guarantee complete history or reliable ranges during missing telemetry. Stale fallback uses a fixed illustrative 60-minute limit. Counter availability at its timestamp is assumed."
+  },
+  "no_history_response": {
+    "schema_version": 1,
+    "mode": "historical_replay",
+    "series": {
+      "technology": "LTE",
+      "band_mhz": 1800,
+      "station": "Site 16",
+      "sector": "1"
+    },
+    "origin_utc": "2025-04-26T00:00:00+00:00",
+    "status": "abstain",
+    "last_observation_utc": null,
+    "age_minutes": null,
+    "history_readings_provided": 0,
+    "missing_inputs": [
+      "current_pct",
+      "lag_15_pct",
+      "lag_30_pct",
+      "lag_60_pct",
+      "lag_1440_pct",
+      "lag_10080_pct",
+      "mean_observed_last_hour",
+      "age_minutes"
+    ],
+    "range_status": "withheld",
+    "range_target_fraction": 0.9,
+    "range_coverage_guaranteed": false,
+    "forecasts": [
+      {
+        "horizon_minutes": 15,
+        "target_utc": "2025-04-26T00:15:00+00:00",
+        "target_within_evaluated_period": true,
+        "predicted_utilization_pct": null,
+        "range_lower_pct": null,
+        "range_upper_pct": null,
+        "quantile_median_pct": null,
+        "method": null
+      },
+      {
+        "horizon_minutes": 30,
+        "target_utc": "2025-04-26T00:30:00+00:00",
+        "target_within_evaluated_period": true,
+        "predicted_utilization_pct": null,
+        "range_lower_pct": null,
+        "range_upper_pct": null,
+        "quantile_median_pct": null,
+        "method": null
+      },
+      {
+        "horizon_minutes": 60,
+        "target_utc": "2025-04-26T01:00:00+00:00",
+        "target_within_evaluated_period": true,
+        "predicted_utilization_pct": null,
+        "range_lower_pct": null,
+        "range_upper_pct": null,
+        "quantile_median_pct": null,
+        "method": null
+      }
+    ],
+    "interpretation": "Recorded-data replay. Fresh means a current reading is supplied; it does not guarantee complete history or reliable ranges during missing telemetry. Stale fallback uses a fixed illustrative 60-minute limit. Counter availability at its timestamp is assumed."
+  },
+  "future_reading_rejected": {
+    "status_code": 422,
+    "response": {
+      "error": "Future readings are forbidden: every history timestamp must be at or before the forecast origin."
+    }
+  }
+}

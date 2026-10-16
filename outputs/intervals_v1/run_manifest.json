@@ -1,0 +1,137 @@
+{
+  "status": "complete",
+  "quantiles": [
+    0.05,
+    0.5,
+    0.95
+  ],
+  "nominal_coverage": 0.9,
+  "selected": {
+    "LTE_15m": {
+      "leaves": 15,
+      "mean_tuning_pinball": 0.9403380709121659
+    },
+    "LTE_30m": {
+      "leaves": 31,
+      "mean_tuning_pinball": 1.1146286094511397
+    },
+    "LTE_60m": {
+      "leaves": 31,
+      "mean_tuning_pinball": 1.219829081144779
+    },
+    "NR_15m": {
+      "leaves": 31,
+      "mean_tuning_pinball": 0.36409301202172867
+    },
+    "NR_30m": {
+      "leaves": 15,
+      "mean_tuning_pinball": 0.4279575154216448
+    },
+    "NR_60m": {
+      "leaves": 15,
+      "mean_tuning_pinball": 0.4744133176614804
+    }
+  },
+  "point_choices_from_tuning": {
+    "LTE_15m": "hgb",
+    "LTE_30m": "hgb",
+    "LTE_60m": "hgb",
+    "NR_15m": "hgb",
+    "NR_30m": "hgb",
+    "NR_60m": "lightgbm"
+  },
+  "features": [
+    "current_pct",
+    "lag_15_pct",
+    "lag_30_pct",
+    "lag_60_pct",
+    "lag_1440_pct",
+    "lag_10080_pct",
+    "observed_last_hour",
+    "mean_observed_last_hour",
+    "age_minutes",
+    "current_pct_missing",
+    "lag_15_pct_missing",
+    "lag_30_pct_missing",
+    "lag_60_pct_missing",
+    "lag_1440_pct_missing",
+    "lag_10080_pct_missing",
+    "observed_last_hour_missing",
+    "mean_observed_last_hour_missing",
+    "age_minutes_missing",
+    "hour_sin",
+    "hour_cos",
+    "weekday_sin",
+    "weekday_cos"
+  ],
+  "training": "Training rows only, 36 sequential fits: 2 leaf budgets x3 quantiles x6 tech/horizon groups, 300 rounds, two threads. Select leaf budget by mean raw clipped quantile pinball loss on tuning only. No calibration refit or model selection.",
+  "crossing_policy": "Sort all three predicted quantiles per row, then clip to 0..100, before calibration and scoring.",
+  "calibration_policy": "Separate correction per technology/horizon pooled across development stations. Score=max(lower-y,y-upper); correction=max(0,kth score), k=ceil((n+1)*.9). Widen bounds, clip to 0..100. No online updates or holdout calibration.",
+  "limits": "Non-shrinking split-CQR-style adjustment. Temporal dependence and population shift violate usual exchangeability assumptions; no automatic 90% coverage guarantee per station/time/holdout. Calibration coverage is in-sample diagnostic only.",
+  "splits": [
+    {
+      "name": "train",
+      "start_inclusive": "2025-02-07T19:45:00+00:00",
+      "end_exclusive": "2025-03-01T00:00:00+00:00"
+    },
+    {
+      "name": "tuning",
+      "start_inclusive": "2025-03-01T00:00:00+00:00",
+      "end_exclusive": "2025-04-12T00:00:00+00:00"
+    },
+    {
+      "name": "calibration",
+      "start_inclusive": "2025-04-12T00:00:00+00:00",
+      "end_exclusive": "2025-04-26T00:00:00+00:00"
+    },
+    {
+      "name": "test",
+      "start_inclusive": "2025-04-26T00:00:00+00:00",
+      "end_exclusive": "2025-05-05T07:30:00+00:00"
+    }
+  ],
+  "station_holdout": "Site 53",
+  "time_policy": "UTC publisher timestamps; assume each counter is available at its timestamp. Interval start/end and export delay are not confirmed. This is an idealized replay availability assumption.",
+  "versions": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "lightgbm": "4.7.0"
+  },
+  "script_sha256": "2620a2b62378e1a888c7c99ce24f5249bfb1b9d2080d1eff8c9fbef0d493cde5",
+  "table_summary_sha256": "58c5b288b8182ddec05770c87a63cd3ef9412f60aac1baf3135576e61411eafa",
+  "sources": [
+    "https://papers.nips.cc/paper_files/paper/2019/hash/5103c3584b063c431bd1268e9b5e76fb-Abstract.html",
+    "https://lightgbm.readthedocs.io/en/stable/Parameters.html"
+  ],
+  "elapsed_seconds": 28.47826219999115,
+  "artifacts_sha256": {
+    "calibration.json": "e2a909783abd6f01ff189c6740fcdef96c6f793adcbfa446265726b461905d48",
+    "coverage.json": "4df254e0fbbe6c944dde32ca247b462b629c5a9fce31b18424c26cf203b80cb9",
+    "crossings.json": "8a7e9f68a96ef0259abf4fba81c95605afa2f03db22f83e70a53f87fdf6efb4e",
+    "forecasts.csv.gz": "909859a867d3a23b64cacd8330fe00f0960b286bf570a9f0d4dc574aed8f3284",
+    "LTE_15m_q0.05.joblib": "c9e4b27a064727f67a73316b4814a147f42a0548b2b85d1b4da266f4d8436b2e",
+    "LTE_15m_q0.50.joblib": "4537b8c980c907b9f7937c25b5cc804ef066a73860343fb26369362938092f70",
+    "LTE_15m_q0.95.joblib": "7e7ba41678d97e71129ca23e9988ca79a3231c4f1b7ba9acc59ccb4523c68bdc",
+    "LTE_30m_q0.05.joblib": "59a62745475342b70a4380ac1acce63c7ae89950e8b9b6f0a6c9fe4f89692b7a",
+    "LTE_30m_q0.50.joblib": "0d509792330ed5d581e7861dae8fd0f45bbd27bd8c5e9b7d106ee79828d73dcf",
+    "LTE_30m_q0.95.joblib": "b7a05ac2ff95e8f81ce4c692c924bdaf35add9a9a0fbc8667dca6e02358adafd",
+    "LTE_60m_q0.05.joblib": "ebdb7a149ab13a222072351b1d0e6b704b3486ea21412daa00c8dcdb9a97682c",
+    "LTE_60m_q0.50.joblib": "c66be1ea55f77f3fd0d713336ca27a39f41332759a478ed4b59532920dbede4f",
+    "LTE_60m_q0.95.joblib": "64ef4b41fa686e27d4d7f927b8edc8a3eade8c3ff73280312e6c0303fbb6e3ab",
+    "metrics.json": "cff395f66e3259bcaeebbb22eff5ed54b4fa7e115d4a80f4107dc1696f5b7350",
+    "NR_15m_q0.05.joblib": "48173f9923653780594b83ef92525d73205d97fb4691f22aea2ae4e67e414fe9",
+    "NR_15m_q0.50.joblib": "4b2e5213a3af019a39842842a9f2146094145d15c72bfa6cd746b430d83c3916",
+    "NR_15m_q0.95.joblib": "89ac69edf887809a27b6c6e3570bd839304dea5fd516b458ec5d8157943b1af2",
+    "NR_30m_q0.05.joblib": "bca27ed70dcdece5350fd95dbd725902571c6d808336c59376b39d26fddc1a44",
+    "NR_30m_q0.50.joblib": "57b6ebaac0237e877a87b534be3af7acb9b29b169605da52b6ade8d4124c2037",
+    "NR_30m_q0.95.joblib": "f9bacd8ca4e563dd7091af53484a2fea3ca6c5375429b482886ea5a3f0fdcf06",
+    "NR_60m_q0.05.joblib": "d6a860e8cbba457c8a9ccd8834d0f0668d3572c6297e32ecffb65b3d8ece8279",
+    "NR_60m_q0.50.joblib": "77419348431a1ae97d9e52474313f731cf74ed88ba139dd5e87d2c2903da1eaa",
+    "NR_60m_q0.95.joblib": "8d7dd861c256ea64ea9819ba6881807e023269c90c12ff9d166ca5a838254562",
+    "Results.md": "65a41dd825dfad1a252e6ad267811ed5480ae4e345da0d3934fdf05c37599906",
+    "selection.json": "1d4734a0e12d349c5ca7eb82b50eea907df91000b8f9b5f928a49495d8266833",
+    "tuning_trials.json": "6738b054a200b8e79308f1795febe949a88a9337edfc36e26413b6d6600f4b76"
+  }
+}
